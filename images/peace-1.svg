@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="242.14" height="242.14" viewBox="0 0 242.14 242.14">
+  <g id="c" data-name="圖層 2">
+    <g>
+      <circle cx="121.07" cy="121.07" r="119.07" style="fill: #4d4d4d;"/>
+      <circle cx="121.07" cy="121.07" r="119.07" style="fill: none; stroke: #cc9533; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <circle cx="121.05" cy="121.07" r="105.3" style="fill: none; stroke: #cc9533; stroke-miterlimit: 10; stroke-width: 4px;"/>
+      <path d="M196.6,133.52h-65.24v42.35h-20.58v-42.35H46.21v-15.53H110.78v-38.89H54.84v-15.14H186.97v15.14h-55.61v38.89h65.24v15.53Zm-113.54-50.31c5.48,8.21,11.45,18.99,13.28,26.18l-19.26,4.62c-1.66-6.8-6.81-18.1-12.12-26.7l18.09-4.11Zm61.59,26.7c5.31-7.44,11.29-18.74,14.44-27.08l21.08,4.11c-5.98,9.88-12.78,20.28-18.26,26.82l-17.26-3.85Z" style="fill: #f2bf57;"/>
+    </g>
+  </g>
+</svg>

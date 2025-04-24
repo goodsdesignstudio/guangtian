@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="30.71" height="30.71" viewBox="0 0 30.71 30.71">
+  <defs>
+    <style>
+      .d {
+        fill: #fff;
+      }
+
+      .e {
+        fill: #ec6531;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="fix">
+    <g>
+      <circle class="d" cx="15.35" cy="15.35" r="15.35" transform="translate(-3.12 26.77) rotate(-76.72)"/>
+      <path class="e" d="M17.13,10.07c.07-.07,.3-.23,.98-.23,.38,0,.79,.04,1.23,.11l.67,.12,.58-3.25-.67-.13c-2.16-.41-3.89-.27-4.95,.41-.68,.43-1.16,1.01-1.43,1.72-.19,.51-.28,1.22-.28,2.18v.69h-2.01v3.08h2.01v9.49h3.64V14.76h2.62v-3.08h-2.62v-.51c0-.84,.19-1.07,.23-1.11Z"/>
+    </g>
+  </g>
+</svg>

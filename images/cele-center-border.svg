@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237.35 51.86">
+	<defs>
+		<style>
+			.d{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:1.29px;}
+		</style>
+	</defs>
+	<g id="c">
+		<path class="d" d="M236.7,51.22H.64V10.97C6.35,10.97,10.97,6.35,10.97,.64H226.38c0,5.7,4.62,10.32,10.32,10.32V51.22Z" />
+	</g>
+</svg>

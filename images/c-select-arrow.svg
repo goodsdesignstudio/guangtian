@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="8mm" height="3.46mm" viewBox="0 0 22.69 9.82">
+  <defs>
+    <style>
+      .d {
+        fill: none;
+        stroke: #c49149;
+        stroke-linejoin: round;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="圖層 1">
+    <path class="d" d="M.27,.27L9.44,9.44c1.05-1.05,2.75-1.05,3.81,0L22.42,.27"/>
+  </g>
+</svg>

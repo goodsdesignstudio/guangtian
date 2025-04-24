@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="115.67" height="112.6" viewBox="0 0 115.67 112.6">
+  <defs>
+    <style>
+      .d {
+        fill: #4d4d4d;
+      }
+
+      .e, .f {
+        fill: #fff;
+      }
+
+      .e, .g {
+        stroke: #df6432;
+        stroke-miterlimit: 10;
+        stroke-width: .76px;
+      }
+
+      .f {
+        font-family: NotoSansCJKtc-Bold-B5pc-H, 'Noto Sans CJK TC';
+        font-size: 43.61px;
+        glyph-orientation-vertical: 0deg;
+        letter-spacing: .08em;
+        text-orientation: upright;
+        writing-mode: tb;
+      }
+
+      .h {
+        fill: #df6432;
+      }
+
+      .g {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="圖層 2">
+    <ellipse class="d" cx="38.19" cy="34.15" rx="31.8" ry="34.15"/>
+    <ellipse class="d" cx="73.9" cy="44.15" rx="31.6" ry="33.94"/>
+    <ellipse class="d" cx="101.98" cy="61.2" rx="13.69" ry="14.7"/>
+    <ellipse class="d" cx="37.09" cy="71" rx="31.8" ry="34.15"/>
+    <ellipse class="d" cx="74.36" cy="78.67" rx="31.6" ry="33.94"/>
+    <g>
+      <g>
+        <g>
+          <path class="e" d="M21.21,17.25l-3.7,.54c0-.12,0-.24,0-.36,0,.12,0,.24,0,.36,.09,7.44,2.99,13.41,6.55,13.41,3.62,0,6.55-6.16,6.55-13.77,0-.52-.01-1.03-.04-1.54"/>
+          <path class="h" d="M24.81,17.43c0,4.24-1.63,7.67-3.65,7.67s-3.55-3.24-3.64-7.31l3.7-.54-.05,.18,3.64-.48c0,.16,0,.32,0,.48Z"/>
+        </g>
+        <polyline class="g" points="33.33 15.49 30.58 15.89 21.21 17.25 17.52 17.78 17.51 17.78 16.65 17.91"/>
+      </g>
+      <g>
+        <g>
+          <path class="e" d="M4.61,17.25l-3.7,.54c0-.12,0-.24,0-.36,0,.12,0,.24,0,.36,.09,7.44,2.99,13.41,6.55,13.41s6.55-6.16,6.55-13.77c0-.52-.01-1.03-.04-1.54"/>
+          <path class="h" d="M8.21,17.43c0,4.24-1.63,7.67-3.65,7.67-1.96,0-3.55-3.24-3.64-7.31l3.7-.54-.05,.18,3.64-.48c0,.16,0,.32,0,.48Z"/>
+        </g>
+        <polyline class="g" points="16.73 15.49 13.98 15.89 4.61 17.25 .92 17.78 .91 17.78 .05 17.91"/>
+      </g>
+    </g>
+    <text class="f" transform="translate(55.01 44.5) scale(1 .77)"><tspan x="0" y="0">厄</tspan></text>
+  </g>
+</svg>

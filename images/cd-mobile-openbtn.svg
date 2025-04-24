@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="310.13" height="97.6" viewBox="0 0 310.13 97.6">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .2;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #ca954a;
+        stroke-width: .9px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #1f2d75;
+      }
+
+      .cls-3 {
+        stroke: #e8b356;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="_圖層_2-2" data-name="圖層 2">
+    <g>
+      <path class="cls-3" d="M1,30.6v8.52c5.52,0,10,4.48,10,10H299.13c0-5.52,4.48-10,10-10v-8.52"/>
+      <g>
+        <circle class="cls-1" cx="156.16" cy="48.8" r="48.35"/>
+        <circle class="cls-2" cx="156.16" cy="48.8" r="48.35"/>
+      </g>
+    </g>
+  </g>
+</svg>

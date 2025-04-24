@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="494.47" height="493.18" viewBox="0 0 494.47 493.18">
+  <defs>
+    <style>
+      .d {
+        fill: #f2bf57;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="說明">
+    <g>
+      <path class="d" d="M90.12,245.9c66.23,0,155.75-89.53,155.75-155.75,0,66.23,89.53,155.75,155.75,155.75-66.23,0-155.75,89.53-155.75,155.75,0-66.23-89.53-155.75-155.75-155.75Z"/>
+      <path class="d" d="M247.38,493.18h-3v-25.6h3v25.6Zm0-51.2h-3v-25.6h3v25.6Z"/>
+      <path class="d" d="M247.38,76.8h-3v-25.6h3v25.6Zm0-51.2h-3V0h3V25.6Z"/>
+      <g>
+        <path class="d" d="M494.47,247.4h-25.6v-3h25.6v3Zm-51.2,0h-25.6v-3h25.6v3Z"/>
+        <path class="d" d="M76.8,247.4h-25.6v-3h25.6v3Zm-51.2,0H0v-3H25.6v3Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

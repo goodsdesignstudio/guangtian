@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="747.28" height="419.57" preserveAspectRatio="none">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fc462d;
+        stroke: #e8b356;
+        stroke-miterlimit: 10;
+        stroke-width: 0.75px;
+      }
+    </style>
+  </defs>
+  <g id="圖層_2" data-name="圖層 2">
+    <g id="圖層_2-2" data-name="圖層 2">
+      <path class="cls-1" d="M746.9,419.2H.38V15.38a15,15,0,0,0,15-15H731.9a15,15,0,0,0,15,15Z"/>
+    </g>
+  </g>
+</svg>

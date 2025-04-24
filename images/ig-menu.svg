@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.16" height="33.16" viewBox="0 0 33.16 33.16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fffbf3;
+      }
+
+      .cls-2 {
+        fill: #fc462d;
+      }
+    </style>
+  </defs>
+  <g id="圖層_2" data-name="圖層 2">
+    <g id="圖層_1-2" data-name="圖層 1">
+      <circle class="cls-1" cx="16.58" cy="16.58" r="16.58" transform="translate(-4.11 27.62) rotate(-73.08)"/>
+      <g>
+        <path class="cls-2" d="M16.29,9.19a7.6,7.6,0,1,0,7.59,7.6A7.61,7.61,0,0,0,16.29,9.19Zm0,12.72a5.13,5.13,0,1,1,5.12-5.12A5.13,5.13,0,0,1,16.29,21.91Z"/>
+        <path class="cls-2" d="M23.85,7.64a1.29,1.29,0,1,0,1.28,1.29A1.29,1.29,0,0,0,23.85,7.64Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

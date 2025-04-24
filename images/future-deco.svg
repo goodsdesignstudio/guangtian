@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="151.86" height="94.13" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 151.86 94.13">
+  <defs>
+    <style>
+      .e {
+        clip-path: url(#d);
+      }
+
+      .f {
+        fill: none;
+      }
+
+      .g {
+        opacity: .59;
+      }
+    </style>
+    <clipPath id="d">
+      <path class="f" d="M82.18,11.6s-8.98,3.69-8.44,10.82-5.5,1.99-8.88,1.46c-3.38-.52-30.19-1.4-33.07-.12-2.89,1.28-15.12,11.28-15.12,11.28L0,68.56l36.6,18.95,43.09,6.51s36.12,1.87,55.17-10.05c19.05-11.92,16.85-37.8,16.98-39.11,.12-1.32-23.33-34.07-23.33-34.07L103.41,0l-21.23,11.6Z"/>
+    </clipPath>
+  </defs>
+  <g id="c" data-name="圖層 2">
+    <g class="g">
+      <g class="e">
+        <image width="3840" height="2160" transform="translate(-12.03 -96.91) rotate(5.4) scale(.1)" xlink:href="資產 31.png"/>
+      </g>
+    </g>
+  </g>
+</svg>

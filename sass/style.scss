@@ -12709,10 +12709,28 @@ body {
         li {
           position: relative;
           display: flex;
+          transition: 0.5s all;
           &:nth-child(4) {
             .votive-hover {
               left: auto;
               right: 50%;
+            }
+          }
+          &.is-hover {
+            .pic {
+              .hover {
+                display: block !important;
+              }
+              .shadow {
+                display: none !important;
+              }
+            }
+            .votive-hover {
+              .stauts {
+                .sold-out {
+                  display: block !important;
+                }
+              }
             }
           }
           &.is-sold-out {

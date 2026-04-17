@@ -230,10 +230,10 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="match-container hide-for-large">
+		<div class="match-container hide-for-large">
 			<ul class="matchList grid-x">
 				<li class="cell large-auto">
-					<div class="item">
+					<div class="item" style="background-image:url('images/match-5.jpg')">
 						<div class="pic-area">
 							<div class="borderbox"><img src="images/match-border.svg"></div>
 							<div class="pic"><img src="images/match-5.jpg"></div>
@@ -265,7 +265,7 @@
 					</div>
 				</li>
 				<li class="cell large-auto">
-					<div class="item">
+					<div class="item" style="background-image:url('images/match-4.jpg')">
 						<div class="pic-area">
 							<div class="borderbox"><img src="images/match-border.svg"></div>
 							<div class="pic"><img src="images/match-4.jpg"></div>
@@ -298,7 +298,7 @@
 				</li>
 
 				<li class="cell large-auto">
-					<div class="item">
+					<div class="item" style="background-image:url('images/match-3.jpg')">
 						<div class="pic-area">
 							<div class="borderbox"><img src="images/match-border.svg"></div>
 							<div class="pic"><img src="images/match-3.jpg"></div>
@@ -330,7 +330,7 @@
 					</div>
 				</li>
 				<li class="cell large-auto">
-					<div class="item">
+					<div class="item" style="background-image:url('images/match-2.jpg')">
 						<div class="pic-area">
 							<div class="borderbox"><img src="images/match-border.svg"></div>
 							<div class="pic"><img src="images/match-2.jpg"></div>
@@ -363,7 +363,7 @@
 				</li>
 
 				<li class="cell large-auto">
-					<div class="item">
+					<div class="item" style="background-image:url('images/match-1.jpg')">
 						<div class="pic-area">
 							<div class="borderbox"><img src="images/match-border.svg"></div>
 							<div class="pic"><img src="images/match-1.jpg"></div>
@@ -396,7 +396,7 @@
 				</li>
 			</ul>
 
-		</div> -->
+		</div>
 	</div>
 
 	<div class="giftboxOutWrap">
@@ -719,12 +719,51 @@
 
 	//swiper-slide-active
 
-	$(".matchList li").on("click", function() {
+	$(".match-container.show-for-large .matchList li").on("click", function() {
+		const $item = $(this);
+		const desktopIndex = $item.index();
+		const $mobileItems = $(".match-container.hide-for-large .matchList li");
+		const mobileIndex = Math.max(0, $mobileItems.length - 1 - desktopIndex);
+		const titleHtml = $item.find(".title").last().html();
+		const titleText = $item.find(".title").last().text().replace(/[{}]/g, "").trim();
+		const defaultTitleText = $mobileItems.first().find(".title").last().text().replace(/[{}]/g, "").trim();
+		const desktopImageSrc = $item.find(".pic-area .pic img").last().attr("src");
+		const $mobileMatch = $mobileItems.eq(mobileIndex);
+
+		if (titleHtml) {
+			$(".match-openWrap .article-area .title").html(titleHtml);
+		}
+
+		if ($mobileMatch.length) {
+			let contentHtml = $mobileMatch.find(".content").html();
+
+			if (defaultTitleText && titleText && contentHtml) {
+				contentHtml = contentHtml.split(defaultTitleText).join(titleText);
+			}
+
+			$(".match-openWrap .article-area .content").html(contentHtml);
+		}
+
+		if (desktopImageSrc) {
+			$(".match-openWrap .bg img").attr("src", desktopImageSrc);
+		}
+
 		$(".match-openWrap").addClass("is-open")
 	})
 
 	$(".match-openWrap .close, .match-openWrap .bg").on("click", function() {
 		$(".match-openWrap").removeClass("is-open")
+	})
+
+	$(".match-container.hide-for-large .matchList li").on("click", function() {
+		const $item = $(this);
+		const isOpen = $item.hasClass("is-open");
+
+		$(".match-container.hide-for-large .matchList li").removeClass("is-open");
+
+		if (!isOpen) {
+			$item.addClass("is-open");
+		}
 	})
 
 

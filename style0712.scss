@@ -4140,7 +4140,7 @@ body {
 .puduWrap {
   background-color: #1f2d75;
   position: relative;
-  padding-bottom: 150px;
+
   .pudu-deco-1 {
     position: absolute;
     top: -145px;
@@ -5534,9 +5534,6 @@ body {
 }
 
 .news-cat-container {
-  @include breakpoint(medium down) {
-    flex-direction: column;
-  }
   .news-catList {
     position: sticky;
     top: 30vh;

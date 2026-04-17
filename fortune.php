@@ -506,7 +506,7 @@
                             <div class="content">完成參拜手續，並於參拜中稟告財神爺，欲請其分靈。</div>
                         </li>
                     </ul>
-                    <ul class="maketipList hide-for-large">
+                    <ul class="maketipList wingList hide-for-large">
                         <li @click="maketipClick">
                             <div class="title hide-for-large"><img src="images/tip-1-mobile.svg"></div>
                             <div class="content">完成參拜手續，並於參拜中稟告財神爺，欲請其分靈。</div>
@@ -783,11 +783,9 @@
         var _scrollTop = $(this).scrollTop()
         if (_scrollTop >= 100) {
             $(".logo-fixed").removeClass("is-red").addClass("is-small")
-            $(".topmenuWrap").removeClass("is-hide")
             $(".topmenu-bg").addClass("is-show")
         } else {
             $(".logo-fixed").addClass("is-red").removeClass("is-small")
-            $(".topmenuWrap").addClass("is-hide")
             $(".topmenu-bg").removeClass("is-show")
         }
     }).trigger("scroll")
@@ -867,13 +865,10 @@
         },
         computed: {},
         methods: {
-            maketipClick() {
-                var i = $(this);
-                console.log(i);
-                $(".maketipList li").on("click", function () {
-                    $(".maketipList li").not(this).removeClass('is-show');
-                    $(this).addClass('is-show');
-                })
+            maketipClick(event) {
+                var $current = $(event.currentTarget);
+                $current.closest(".maketipList").find("li").removeClass("is-show");
+                $current.addClass("is-show");
             },
             beforeEnter(el) {
                 gsap.set(el, {
@@ -1032,7 +1027,15 @@
             area2Handler() {
                 //迎請神尊輪播
 
-                var flkty2 = new Flickity('.maketipList.hide-for-large', {
+                var mobileList = document.querySelector('.maketipList.hide-for-large');
+                if (!mobileList) return;
+
+                var oldFlkty2 = Flickity.data(mobileList);
+                if (oldFlkty2) {
+                    oldFlkty2.destroy();
+                }
+
+                var flkty2 = new Flickity(mobileList, {
                     // contain: true,
                     wrapAround: false,
                     prevNextButtons: false,
@@ -1044,16 +1047,17 @@
                 });
 
                 // 往前一格
-                document.querySelector('.maketip-container-1 .arrow-prev').addEventListener('click', function () {
+                $('.maketip-container-1 .arrow-prev').off('click').on('click', function () {
                     flkty2.previous();
                 });
 
                 // 往後一格
-                document.querySelector('.maketip-container-1 .arrow-next').addEventListener('click', function () {
+                $('.maketip-container-1 .arrow-next').off('click').on('click', function () {
                     flkty2.next();
                 });
 
                 var dotsContainer = document.querySelector('.maketip-container-1 .processList');
+                dotsContainer.innerHTML = '';
 
                 function createSVGDot() {
                     var svgNS = "http://www.w3.org/2000/svg";

@@ -48,6 +48,15 @@
 
 					<div class="text">第</div>
 
+					<select class="poem-num-select" aria-label="籤詩編號">
+						<option value="0">&#19968;</option>
+						<option value="1">&#20108;</option>
+						<option value="2">&#19977;</option>
+						<option value="3">&#22235;</option>
+						<option value="4">&#20116;</option>
+						<option value="5">&#20845;</option>
+					</select>
+
 					<!-- Slider main container -->
 					<div class="swiper-container num-slider-container">
 						<!-- Additional required wrapper -->
@@ -184,19 +193,49 @@
 
 
 
-	var $num = new Swiper('.num-slider-container', {
-		loop: false,
-		speed: 500,
-		slidesPerView: 1,
-		spaceBetween: 5,
-		centeredSlides: true,
-		keyboard: true,
-		grabCursor: true,
-		direction: 'vertical',
-		mousewheel: {
-			invert: false,
-		},
-	});
+	var $num = null;
+	var $numSelect = $('.poem-num-select');
+	function resetPoemDetailScroll() {
+		var $detailInner = $(".poem-detail-innerWrap");
+		var detailInner = $detailInner.get(0);
+
+		$detailInner.scrollTop(0);
+		$detailInner.scrollLeft(0);
+
+		if (detailInner && typeof detailInner.scrollTo === "function") {
+			detailInner.scrollTo(0, 0);
+		}
+	}
+	var poemOpenAnimSpeed = 1.8;
+	var poemResetDelay = 0.35;
+
+	if (window.innerWidth >= 1025) {
+		$num = new Swiper('.num-slider-container', {
+			loop: false,
+			speed: 500,
+			slidesPerView: 1,
+			spaceBetween: 5,
+			centeredSlides: true,
+			keyboard: true,
+			grabCursor: true,
+			direction: 'vertical',
+			mousewheel: {
+				invert: false,
+			},
+		});
+
+		if ($numSelect.length) {
+			$num.on('slideChange', function() {
+				$numSelect.val(String($num.activeIndex));
+			});
+		}
+	}
+
+	if ($numSelect.length && $num) {
+		$numSelect.on('change', function() {
+			$num.slideTo(Number(this.value), 500);
+		});
+	}
 
 
 
@@ -214,7 +253,7 @@
 
 	$(".poem-container .btn").on("click", function() {
 		// $(".poem-detailWrap").addClass("is-show")
-
+		resetPoemDetailScroll();
 		$poem_tl.play()
 	})
 
@@ -293,9 +332,11 @@
 		var $poem_tl = gsap.timeline({
 			paused: true,
 			onComplete: function() {
+				resetPoemDetailScroll();
 				$(".poem-detailWrap").addClass("is-show")
+				resetPoemDetailScroll();
 
-				gsap.delayedCall(1, () => {
+				gsap.delayedCall(poemResetDelay, () => {
 					$poem_tl.seek(0)
 					$poem_tl.pause()
 				});
@@ -337,6 +378,7 @@
 			y: 200,
 			opacity: 0,
 		}, "<")
+		$poem_tl.timeScale(poemOpenAnimSpeed);
 	} else {
 		const scrollContainer = $(".poem-detail-innerWrap").get(0);
 		
@@ -347,9 +389,11 @@
 		var $poem_tl = gsap.timeline({
 			paused: true,
 			onComplete: function() {
+				resetPoemDetailScroll();
 				$(".poem-detailWrap").addClass("is-show")
+				resetPoemDetailScroll();
 
-				gsap.delayedCall(1, () => {
+				gsap.delayedCall(poemResetDelay, () => {
 					$poem_tl.seek(0)
 					$poem_tl.pause()
 				});
@@ -391,5 +435,6 @@
 			y: 200,
 			opacity: 0,
 		}, "<")
+		$poem_tl.timeScale(poemOpenAnimSpeed);
 	}
 </script>

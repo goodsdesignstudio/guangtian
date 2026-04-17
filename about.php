@@ -80,117 +80,6 @@
 		</div>
 	</section>
 
-	<section class="about-fortuneWrap">
-		<div class="deco-god show-for-large">
-			<img src="images/af-god.jpg">
-		</div>
-		<div class="deco-god hide-for-large">
-			<img src="images/af-god-mobile.jpg">
-		</div>
-		<div class="deco-slogan show-for-large">
-			<img src="images/af-slogan.png">
-		</div>
-		<div class="deco-slogan hide-for-large">
-			<img src="images/af-slogan-mobile.png">
-		</div>
-
-		<div class="fortune-row one" data-r='{"opacity": 0, "y": 60}'>
-			<div class="title"><i><img src="images/af-title-deco-top.svg"></i>趙元帥號<i><img src="images/af-title-deco-bot.svg"></i></div>
-			<div class="content">高上神霄玉府大都督 五方巡察使 九州社令都大提點 直殿大將軍 主領雷霆副元帥 北極侍御史 三界定元昭烈侯 定命掌事帳設使 二十八宿都總管 上清正一玄壇龍虎金輪勑法 趙元帥。</div>
-		</div>
-
-		<div class="fortune-row two" data-r='{"opacity": 0, "y": 60}'>
-			<div class="title"><i><img src="images/af-title-deco-top.svg"></i>迎中財神<i><img src="images/af-title-deco-bot.svg"></i></div>
-			<div class="content">【四川峨嵋　財神開基老祖　正尊】金身，因任務在身，並感念蒼生為「財」所苦，因緣際會，來到台灣，傳度財神教法，鎮守中台灣，並永久供奉於台中廣天宮　財神開基祖廟，在每年農曆三月十五財神聖誕千秋之日，各地的信徒皆會來本宮謁祖進香「迎中財神」，向財神爺　趙公明祝壽，祈求財運、財氣、財庫，香客絡繹不絕。</div>
-		</div>
-
-		<div class="card-container grid-x align-bottom show-for-large">
-			<ul class="cardList grid-x align-top cell large-shrink" data-img="images/af-card-repeat.svg">
-				<li class="cell shrink">
-					<div class="item">
-						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
-						<div class="content">驅雷役電、致雨呼風、除殟剪崇、保病禳災，可賜眾生平安、健康、發財。</div>
-					</div>
-				</li>
-				<li class="cell shrink">
-					<div class="item">
-						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
-						<div class="content">掌管二十八將，以應二十八星宿。</div>
-					</div>
-				</li>
-				<li class="cell shrink">
-					<div class="item">
-						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
-						<div class="content">掌管五方雷神，以應五行。</div>
-					</div>
-				</li>
-				<li class="cell shrink">
-					<div class="item">
-						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
-						<div class="content">掌管六毒大神，以應天、地、年、月、日、時煞。</div>
-					</div>
-				</li>
-			</ul>
-
-			<div class="fortune-row three cell large-shrink" data-r='{"opacity": 0, "y": 60}'>
-				<div class="article-area">
-					<div class="title"><i><img src="images/af-title-deco-top.svg"></i>掌司<i><img src="images/af-title-deco-bot.svg"></i></div>
-					<div class="content">
-						五路財神之中路財神，率領招寶天尊蕭升、<br>
-						納珍天尊曹寶、招財使者陳九公、<br>
-						利市仙官姚少司，合稱五路財神。<br>
-						上奉天門之令，策役三界，巡查五方，提點九州。<br>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="card-container grid-x align-bottom hide-for-large">
-			<div class="fortune-row three cell large-shrink" data-r='{"opacity": 0, "y": 60}'>
-				<div class="article-area">
-					<div class="title"><i><img src="images/af-title-deco-top.svg"></i>掌司<i><img src="images/af-title-deco-bot.svg"></i></div>
-					<div class="content">
-						五路財神之中路財神，率領招寶天尊蕭升、<br>
-						納珍天尊曹寶、招財使者陳九公、<br>
-						利市仙官姚少司，合稱五路財神。<br>
-						上奉天門之令，策役三界，巡查五方，提點九州。<br>
-					</div>
-				</div>
-			</div>
-			<ul class="cardList grid-x align-top cell large-shrink" data-img="images/af-card-repeat.svg">
-				<li class="cell shrink">
-					<div class="item">
-						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
-						<div class="content">掌管五方雷神，以應五行。</div>
-					</div>
-				</li>
-				<li class="cell shrink">
-					<div class="item">
-						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
-						<div class="content">掌管六毒大神，以應天、地、年、月、日、時煞。</div>
-					</div>
-				</li>
-
-			</ul>
-			<ul class="cardList grid-x align-top cell large-shrink" data-img="images/af-card-repeat.svg">
-				<li class="cell shrink">
-					<div class="item">
-						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
-						<div class="content">驅雷役電、致雨呼風、除殟剪崇、保病禳災，可賜眾生平安、健康、發財。</div>
-					</div>
-				</li>
-				<li class="cell shrink">
-					<div class="item">
-						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
-						<div class="content">掌管二十八將，以應二十八星宿。</div>
-					</div>
-				</li>
-
-			</ul>
-		</div>
-
-		<div class="gradientbox"></div>
-	</section>
 
 	<section class="comicWrap show-for-large">
 		<div class="page"><img src="images/comic-bg.png"></div>
@@ -218,7 +107,7 @@
 			</div>
 		</div>
 		<div class="article-area log-3" data-r='{"opacity": 0, "y": 60}'>
-			<div class="title"><i>{</i>玄壇元帥<br>顯神威<i>}</i></div>
+			<div class="title"><i>{</i>玄壇元帥顯神威<i>}</i></div>
 			<div class="content">
 				而後玄壇元帥 趙公明顯其神威、<br>
 				收服鬼怪，治癒了太后。
@@ -292,7 +181,7 @@
 				</div>
 				<div class="swiper-slide">
 					<div class="article-area log-3">
-						<div class="title"><i>{</i>玄壇元帥<br>顯神威<i>}</i></div>
+						<div class="title"><i>{</i>玄壇元帥顯神威<i>}</i></div>
 						<div class="content">
 							而後玄壇元帥 趙公明顯其神威、<br>
 							收服鬼怪，治癒了太后。
@@ -795,6 +684,119 @@
 		</div>
 	</section>
 
+
+	<section class="about-fortuneWrap">
+		<div class="deco-god show-for-large">
+			<img src="images/af-god.jpg">
+		</div>
+		<div class="deco-god hide-for-large">
+			<img src="images/af-god-mobile.jpg">
+		</div>
+		<div class="deco-slogan show-for-large">
+			<img src="images/af-slogan.png">
+		</div>
+		<div class="deco-slogan hide-for-large">
+			<img src="images/af-slogan-mobile.png">
+		</div>
+
+		<div class="fortune-row one" data-r='{"opacity": 0, "y": 60}'>
+			<div class="title"><i><img src="images/af-title-deco-top.svg"></i>趙元帥號<i><img src="images/af-title-deco-bot.svg"></i></div>
+			<div class="content">高上神霄玉府大都督 五方巡察使 九州社令都大提點 直殿大將軍 主領雷霆副元帥 北極侍御史 三界定元昭烈侯 定命掌事帳設使 二十八宿都總管 上清正一玄壇龍虎金輪勑法 趙元帥。</div>
+		</div>
+
+		<div class="fortune-row two" data-r='{"opacity": 0, "y": 60}'>
+			<div class="title"><i><img src="images/af-title-deco-top.svg"></i>迎中財神<i><img src="images/af-title-deco-bot.svg"></i></div>
+			<div class="content">【四川峨嵋　財神開基老祖　正尊】金身，因任務在身，並感念蒼生為「財」所苦，因緣際會，來到台灣，傳度財神教法，鎮守中台灣，並永久供奉於台中廣天宮　財神開基祖廟，在每年農曆三月十五財神聖誕千秋之日，各地的信徒皆會來本宮謁祖進香「迎中財神」，向財神爺　趙公明祝壽，祈求財運、財氣、財庫，香客絡繹不絕。</div>
+		</div>
+
+		<div class="card-container grid-x align-bottom show-for-large">
+			<ul class="cardList grid-x align-top cell large-shrink" data-img="images/af-card-repeat.svg">
+				<li class="cell shrink">
+					<div class="item">
+						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
+						<div class="content">驅雷役電、致雨呼風、除殟剪崇、保病禳災，可賜眾生平安、健康、發財。</div>
+					</div>
+				</li>
+				<li class="cell shrink">
+					<div class="item">
+						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
+						<div class="content">掌管二十八將，以應二十八星宿。</div>
+					</div>
+				</li>
+				<li class="cell shrink">
+					<div class="item">
+						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
+						<div class="content">掌管五方雷神，以應五行。</div>
+					</div>
+				</li>
+				<li class="cell shrink">
+					<div class="item">
+						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
+						<div class="content">掌管六毒大神，以應天、地、年、月、日、時煞。</div>
+					</div>
+				</li>
+			</ul>
+
+			<div class="fortune-row three cell large-shrink" data-r='{"opacity": 0, "y": 60}'>
+				<div class="article-area">
+					<div class="title"><i><img src="images/af-title-deco-top.svg"></i>掌司<i><img src="images/af-title-deco-bot.svg"></i></div>
+					<div class="content">
+						五路財神之中路財神，率領招寶天尊蕭升、<br>
+						納珍天尊曹寶、招財使者陳九公、<br>
+						利市仙官姚少司，合稱五路財神。<br>
+						上奉天門之令，策役三界，巡查五方，提點九州。<br>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="card-container grid-x align-bottom hide-for-large">
+			<div class="fortune-row three cell large-shrink" data-r='{"opacity": 0, "y": 60}'>
+				<div class="article-area">
+					<div class="title"><i><img src="images/af-title-deco-top.svg"></i>掌司<i><img src="images/af-title-deco-bot.svg"></i></div>
+					<div class="content">
+						五路財神之中路財神，率領招寶天尊蕭升、<br>
+						納珍天尊曹寶、招財使者陳九公、<br>
+						利市仙官姚少司，合稱五路財神。<br>
+						上奉天門之令，策役三界，巡查五方，提點九州。<br>
+					</div>
+				</div>
+			</div>
+			<ul class="cardList grid-x align-top cell large-shrink" data-img="images/af-card-repeat.svg">
+				<li class="cell shrink">
+					<div class="item">
+						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
+						<div class="content">掌管五方雷神，以應五行。</div>
+					</div>
+				</li>
+				<li class="cell shrink">
+					<div class="item">
+						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
+						<div class="content">掌管六毒大神，以應天、地、年、月、日、時煞。</div>
+					</div>
+				</li>
+
+			</ul>
+			<ul class="cardList grid-x align-top cell large-shrink" data-img="images/af-card-repeat.svg">
+				<li class="cell shrink">
+					<div class="item">
+						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
+						<div class="content">驅雷役電、致雨呼風、除殟剪崇、保病禳災，可賜眾生平安、健康、發財。</div>
+					</div>
+				</li>
+				<li class="cell shrink">
+					<div class="item">
+						<div class="borderbox"><img src="images/af-card-bd.svg"></div>
+						<div class="content">掌管二十八將，以應二十八星宿。</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+
+		<div class="gradientbox"></div>
+	</section>
+
 	<section class="historyWrap">
 		<div class="deco-lion show-for-large"><img src="images/history-deco-lion.svg"></div>
 		<div class="deco-lion hide-for-large"><img src="images/history-deco-lion-mobile.svg"></div>
@@ -1137,13 +1139,10 @@
 
 		if (_scrollTop >= $(window).height()) {
 			$(".logo-fixed").removeClass("is-red").addClass("is-small")
-			$(".topmenuWrap").removeClass("is-hide")
-			$(".topmenu-bg").addClass("is-show")
 		} else {
-			$(".logo-fixed").addClass("is-red").removeClass("is-small")
-			$(".topmenuWrap").addClass("is-hide")
-			$(".topmenu-bg").removeClass("is-show")
+			$(".logo-fixed").addClass("is-red is-small")
 		}
+		$(".topmenu-bg").addClass("is-show")
 	}).trigger("scroll")
 
 

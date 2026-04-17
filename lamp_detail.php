@@ -3,7 +3,6 @@
 
 <head>
 	<?php include 'html_head.php'; ?>
-	<title>貧富籍冊-金輪院民戶籍 | 台中廣天宮財神開基祖廟</title>
 </head>
 
 <body>
@@ -106,7 +105,7 @@
 
 					<div class="controll-area flex-container align-middle">
 						<div class="num-area flex-container align-middle">
-							<div class="minus"><img src="images/minus.svg"></div>
+							<div class="minor"><img src="images/minor.svg"></div>
 							<div class="num">01</div>
 							<div class="add"><img src="images/add.svg"></div>
 						</div>
@@ -199,7 +198,7 @@
 			$('.num-area .num').text(_num);
 		}
 	})
-	$('.controll-area .num-area .minus').on("click", function() {
+	$('.controll-area .num-area .minor').on("click", function() {
 		var _num = parseInt($('.num-area .num').text());
 		_num--;
 		if (_num < 10) {

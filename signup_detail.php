@@ -3,7 +3,6 @@
 
 <head>
 	<?php include 'html_head.php'; ?>
-	<title>新春 頭、貳、參香 | 台中廣天宮財神開基祖廟</title>
 </head>
 
 <body>
@@ -13,7 +12,7 @@
 		<div class="sd-topWrap">
 			<div class="head">LUNAR <br class="hide-for-large">NEW YEAR</div>
 
-			<div class="pic-area grid-x align-center">
+			<div class="pic-area grid-x align-center pic-area-2026">
 				<div class="repeat-area" data-img="images/sign-repeat.svg">
 					<div class="item" style="opacity: 1;">
 						<div class="borderbox"><img src="images/sign-money-border.svg"></div>
@@ -29,12 +28,12 @@
 					<div class="item" style="opacity: 0;"><img src="images/sign-repeat.svg"></div>
 				</div>
 
-				<div class="title cell large-shrink">新春 頭、貳、參香</div>
+				<div class="title cell large-shrink title-2026">『超渡拔薦』超拔歷代祖先</div>
 			</div>
 		</div>
 
 		<article class="signup-detailWrap">
-			<div class="content-area">
+			<div class="content-area padding-2026">
 				<div class="share-container">
 					<div class="share-area">
 						<div class="text"><img src="images/nd-share.svg"></div>
@@ -144,12 +143,27 @@
 							<div class="content">在新春除夕當晚，本宮特別恭請 財神爺 趙公明 主持新春頭、貳、參香 的開香大典，讓您在新的一年，優先獨得財神爺的加持與庇祐，保祐您一整年能夠，實現您的昐望與期望!</div>
 						</div>
 
-						<ul class="yearList flex-container">
+						<!-- <ul class="yearList flex-container">
 							<li>111年</li>
 							<li>112年</li>
 							<li>113年</li>
-						</ul>
+						</ul> -->
+						<select class="yearList year-select">
+							<option value="">
+								日期
+							</option>
+							<option value="2022/04/20-2022/04/23 壬寅年三月二十日-壬寅年三十三日">
+								2022/04/20-2022/04/23 壬寅年三月二十日-壬寅年三十三日
+							</option>
+							<option value="2022/04/20-2022/04/23 壬寅年三月二十日-壬寅年三十三日">
+								2022/04/20-2022/04/23 壬寅年三月二十日-壬寅年三十三日
+							</option>
+							<option value="2022/04/20-2022/04/23 壬寅年三月二十日-壬寅年三十三日">
+								2022/04/20-2022/04/23 壬寅年三月二十日-壬寅年三十三日
+							</option>
+						</select>
 					</div>
+
 					<div class="controll-area grid-x align-middle">
 						<div class="num-area cell large-auto flex-container align-middle">
 							<div class="minor"><img src="images/minor.svg"></div>
@@ -168,11 +182,29 @@
 			</div>
 
 			<ul class="btn-area flex-container align-center-middle">
-				<li><img src="images/apply-btn-1.svg"></li>
-				<li><img src="images/apply-btn-2.svg"></li>
+				<li>
+					<div class="more">
+						<div class="bg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z" />
+							</svg>
+						</div>
+						<div class="text">直接報名</div>
+					</div>
+				</li>
+				<li>
+					<div class="more">
+						<div class="bg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z" />
+							</svg>
+						</div>
+						<div class="text">加入發財車</div>
+					</div>
+				</li>
 			</ul>
-
 		</div>
+
 		<div class="sign-deco">
 			<img class="show-for-large" src="./images/sign-deco.png" alt="">
 			<img class="hide-for-large" src="./images/sign-deco-mobile.png" alt="">
@@ -201,10 +233,39 @@
 	}).trigger("scroll")
 
 
-	// $(".applyWrap .apply-container .article-area .yearList li").on("click", function() {
-	// 	$(this).addClass("current").siblings().removeClass("current")
-	// })
+
 	$(".sd-topWrap .pic-area .repeat-area").ryderRepeat({
 		img: $(".sd-topWrap .pic-area .repeat-area").data("img")
+	})
+
+
+
+	$(".applyWrap .apply-container .article-area .yearList li").on("click", function() {
+		$(this).addClass("current").siblings().removeClass("current")
+	})
+
+	$('.year-select').niceSelect();
+	$('.controll-area .num-area .add').on("click", function() {
+		var _num = parseInt($('.num-area .num').text());
+		_num++;
+		if (_num < 10) {
+			$('.num-area .num').text('0' + _num);
+		} else {
+			$('.num-area .num').text(_num);
+		}
+	})
+	$('.controll-area .num-area .minor').on("click", function() {
+		var _num = parseInt($('.num-area .num').text());
+		_num--;
+		if (_num < 10) {
+
+			if (_num < 0) {
+				$('.num-area .num').text('00');
+			} else {
+				$('.num-area .num').text('0' + _num);
+			}
+		} else {
+			$('.num-area .num').text(_num);
+		}
 	})
 </script>

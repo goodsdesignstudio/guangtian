@@ -119,6 +119,14 @@
                 </svg>
             </div>
         </div>
+        <div class="worship-scroll-controls hide-for-large flex-container align-middle align-center">
+            <button type="button" class="scroll-btn is-prev" aria-label="向左滑動參拜導覽">
+                <img src="images/worship-arrow.svg" alt="">
+            </button>
+            <button type="button" class="scroll-btn is-next" aria-label="向右滑動參拜導覽">
+                <img src="images/worship-arrow.svg" alt="">
+            </button>
+        </div>
     </section>
     <!-- <section class="qaWrap">
         <ul class="qaList">
@@ -227,19 +235,44 @@
 
     window.addEventListener('DOMContentLoaded', () => {
         const container = document.getElementById('scrollArea');
+        const scrollButtons = document.querySelectorAll('.worship-scroll-controls .scroll-btn');
+        if (!container) return;
+
+        const updateScrollButtons = () => {
+            const maxScrollLeft = Math.max(0, container.scrollWidth - container.clientWidth);
+            scrollButtons.forEach((button) => {
+                const isPrev = button.classList.contains('is-prev');
+                const shouldDisable = isPrev ? container.scrollLeft <= 4 : container.scrollLeft >= maxScrollLeft - 4;
+                button.disabled = shouldDisable;
+            });
+        };
+
+        const getScrollDistance = () => Math.max(container.clientWidth * 0.65, 180);
         const middleScroll = (container.scrollWidth - container.clientWidth) / 2;
         container.scrollLeft = middleScroll;
+
+        scrollButtons.forEach((button) => {
+            button.addEventListener('click', () => {
+                const direction = button.classList.contains('is-next') ? 1 : -1;
+                container.scrollBy({
+                    left: getScrollDistance() * direction,
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        container.addEventListener('scroll', updateScrollButtons, { passive: true });
+        window.addEventListener('resize', updateScrollButtons);
+        updateScrollButtons();
     });
 
     $(window).on("scroll", function () {
         var _scrollTop = $(this).scrollTop()
         if (_scrollTop >= 100) {
             $(".logo-fixed").removeClass("is-red").addClass("is-small")
-            $(".topmenuWrap").removeClass("is-hide")
             $(".topmenu-bg").addClass("is-show")
         } else {
             $(".logo-fixed").addClass("is-red").removeClass("is-small")
-            $(".topmenuWrap").addClass("is-hide")
             $(".topmenu-bg").removeClass("is-show")
         }
     }).trigger("scroll")

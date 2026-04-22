@@ -17,4 +17,5 @@
 <script src="./js/DrawSVGPlugin.min.js"></script>
 <script src="./js/countUp.js"></script>
 <script src="./js/jquery.nice-select.min.js"></script>
+<script src="./js/jquery.twzipcode.min.js"></script>
 <script src="dist/common.js?t=1532"></script>

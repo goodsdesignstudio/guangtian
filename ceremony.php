@@ -19,13 +19,6 @@
 			<li><a href="./shangyuan.php">
 					<div class="deco"><img src="images/cn-deco.png"></div>
 					<div class="cat-area">
-						<div class="bg">
-							<svg xmlns="http://www.w3.org/2000/svg" width="193.45" height="57.53"
-								viewBox="0 0 193.45 57.53">
-								<path class="cls-1"
-									d="M.51,57V7.89A7.39,7.39,0,0,0,7.89.51H185.57a7.38,7.38,0,0,0,7.37,7.38V57Z" />
-							</svg>
-						</div>
 						<div class="cat">上元節</div>
 					</div>
 					<div class="pic"><img src="images/annual-1.jpg"></div>
@@ -44,13 +37,6 @@
 			<li><a href="./fortunebirthday.php">
 					<div class="deco"><img src="images/cn-deco.png"></div>
 					<div class="cat-area">
-						<div class="bg">
-							<svg xmlns="http://www.w3.org/2000/svg" width="193.45" height="57.53"
-								viewBox="0 0 193.45 57.53">
-								<path class="cls-1"
-									d="M.51,57V7.89A7.39,7.39,0,0,0,7.89.51H185.57a7.38,7.38,0,0,0,7.37,7.38V57Z" />
-							</svg>
-						</div>
 						<div class="cat">財神聖誕</div>
 					</div>
 					<div class="pic"><img src="images/annual-2.jpg"></div>
@@ -69,13 +55,6 @@
 			<li><a href="./ghostfestival.php">
 					<div class="deco"><img src="images/cn-deco.png"></div>
 					<div class="cat-area">
-						<div class="bg">
-							<svg xmlns="http://www.w3.org/2000/svg" width="193.45" height="57.53"
-								viewBox="0 0 193.45 57.53">
-								<path class="cls-1"
-									d="M.51,57V7.89A7.39,7.39,0,0,0,7.89.51H185.57a7.38,7.38,0,0,0,7.37,7.38V57Z" />
-							</svg>
-						</div>
 						<div class="cat">中元節</div>
 					</div>
 					<div class="pic"><img src="images/annual-3.jpg"></div>
@@ -96,13 +75,6 @@
 				<a href="./wealth.php">
 					<div class="deco"><img src="images/cn-deco.png"></div>
 					<div class="cat-area">
-						<div class="bg">
-							<svg xmlns="http://www.w3.org/2000/svg" width="193.45" height="57.53"
-								viewBox="0 0 193.45 57.53">
-								<path class="cls-1"
-									d="M.51,57V7.89A7.39,7.39,0,0,0,7.89.51H185.57a7.38,7.38,0,0,0,7.37,7.38V57Z" />
-							</svg>
-						</div>
 						<div class="cat">財神借庫</div>
 					</div>
 					<div class="pic"><img src="images/annual-7.jpg"></div>
@@ -123,13 +95,6 @@
 				<a href="./votive_lamp.php">
 					<div class="deco"><img src="images/cn-deco.png"></div>
 					<div class="cat-area">
-						<div class="bg">
-							<svg xmlns="http://www.w3.org/2000/svg" width="193.45" height="57.53"
-								viewBox="0 0 193.45 57.53">
-								<path class="cls-1"
-									d="M.51,57V7.89A7.39,7.39,0,0,0,7.89.51H185.57a7.38,7.38,0,0,0,7.37,7.38V57Z" />
-							</svg>
-						</div>
 						<div class="cat">年度斗燈</div>
 					</div>
 					<div class="pic"><img src="images/annual-8.jpg"></div>
@@ -150,14 +115,14 @@
 				<a href="./celebrate.php">
 					<div class="deco"><img src="images/cn-deco.png"></div>
 					<div class="cat-area">
-						<div class="bg">
+						<!-- <div class="bg">
 							<svg xmlns="http://www.w3.org/2000/svg" width="193.45" height="57.53"
 								viewBox="0 0 193.45 57.53">
 								<path class="cls-1"
 									d="M.51,57V7.89A7.39,7.39,0,0,0,7.89.51H185.57a7.38,7.38,0,0,0,7.37,7.38V57Z" />
 							</svg>
-						</div>
-						<div class="cat">宮慶</div>
+						</div> -->
+						<div class="cat">廣天宮宮慶</div>
 					</div>
 					<div class="pic"><img src="images/annual-6.jpg"></div>
 					<div class="title">朝元祈安禮斗道場大法會</div>
@@ -177,13 +142,6 @@
 				<a href="./godoflove.php">
 					<div class="deco"><img src="images/cn-deco.png"></div>
 					<div class="cat-area">
-						<div class="bg">
-							<svg xmlns="http://www.w3.org/2000/svg" width="193.45" height="57.53"
-								viewBox="0 0 193.45 57.53">
-								<path class="cls-1"
-									d="M.51,57V7.89A7.39,7.39,0,0,0,7.89.51H185.57a7.38,7.38,0,0,0,7.37,7.38V57Z" />
-							</svg>
-						</div>
 						<div class="cat">月老聖誕</div>
 					</div>
 					<div class="pic"><img src="images/annual-4.jpg"></div>
@@ -204,13 +162,6 @@
 				<a href="./xiayuan.php">
 					<div class="deco"><img src="images/cn-deco.png"></div>
 					<div class="cat-area">
-						<div class="bg">
-							<svg xmlns="http://www.w3.org/2000/svg" width="193.45" height="57.53"
-								viewBox="0 0 193.45 57.53">
-								<path class="cls-1"
-									d="M.51,57V7.89A7.39,7.39,0,0,0,7.89.51H185.57a7.38,7.38,0,0,0,7.37,7.38V57Z" />
-							</svg>
-						</div>
 						<div class="cat">下元節</div>
 					</div>
 					<div class="pic"><img src="images/annual-5.jpg"></div>

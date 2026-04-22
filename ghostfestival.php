@@ -152,7 +152,8 @@
 
 						<div class="bg">
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
+								viewBox="0 0 134.25 41.82">
 
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
@@ -216,7 +217,8 @@
 
 						<div class="bg">
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
+								viewBox="0 0 134.25 41.82">
 
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
@@ -278,7 +280,8 @@
 
 						<div class="bg">
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
+								viewBox="0 0 134.25 41.82">
 
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
@@ -340,7 +343,8 @@
 
 						<div class="bg">
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
+								viewBox="0 0 134.25 41.82">
 
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
@@ -358,9 +362,9 @@
 
 		</ul>
 
-		<ul class="signupList hide-for-large">
+		<ul class="signupList hide-for-large m:flex-col">
 
-			<li>
+			<a class="signup_more" href="signup_detail.php">
 
 				<div class="repeat-area cell large-shrink">
 
@@ -402,13 +406,14 @@
 
 				<div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
 
-				<a class="grid-x" href="signup_detail.php">
+				<div class="grid-x">
 
 					<div class="more hide-for-large">
 
 						<div class="bg">
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
+								viewBox="0 0 134.25 41.82">
 
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
@@ -422,11 +427,11 @@
 
 					</div>
 
-				</a>
+				</div>
 
-			</li>
+			</a>
 
-			<li>
+			<a class="signup_more" href="signup_detail.php">
 
 				<div class="repeat-area cell large-shrink">
 
@@ -468,13 +473,14 @@
 
 				<div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
 
-				<a class="grid-x" href="signup_detail.php">
+				<div class="grid-x">
 
 					<div class="more hide-for-large">
 
 						<div class="bg">
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
+								viewBox="0 0 134.25 41.82">
 
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
@@ -488,11 +494,11 @@
 
 					</div>
 
-				</a>
+				</div>
 
-			</li>
+			</a>
 
-			<li>
+			<a class="signup_more" href="signup_detail.php">
 
 				<div class="repeat-area cell large-shrink">
 
@@ -534,13 +540,14 @@
 
 				<div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
 
-				<a class="grid-x" href="signup_detail.php">
+				<div class="grid-x">
 
 					<div class="more hide-for-large">
 
 						<div class="bg">
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
+								viewBox="0 0 134.25 41.82">
 
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
@@ -554,11 +561,11 @@
 
 					</div>
 
-				</a>
+				</div>
 
-			</li>
+			</a>
 
-			<li>
+			<a class="signup_more" href="signup_detail.php">
 
 				<div class="repeat-area cell large-shrink">
 
@@ -600,13 +607,14 @@
 
 				<div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
 
-				<a class="grid-x" href="signup_detail.php">
+				<div class="grid-x">
 
 					<div class="more hide-for-large">
 
 						<div class="bg">
 
-							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
+								viewBox="0 0 134.25 41.82">
 
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
@@ -620,9 +628,9 @@
 
 					</div>
 
-				</a>
+				</div>
 
-			</li>
+			</a>
 
 		</ul>
 
@@ -710,12 +718,14 @@
 
 			<div class="pudu-deco-1" data-r='{"opacity": 0, "y": -20}'><img src="images/pudu-deco-1.png"></div>
 
-			<div class="pudu-deco-2" data-r='{"opacity": 0, "x": 60, "delay": 0.5}'><img src="images/pudu-deco-2.png"></div>
+			<div class="pudu-deco-2" data-r='{"opacity": 0, "x": 60, "delay": 0.5}'><img src="images/pudu-deco-2.png">
+			</div>
 
 			<div class="pudu-deco-3 show-for-large" data-r='{"opacity": 0, "xPercent": -100}'><img
 					src="images/pudu-deco-3.png"></div>
 
-			<div class="pudu-deco-4 show-for-large" data-r='{"opacity": 0, "x": 60}'><img src="images/pudu-deco-4.png"></div>
+			<div class="pudu-deco-4 show-for-large" data-r='{"opacity": 0, "x": 60}'><img src="images/pudu-deco-4.png">
+			</div>
 
 
 
@@ -729,13 +739,16 @@
 
 					<div class="bg-area">
 
-						<div class="one"><img data-rellax-speed="-1.1" data-rellax-percentage="0.2" src="images/pudu-cloud-1.png">
+						<div class="one"><img data-rellax-speed="-1.1" data-rellax-percentage="0.2"
+								src="images/pudu-cloud-1.png">
 						</div>
 
-						<div class="two"><img data-rellax-speed="1.1" data-rellax-percentage="0.2" src="images/pudu-cloud-2.png">
+						<div class="two"><img data-rellax-speed="1.1" data-rellax-percentage="0.2"
+								src="images/pudu-cloud-2.png">
 						</div>
 
-						<div class="three"><img data-rellax-speed="3.3" data-rellax-percentage="0.2" src="images/pudu-cloud-3.png">
+						<div class="three"><img data-rellax-speed="3.3" data-rellax-percentage="0.2"
+								src="images/pudu-cloud-3.png">
 						</div>
 
 					</div>
@@ -756,10 +769,12 @@
 
 				<div class="content-area">
 
-					<div class="content">在中元節這天，一般家庭總會準備豐盛的山珍海味，希望所有亡魂可以飽餐一頓，在家門口拜拜，只有「普」而已，沒有 「度」，只有祭拜路經家門口的好兄弟、好 姊妹，沒有「度化」的功用。
+					<div class="content">在中元節這天，一般家庭總會準備豐盛的山珍海味，希望所有亡魂可以飽餐一頓，在家門口拜拜，只有「普」而已，沒有 「度」，只有祭拜路經家門口的好兄弟、好
+						姊妹，沒有「度化」的功用。
 					</div>
 
-					<div class="content">何謂度化超拔，恭請地官大帝赦免陰 陽兩界所有亡魂所犯之罪，並恭請東宮慈父太乙救苦天尊，度化超拔所有亡魂，幫助祂們脫離苦海，早日昇天得道或是投胎轉世。</div>
+					<div class="content">何謂度化超拔，恭請地官大帝赦免陰 陽兩界所有亡魂所犯之罪，並恭請東宮慈父太乙救苦天尊，度化超拔所有亡魂，幫助祂們脫離苦海，早日昇天得道或是投胎轉世。
+					</div>
 
 				</div>
 
@@ -800,7 +815,8 @@
 					<div class="title"><b>普度</b> 普天下眾生 度化所有亡魂</div>
 
 					<div class="content">
-						當亡魂有機會回到陽世，藉此機會享用一頓山珍海味外，更希望能夠被赦罪、超拔。一般人農曆七月在家開設普桌祭拜，只有山珍海味供奉的「普」品，並沒有神明來「度」化，而亡魂依舊要繼續為自己所犯下的罪受苦。</div>
+						當亡魂有機會回到陽世，藉此機會享用一頓山珍海味外，更希望能夠被赦罪、超拔。一般人農曆七月在家開設普桌祭拜，只有山珍海味供奉的「普」品，並沒有神明來「度」化，而亡魂依舊要繼續為自己所犯下的罪受苦。
+					</div>
 
 				</div>
 
@@ -820,7 +836,8 @@
 
 					<div class="yt-area">
 
-						<iframe src="https://www.youtube.com/embed/yJKZG9Cuovg?autoplay=0&controls=1&rel=0&mute=1&playsinline=1"
+						<iframe
+							src="https://www.youtube.com/embed/yJKZG9Cuovg?autoplay=0&controls=1&rel=0&mute=1&playsinline=1"
 							frameborder="0" allowfullscreen></iframe>
 
 					</div>
@@ -965,7 +982,8 @@
 
 
 
-								<div class="pic cell large-shrink large-order-2 small-order-1"><img src="images/custom-god-list-1.jpg">
+								<div class="pic cell large-shrink large-order-2 small-order-1"><img
+										src="images/custom-god-list-1.jpg">
 								</div>
 
 							</li>
@@ -980,7 +998,8 @@
 
 									<div class="title">『東宮慈父太乙救苦天尊』</div>
 
-									<div class="content">【東宮慈父太乙救苦天尊】根據道藏記載，東宮慈父太乙救苦天尊居住於「東極宮」，職掌超拔所有亡魂並度往東方，所有道教陰科法會，也必會恭請太乙救苦天尊到場度化亡魂。
+									<div class="content">
+										【東宮慈父太乙救苦天尊】根據道藏記載，東宮慈父太乙救苦天尊居住於「東極宮」，職掌超拔所有亡魂並度往東方，所有道教陰科法會，也必會恭請太乙救苦天尊到場度化亡魂。
 									</div>
 
 								</div>
@@ -1128,7 +1147,8 @@
 
 								<div class="bg">
 
-									<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
+									<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
+										viewBox="0 0 134.25 41.82">
 
 										<path class="cls-1"
 											d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z" />
@@ -1187,7 +1207,8 @@
 
 								<div class="arrow">
 
-									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
+									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87"
+										viewBox="0 0 41.87 41.87">
 
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -1214,7 +1235,8 @@
 
 								<div class="arrow">
 
-									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
+									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87"
+										viewBox="0 0 41.87 41.87">
 
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -1413,9 +1435,9 @@
 
 	// 手機板
 	if (winWidth <= 1024) {
-		
-				// 手機板signupList點擊事件
-		(function goListClicked () {
+
+		// 手機板signupList點擊事件
+		(function goListClicked() {
 			const infoList = document.querySelector('.signupList.hide-for-large');
 
 			if (infoList) {

@@ -1,1 +1,14 @@
-<svg height="353.06" preserveAspectRatio="none" width="353.06" xmlns="http://www.w3.org/2000/svg"><path d="m352.06 352.06h-351.06v-336.06a15 15 0 0 0 15-15h321.06a15 15 0 0 0 15 15z" fill="#fc462d" stroke="#e8b356" stroke-miterlimit="10"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_1" data-name="圖層_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 353.1 440.2">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fc462d;
+        stroke: #e8b356;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M352.1,439.7H1V19.4c8.3,0,15-8.4,15-18.8h321.1c0,10.4,6.7,18.8,15,18.8v420.3Z"/>
+</svg>

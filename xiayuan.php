@@ -1846,8 +1846,7 @@
 		})
 	}
 
-	// 輪播按鈕
-
+	// 流程介紹-輪播按鈕
 	window.addEventListener("load", function () {
 		const prevBtn = document.querySelector('.flow-sliderList .flickity-button.previous'),
 			nextBtn = document.querySelector('.flow-sliderList .flickity-button.next');

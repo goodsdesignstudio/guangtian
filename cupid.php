@@ -423,8 +423,43 @@
 		</div>
 
 		<div class="giftmoneyWrap show-for-large">
+			<div class="sixbox-container grid-x align-center" style="margin-bottom: 50px;">
+				<div class="sixbox-area cell large-shrink" style="margin-right: 50px;">
+					<div class="layer-2">
+						<div class="bg"><img src="images/sixbox-4-bg.png"></div>
+						<div class="item" data-i="10"><img src="images/sixbox-10.png"></div>
+						<div class="item" data-i="8"><img src="images/sixbox-8.png"></div>
+						<div class="item" data-i="9"><img src="images/sixbox-9.png"></div>
+					</div>
+				</div>
+
+				<div class="sixbox-area cell large-shrink">
+					<div class="layer-1">
+						<div class="bg"><img src="images/sixbox-0.png"></div>
+						<div class="item" data-i="1"><img src="images/sixbox-1.png"></div>
+						<div class="item" data-i="2"><img src="images/sixbox-2.png"></div>
+						<div class="item" data-i="3"><img src="images/sixbox-3.png"></div>
+						<div class="item" data-i="5"><img src="images/sixbox-5.png"></div>
+						<div class="item" data-i="6"><img src="images/sixbox-6.png"></div>
+						<div class="item" data-i="7"><img src="images/sixbox-7.png"></div>
+					</div>
+				</div>
+			</div>
+
 			<ul class="giftmoneyList grid-x align-center">
-				<li class="cell large-shrink current" data-i="1">
+				<li class="cell large-shrink current" data-i="8">
+					<div class="title"><i>{</i>姻緣信<i>}</i></div>
+					<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
+				</li>
+				<li class="cell large-shrink" data-i="10">
+					<div class="title"><i>{</i>姻緣金<i>}</i></div>
+					<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
+				</li>
+				<li class="cell large-shrink gap-after" data-i="9">
+					<div class="title"><i>{</i>蠟燭<i>}</i></div>
+					<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
+				</li>
+				<li class="cell large-shrink" data-i="1">
 					<div class="title"><i>{</i>緣錢<i>}</i></div>
 					<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
 				</li>
@@ -434,30 +469,6 @@
 				</li>
 				<li class="cell large-shrink" data-i="3">
 					<div class="title"><i>{</i>玫瑰<i>}</i></div>
-					<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
-				</li>
-
-				<li class="sixbox-area cell large-shrink">
-					<div class="layer-1">
-						<div class="bg"><img src="images/sixbox-0.png"></div>
-
-						<div class="item is-show" data-i="1"><img src="images/sixbox-1.png"></div>
-						<div class="item" data-i="2"><img src="images/sixbox-2.png"></div>
-						<div class="item" data-i="3"><img src="images/sixbox-3.png"></div>
-						<div class="item" data-i="5"><img src="images/sixbox-5.png"></div>
-						<div class="item" data-i="6"><img src="images/sixbox-6.png"></div>
-						<div class="item" data-i="7"><img src="images/sixbox-7.png"></div>
-					</div>
-
-					<div class="layer-2">
-						<div class="bg"><img src="images/sixbox-4-bg.png"></div>
-
-						<div class="item" data-i="4"><img src="images/sixbox-4.png"></div>
-					</div>
-				</li>
-
-				<li class="cell large-shrink" data-i="4">
-					<div class="title"><i>{</i>蠟燭<i>}</i></div>
 					<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
 				</li>
 				<li class="cell large-shrink" data-i="5">
@@ -505,9 +516,9 @@
 						<div class="swiper-slide" data-i="3">
 							<img src="./images/sixbox-3-mobile.png" alt="">
 						</div>
-						<div class="swiper-slide" data-i="4">
+						<!-- <div class="swiper-slide" data-i="4">
 							<img src="./images/sixbox-4-mobile.png" alt="">
-						</div>
+						</div> -->
 						<div class="swiper-slide" data-i="5">
 							<img src="./images/sixbox-5-mobile.png" alt="">
 						</div>
@@ -516,18 +527,19 @@
 						</div>
 						<div class="swiper-slide" data-i="7">
 							<img src="./images/sixbox-7-mobile.png" alt="">
-							</li>
+						</div>
+						<div class="swiper-slide" data-i="8">
+							<img src="./images/sixbox-8-mobile.png" alt="">
+						</div>
+						<div class="swiper-slide" data-i="9">
+							<img src="./images/sixbox-9-mobile.png" alt="">
+						</div>
+						<div class="swiper-slide" data-i="10">
+							<img src="./images/sixbox-10-mobile.png" alt="">
 						</div>
 					</div>
 
 				</div>
-				<div class="swiper-button swiper-button-next">
-					<img src="./images/news-pager-next.svg" alt="">
-				</div>
-				<div class="swiper-button swiper-button-prev">
-					<img src="./images/news-pager-prev.svg" alt="">
-				</div>
-				<div class="swiper-pagination"></div>
 				<div class="swiper mySwiper">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide" data-i="1">
@@ -542,11 +554,11 @@
 							<div class="title"><i>{</i>玫瑰<i>}</i></div>
 							<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
 						</div>
-						<div class="swiper-slide" data-i="4">
+						<!-- <div class="swiper-slide" data-i="4">
 							<div class="title"><i>{</i>蠟燭<i>}</i></div>
 							<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
 
-						</div>
+						</div> -->
 						<div class="swiper-slide" data-i="5">
 							<div class="title"><i>{</i>紅棗<i>}</i></div>
 							<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
@@ -558,10 +570,30 @@
 						<div class="swiper-slide" data-i="7">
 							<div class="title"><i>{</i>紅線<i>}</i></div>
 							<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
-							</li>
+						</div>
+						<div class="swiper-slide" data-i="8">
+							<div class="title"><i>{</i>姻緣信<i>}</i></div>
+							<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
+						</div>
+						<div class="swiper-slide" data-i="9">
+							<div class="title"><i>{</i>蠟燭<i>}</i></div>
+							<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
+						</div>
+						<div class="swiper-slide" data-i="10">
+							<div class="title"><i>{</i>姻緣金<i>}</i></div>
+							<div class="content">姻緣、人緣、貴人緣一線牽。隨身攜帶或放枕頭下。</div>
 						</div>
 					</div>
 
+				</div>
+				<div class="giftmoney-controls">
+					<div class="swiper-button swiper-button-prev">
+						<img src="./images/news-pager-prev.svg" alt="">
+					</div>
+					<div class="swiper-pagination"></div>
+					<div class="swiper-button swiper-button-next">
+						<img src="./images/news-pager-next.svg" alt="">
+					</div>
 				</div>
 			</div>
 

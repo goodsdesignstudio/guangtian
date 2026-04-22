@@ -1,0 +1,58 @@
+stages:
+  - deploy
+
+variables:
+  TARGET_PATH: "$TARGET_BASE_PATH/guangtian"
+  EXTRA_EXCLUDE: ""
+
+deploy_rsync:
+  stage: deploy
+  tags:
+    - testtag
+  only:
+    - main
+  environment:
+    name: production
+
+  before_script:
+    - rm -rf ~/.ssh
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$SSH_PRIVATE_KEY_CUBETREK" > ~/.ssh/id_rsa
+    - chmod 600 ~/.ssh/id_rsa
+    - |
+      cat > ~/.ssh/config <<EOF
+      Host $REMOTE_HOST
+        HostName $REMOTE_HOST
+        User $REMOTE_USER
+        IdentityFile ~/.ssh/id_rsa
+        Port 5566
+        StrictHostKeyChecking accept-new
+      EOF
+    - chmod 600 ~/.ssh/config
+    - ssh-keyscan -p 5566 -H "$REMOTE_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+    - chmod 600 ~/.ssh/known_hosts
+
+  script:
+    # 僅保留檔案檢查，確保路徑正確且該標記檔案存在於 Target Path 中
+    - |
+      echo "正在驗證遠端目標路徑: $TARGET_PATH"
+      # 使用 ! 取代 $? 檢查，這是 shell 處理邏輯錯誤最穩定的做法
+      if ! ssh "$REMOTE_USER@$REMOTE_HOST" "test -f '$TARGET_PATH/$VERIFY_FILENAME'"; then
+        echo "在遠端路徑 $TARGET_PATH 找不到檔案 $VERIFY_FILENAME"
+        exit 1
+      fi
+      echo "驗證成功，準備開始傳輸..."
+
+    # rsync deploy
+    - |
+      echo "Starting rsync → $REMOTE_HOST:$TARGET_PATH"
+      rsync -azv --delete \
+        --exclude=".git" \
+        --exclude=".gitlab-ci.yml" \
+        $EXTRA_EXCLUDE \
+        ./ \
+        "$REMOTE_USER@$REMOTE_HOST:$TARGET_PATH"
+
+  after_script:
+    - rm -f ~/.ssh/id_rsa

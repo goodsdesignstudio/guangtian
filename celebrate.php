@@ -370,9 +370,9 @@
 
         </ul>
 
-        <ul class="signupList hide-for-large">
+        <ul class="signupList hide-for-large m:flex-col">
 
-            <li>
+            <a class="signup_more" href="signup_detail.php">
 
                 <div class="repeat-area cell large-shrink">
 
@@ -414,7 +414,7 @@
 
                 <div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
 
-                <a class="grid-x" href="signup_detail.php">
+                <div class="grid-x">
 
                     <div class="more hide-for-large">
 
@@ -435,11 +435,11 @@
 
                     </div>
 
-                </a>
+                </div>
 
-            </li>
+            </a>
 
-            <li>
+            <a class="signup_more" href="signup_detail.php">
 
                 <div class="repeat-area cell large-shrink">
 
@@ -481,7 +481,7 @@
 
                 <div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
 
-                <a class="grid-x" href="signup_detail.php">
+                <div class="grid-x">
 
                     <div class="more hide-for-large">
 
@@ -502,11 +502,11 @@
 
                     </div>
 
-                </a>
+                </div>
 
-            </li>
+            </a>
 
-            <li>
+            <a class="signup_more" href="signup_detail.php">
 
                 <div class="repeat-area cell large-shrink">
 
@@ -548,7 +548,7 @@
 
                 <div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
 
-                <a class="grid-x" href="signup_detail.php">
+                <div class="grid-x">
 
                     <div class="more hide-for-large">
 
@@ -569,11 +569,11 @@
 
                     </div>
 
-                </a>
+                </div>
 
-            </li>
+            </a>
 
-            <li>
+            <a class="signup_more" href="signup_detail.php">
 
                 <div class="repeat-area cell large-shrink">
 
@@ -615,7 +615,7 @@
 
                 <div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
 
-                <a class="grid-x" href="signup_detail.php">
+                <div class="grid-x">
 
                     <div class="more hide-for-large">
 
@@ -636,9 +636,9 @@
 
                     </div>
 
-                </a>
+                </div>
 
-            </li>
+            </a>
 
         </ul>
 
@@ -660,7 +660,7 @@
 
 
 
-        <div class="bannerWrap">
+        <div class="bannerWrap m:z-1">
 
             <div class="banner"><img src="images/celebrate-banner.jpg"></div>
 
@@ -1088,7 +1088,7 @@
 
 
 
-            <div class="c-feature-area">
+            <div class="c-feature-area m:pt-0">
 
                 <div class="logo">
 
@@ -13172,9 +13172,11 @@
 
         }).trigger("scroll")
 
-
-
         $(".mobile-open").on("click", function () {
+
+            var $this = $(this);
+
+            var isOpen = $this.hasClass("is-open");
 
             $(this).toggleClass("is-open");
 
@@ -13183,6 +13185,16 @@
 
 
             $(".flow-sliderList").flickity('resize')
+
+            if (isOpen) {
+
+                $('html, body').animate({
+
+                    scrollTop: $this.parent().offset().top - 100
+
+                }, 500);
+
+            }
 
             if ($('.c-votive .votive-content').css('display') == 'block') {
 

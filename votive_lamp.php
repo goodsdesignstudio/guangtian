@@ -34,7 +34,9 @@
 				<div class="year">2022</div>
 				<div class="date">03.15 - 03.19</div>
 				<div class="title">財神聖誕</div>
-				<div class="content">本宮於每年農曆七月十三日至七月十七日，舉辦一連五天的「慶讚中元天醫濟藥拔薦超渡道場大法會」，以正統的道教科儀，恭請地官大帝赦免亡魂罪過，並由太乙救苦天尊予以渡化，幫助亡魂早日昇天得道、轉世投胎。同時由開基始祖 財神爺開壇演化......</div>
+				<div class="content">
+					本宮於每年農曆七月十三日至七月十七日，舉辦一連五天的「慶讚中元天醫濟藥拔薦超渡道場大法會」，以正統的道教科儀，恭請地官大帝赦免亡魂罪過，並由太乙救苦天尊予以渡化，幫助亡魂早日昇天得道、轉世投胎。同時由開基始祖
+					財神爺開壇演化......</div>
 			</div>
 		</div>
 	</div>
@@ -66,7 +68,9 @@
 					<div class="more hide-for-large">
 						<div class="bg">
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z"></path>
+								<path class="cls-1"
+									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
+								</path>
 							</svg>
 						</div>
 						<div class="text">觀看更多</div>
@@ -93,7 +97,9 @@
 					<div class="more hide-for-large">
 						<div class="bg">
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z"></path>
+								<path class="cls-1"
+									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
+								</path>
 							</svg>
 						</div>
 						<div class="text">觀看更多</div>
@@ -120,7 +126,9 @@
 					<div class="more hide-for-large">
 						<div class="bg">
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z"></path>
+								<path class="cls-1"
+									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
+								</path>
 							</svg>
 						</div>
 						<div class="text">觀看更多</div>
@@ -147,7 +155,9 @@
 					<div class="more hide-for-large">
 						<div class="bg">
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z"></path>
+								<path class="cls-1"
+									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
+								</path>
 							</svg>
 						</div>
 						<div class="text">觀看更多</div>
@@ -177,7 +187,9 @@
 					<div class="more hide-for-large">
 						<div class="bg">
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z"></path>
+								<path class="cls-1"
+									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
+								</path>
 							</svg>
 						</div>
 						<div class="text">觀看更多</div>
@@ -206,7 +218,9 @@
 					<div class="more hide-for-large">
 						<div class="bg">
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z"></path>
+								<path class="cls-1"
+									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
+								</path>
 							</svg>
 						</div>
 						<div class="text">觀看更多</div>
@@ -235,7 +249,9 @@
 					<div class="more hide-for-large">
 						<div class="bg">
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z"></path>
+								<path class="cls-1"
+									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
+								</path>
 							</svg>
 						</div>
 						<div class="text">觀看更多</div>
@@ -264,7 +280,9 @@
 					<div class="more hide-for-large">
 						<div class="bg">
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-								<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z"></path>
+								<path class="cls-1"
+									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
+								</path>
 							</svg>
 						</div>
 						<div class="text">觀看更多</div>
@@ -279,7 +297,7 @@
 			<div class="en cell large-shrink show-for-large"><img src="images/program-en.svg"></div>
 			<img class="hide-for-large" src="./images/program-mobile.svg" alt="">
 		</div>
-		<div class="bannerWrap">
+		<div class="bannerWrap bannerWrap-2026">
 			<div class="banner"><img src="images/xiayuan-program-banner.jpg"></div>
 			<div class="title-container">
 				<div class="repeat-area" data-img="images/cd-repeat.svg">
@@ -294,11 +312,11 @@
 					</div>
 				</div>
 				<div class="year-area" data-r='{"opacity": 0, "y": 40, "delay": 1}'>
-					<div class="year">2022</div>
-					<div class="date">11.10 -14</div>
+					<div class="year white-2026">2022</div>
+					<div class="date white-2026">11.10 -14</div>
 				</div>
 			</div>
-			<div class="article-area grid-x" data-r='{"opacity": 0, "y": 40, "delay": 1.2}'>
+			<div class="article-area grid-x flex-2026" data-r='{"opacity": 0, "y": 40, "delay": 1.2}'>
 				<div class="title cell large-shrink">
 					平安順利<br>
 					財源廣進
@@ -319,7 +337,7 @@
 					<div class="btn"><img src="images/cd-book.svg"></div>
 				</div>
 			</div>
-			<div class="share-container hide-for-large">
+			<div class="share-container hide-for-large position-2026">
 				<div class="share-area">
 					<div class="text"><img src="images/love-share.svg"></div>
 					<nav class="shareList">
@@ -350,14 +368,16 @@
 			<div class="shangyuan-deco-2 show-for-large" data-r='{"opacity": 0, "y": 40 }'>
 				<img src="images/shangyuan-deco-2.svg">
 			</div>
-			<div class="shangyuan-area-1">
-				<div class="slogan">到底什麼是『年度斗燈』呢？</div>
-				<div class="peace-container">
-					<div class="cloud-area show-for-medium" data-r='{"opacity": 0, "y": 100}'>
+			<div class="shangyuan-area-1 pt-2026">
+				<div class="slogan show-for-large">到底什麼是『年度斗燈』呢？</div>
+				<div class="slogan hide-for-large">為什麼要『斗燈』呢？</div>
+				<div class="peace-container votive_lamp-anm-2026">
+					<div class="cloud-area" data-r='{"opacity": 0, "y": 100}'>
 						<div class="one">
 							<img src="images/v-cloud-1.png">
 						</div>
-						<div class="peace-area grid-x align-center show-for-large" data-r='{"opacity": 0, "y": 100, "stagger":0.2 }'>
+						<div class="peace-area grid-x align-center votive_lamp-2026"
+							data-r='{"opacity": 0, "y": 100, "stagger":0.2 }'>
 							<div class="peace peace-1 cell large-shrink">
 								<img src="images/peace-1.svg">
 							</div>
@@ -383,7 +403,7 @@
 					</div>
 
 				</div>
-				<div class="content-area text-center" data-r='{"opacity": 0, "y": 30}'>
+				<div class="content-area text-center votive_lamp-2026" data-r='{"opacity": 0, "y": 30}'>
 					<div class="content">
 						<!-- <b>解冤釋結</b> -->
 						道教尊稱天官大帝為「上元賜福天官紫微大帝」，主掌賜與福分，每年天官大帝農曆正月十五日聖誕之日，世人又稱「上元節」
@@ -394,7 +414,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="c-yt-area is-white">
+			<div class="c-yt-area is-white votive_lamp-2026">
 				<div class="pic">
 					<div class="line"></div>
 					<div class="flex-container align-center">
@@ -411,7 +431,7 @@
 					</div>
 				</div>
 				<div class="yt-container">
-					<div class="shangyuan-deco-3 show-for-large" data-r='{"opacity": 0, "x": -20}'>
+					<div class="shangyuan-deco-3 votive_lamp-2026" data-r='{"opacity": 0, "x": -20}'>
 						<img src="images/shangyuan-deco-3.svg">
 					</div>
 					<!--<div class="xiayuan-deco-3 hide-for-large" data-r='{"opacity": 0, "x": -20}'>
@@ -427,9 +447,9 @@
 						<div class="cover"><img src="images/s-yt-pic.jpg"></div>
 						<!-- <div class="play"><img src="images/yt-play.svg"></div> -->
 					</div>
-					<!-- <div class="yt-area">
+					<div class="yt-area">
 						<iframe src="https://www.youtube.com/embed/h3WlbQZMktY?autoplay=0&controls=1&rel=0&mute=1&playsinline=1" frameborder="0" allowfullscreen></iframe>
-					</div> -->
+					</div>
 				</div>
 			</div>
 			<div class="c-feature-area">
@@ -512,10 +532,12 @@
 						<ul class="xaList">
 							<li>
 								<div class="title">為何要解冤釋結 ?</div>
-								<div class="answer">我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
+								<div class="answer">
+									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
 								<div class="arrow">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
-										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44" transform="translate(-8.67 20.94) rotate(-45)" />
+										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
+											transform="translate(-8.67 20.94) rotate(-45)" />
 										<path class="cls-2" d="M8.59,17.16,18.82,27.39a3,3,0,0,1,4.24,0L33.29,17.16" />
 									</svg>
 								</div>
@@ -528,20 +550,24 @@
 							</li>
 							<li>
 								<div class="title">什麼是解冤結 ?</div>
-								<div class="answer">我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
+								<div class="answer">
+									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
 								<div class="arrow">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
-										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44" transform="translate(-8.67 20.94) rotate(-45)" />
+										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
+											transform="translate(-8.67 20.94) rotate(-45)" />
 										<path class="cls-2" d="M8.59,17.16,18.82,27.39a3,3,0,0,1,4.24,0L33.29,17.16" />
 									</svg>
 								</div>
 							</li>
 							<li>
 								<div class="title">該如何解冤釋結 ?</div>
-								<div class="answer">我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
+								<div class="answer">
+									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
 								<div class="arrow">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
-										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44" transform="translate(-8.67 20.94) rotate(-45)" />
+										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
+											transform="translate(-8.67 20.94) rotate(-45)" />
 										<path class="cls-2" d="M8.59,17.16,18.82,27.39a3,3,0,0,1,4.24,0L33.29,17.16" />
 									</svg>
 								</div>
@@ -550,7 +576,9 @@
 						<div class="box-container grid-x">
 							<div class="article-area cell large-shrink">
 								<div class="title">解冤釋結寶箱</div>
-								<div class="content">除了透過解冤釋結科儀，恭請《東宮慈父太乙救苦天尊》、《九天應元雷聲普化天尊》共同幫助所友善男信女解陽度陰，化解今生無心所犯的陰罪陽結，本宮更特別為所有參加法會的信徒，準備一箱《解冤釋結寶箱》，用來償還我們的冤結，讓我們的運勢能夠不被影響，一帆風順、平安無災！</div>
+								<div class="content">
+									除了透過解冤釋結科儀，恭請《東宮慈父太乙救苦天尊》、《九天應元雷聲普化天尊》共同幫助所友善男信女解陽度陰，化解今生無心所犯的陰罪陽結，本宮更特別為所有參加法會的信徒，準備一箱《解冤釋結寶箱》，用來償還我們的冤結，讓我們的運勢能夠不被影響，一帆風順、平安無災！
+								</div>
 								<div class="money show-for-large">功德金 <b>6000</b><i>元/份</i></div>
 							</div>
 							<div class="pic cell large-auto">
@@ -568,30 +596,36 @@
 						<ul class="xaList">
 							<li>
 								<div class="title">為何要解冤釋結 ?</div>
-								<div class="answer">我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
+								<div class="answer">
+									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
 								<div class="arrow">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
-										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44" transform="translate(-8.67 20.94) rotate(-45)" />
+										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
+											transform="translate(-8.67 20.94) rotate(-45)" />
 										<path class="cls-2" d="M8.59,17.16,18.82,27.39a3,3,0,0,1,4.24,0L33.29,17.16" />
 									</svg>
 								</div>
 							</li>
 							<li>
 								<div class="title">什麼是解冤結 ?</div>
-								<div class="answer">我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
+								<div class="answer">
+									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
 								<div class="arrow">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
-										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44" transform="translate(-8.67 20.94) rotate(-45)" />
+										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
+											transform="translate(-8.67 20.94) rotate(-45)" />
 										<path class="cls-2" d="M8.59,17.16,18.82,27.39a3,3,0,0,1,4.24,0L33.29,17.16" />
 									</svg>
 								</div>
 							</li>
 							<li>
 								<div class="title">該如何解冤釋結 ?</div>
-								<div class="answer">我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
+								<div class="answer">
+									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
 								<div class="arrow">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
-										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44" transform="translate(-8.67 20.94) rotate(-45)" />
+										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
+											transform="translate(-8.67 20.94) rotate(-45)" />
 										<path class="cls-2" d="M8.59,17.16,18.82,27.39a3,3,0,0,1,4.24,0L33.29,17.16" />
 									</svg>
 								</div>
@@ -600,7 +634,8 @@
 						<div class="box-container grid-x">
 							<div class="article-area cell large-shrink">
 								<div class="title">消災解厄補財庫</div>
-								<div class="content">經財神爺 趙公明的聖示，本法會特別加上失傳千年秘寶—「金箱玉櫃－發財七寶」。金箱玉櫃包含了七種法寶，除了替我們免去先天帶來的災厄外，並進一步補足我們破漏的財庫，幫助我們消災解厄，開運得財！</div>
+								<div class="content">經財神爺
+									趙公明的聖示，本法會特別加上失傳千年秘寶—「金箱玉櫃－發財七寶」。金箱玉櫃包含了七種法寶，除了替我們免去先天帶來的災厄外，並進一步補足我們破漏的財庫，幫助我們消災解厄，開運得財！</div>
 								<div class="money show-for-large">功德金 <b>2988</b><i>元/份</i></div>
 							</div>
 							<div class="pic cell large-auto">
@@ -659,7 +694,8 @@
 							<div class="btn"><a href="javascript:;">
 									<div class="bg">
 										<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-											<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z" />
+											<path class="cls-1"
+												d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z" />
 										</svg>
 									</div>
 									<div class="text">報名法會</div>
@@ -672,7 +708,8 @@
 							<div class="btn"><a href="javascript:;">
 									<div class="bg">
 										<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82" viewBox="0 0 134.25 41.82">
-											<path class="cls-1" d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z" />
+											<path class="cls-1"
+												d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z" />
 										</svg>
 									</div>
 									<div class="text">報名法會</div>
@@ -698,10 +735,13 @@
 					<ul class="qaList">
 						<li>
 							<div class="title">為何下元節需要補財庫？</div>
-							<div class="answer">「上元節」就是在年初預先補財庫請天官大帝許一年的平安,所以稱為「許平安日」,下元節就是感謝神明在這一年的保佑,所以稱為「謝平安日」,所以在這一天補庫的意思就是在清償這一年所欠下的冤債,避免把冤債帶到明年或「來世」，成為「來世」的災厄。</div>
+							<div class="answer">
+								「上元節」就是在年初預先補財庫請天官大帝許一年的平安,所以稱為「許平安日」,下元節就是感謝神明在這一年的保佑,所以稱為「謝平安日」,所以在這一天補庫的意思就是在清償這一年所欠下的冤債,避免把冤債帶到明年或「來世」，成為「來世」的災厄。
+							</div>
 							<div class="arrow">
 								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
-									<circle class="cls-1" cx="20.94" cy="20.94" r="20.44" transform="translate(-8.67 20.94) rotate(-45)" />
+									<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
+										transform="translate(-8.67 20.94) rotate(-45)" />
 									<path class="cls-2" d="M8.59,17.16,18.82,27.39a3,3,0,0,1,4.24,0L33.29,17.16" />
 								</svg>
 							</div>
@@ -714,7 +754,8 @@
 							</div>
 							<div class="arrow">
 								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
-									<circle class="cls-1" cx="20.94" cy="20.94" r="20.44" transform="translate(-8.67 20.94) rotate(-45)" />
+									<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
+										transform="translate(-8.67 20.94) rotate(-45)" />
 									<path class="cls-2" d="M8.59,17.16,18.82,27.39a3,3,0,0,1,4.24,0L33.29,17.16" />
 								</svg>
 							</div>
@@ -741,9 +782,6 @@
 
 </html>
 <script>
-	// var winWidth = window.innerWidth;
-	//     if (winWidth <= 1024) {
-	//     }
 	gsap.timeline({
 		// paused: true,
 		scrollTrigger: {
@@ -759,7 +797,7 @@
 		x: 0,
 		ease: "power3.out",
 	})
-	$(window).on("scroll", function() {
+	$(window).on("scroll", function () {
 		var _scrollTop = $(this).scrollTop()
 		if (_scrollTop >= 100) {
 			$(".logo-fixed, .topmenuWrap").removeClass("is-red")
@@ -783,15 +821,26 @@
 			clickable: true,
 		},
 	});
-	$(".qaList li").on("click", function() {
+	// $(".qaList li").on("click", function () {
+	// 	$(this).toggleClass("is-open")
+	// 	$(".answer", this).slideToggle(300)
+	// })
+$(".qaList li").on("click", function () {
 		$(this).toggleClass("is-open")
-		$(".answer", this).slideToggle(300)
+		$(".answer", this).slideToggle(300, function() {
+			$(this).css({ 'height': '', 'overflow': '' });
+			if (typeof ScrollTrigger !== 'undefined') {
+				ScrollTrigger.refresh();
+			}
+		})
 	})
+
+
 	$(".programOutWrap .bannerWrap .title-container .repeat-area").ryderRepeat({
 		img: $(".programOutWrap .bannerWrap .title-container .repeat-area").data("img")
 	})
 
-	$(".yt-container").on("click", function() {
+	$(".yt-container").on("click", function () {
 		$(".cover-area", this).fadeOut(300)
 		$yt = $(".yt-area iframe").get(0)
 		var _src = $yt.src.replace('autoplay=0', 'autoplay=1')
@@ -842,11 +891,22 @@
 		opacity: 1,
 		y: 0,
 	})
-	$(".xaList li").on("click", function() {
+
+	// $(".xaList li").on("click", function () {
+	// 	$(this).toggleClass("is-open")
+	// 	$(".answer", this).slideToggle(300)
+	// })
+$(".xaList li").on("click", function () {
 		$(this).toggleClass("is-open")
-		$(".answer", this).slideToggle(300)
+		$(".answer", this).slideToggle(300, function() {
+			$(this).css({ 'height': '', 'overflow': '' });
+			if (typeof ScrollTrigger !== 'undefined') {
+				ScrollTrigger.refresh();
+			}
+		})
 	})
-	$(".share-container .share-area .btn").on("click", function() {
+
+	$(".share-container .share-area .btn").on("click", function () {
 		gsap.to(window, {
 			duration: 1.2,
 			scrollTo: {
@@ -857,11 +917,74 @@
 	})
 	var winWidth = window.innerWidth;
 	if (winWidth <= 1024) {
-		$(".mobile-open").on("click", function() {
-			$(this).toggleClass("is-open");
-			$(this).prev().slideToggle(500);
-			$(".flow-sliderList").flickity('resize')
-		})
+		// 手機板signupList點擊事件
+		(function goListClicked() {
+			const infoList = document.querySelector('.signupList.hide-for-large');
+
+			if (infoList) {
+				infoList.addEventListener('click', function (e) {
+					// const isClickBtn = e.target;
+					const clickedLi = e.target.closest('li');
+
+					const link = clickedLi.querySelector('a');
+					console.log(link);
+
+					if (link) {
+						window.location.href = link.href;
+					}
+				});
+			}
+		})()
+
+		// $(".mobile-open").on("click", function () {
+		// 	$(this).toggleClass("is-open");
+		// 	$(this).prev().slideToggle(500);
+		// 	$(".flow-sliderList").flickity('resize')
+		// })
+
+		$(".mobile-open").on("click", function (e) {
+			e.preventDefault();
+
+			const $btn = $(this);
+			const $container = $btn.prev();
+			const $section = $btn.parent();
+			const isClosing = $btn.hasClass("is-open");
+
+			if (isClosing) {
+				const headerOffset = 120;
+				const targetTop = $section.offset().top - headerOffset;
+
+				$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
+
+					$container.stop().slideUp(500, function () {
+						$btn.removeClass("is-open");
+						$container.css({ 'height': '', 'overflow': '' });
+						if ($(".flow-sliderList").length) {
+							$(".flow-sliderList").flickity('resize');
+						}
+						if (typeof ScrollTrigger !== 'undefined') {
+							ScrollTrigger.refresh();
+						}
+					});
+				});
+
+			} else {
+				// 【狀態：即將展開】
+				$btn.addClass("is-open");
+
+				$container.stop().slideDown(500, function () {
+					$container.css({ 'height': '', 'overflow': '' });
+					if ($(".flow-sliderList").length) {
+						$(".flow-sliderList").flickity('resize');
+					}
+					if (typeof ScrollTrigger !== 'undefined') {
+						ScrollTrigger.refresh();
+					}
+				});
+			}
+		});
+
+
 		gsap.timeline({
 			// paused: true,
 			scrollTrigger: {

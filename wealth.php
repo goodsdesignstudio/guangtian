@@ -5,6 +5,7 @@
 <head>
 	<?php include 'html_head.php'; ?>
 </head>
+
 <body>
 
 	<?php include 'topmenu.php'; ?>
@@ -341,7 +342,7 @@
 				</div>
 			</div>
 
-			<div class="article-area grid-x" data-r='{"opacity": 0, "y": 40, "delay": 1.2}'>
+			<div class="article-area grid-x flex-2026" data-r='{"opacity": 0, "y": 40, "delay": 1.2}'>
 				<div class="title cell large-shrink">
 					平安順利<br>
 					財源廣進
@@ -534,6 +535,93 @@
 						</div>
 					</div>
 
+					<!-- 2026新增 借庫補庫 電腦版 -->
+					<?php
+					$wealthLoanItem = [
+						[
+							'img' => 'images/wealth-wealth-loan-img-1.jpg',
+							'deco' => 'images/wealth-wealth-loan-deco-1.svg',
+							'title' => '求財補庫',
+							'content' => '「求財」是向財神爺祈求未來的財運以及財氣；「補庫」是因累世所犯的無心之過，透過補財庫的科儀化解冤債。',
+							'list' => [
+								[
+									'title' => '求財',
+									'content' => '祈求財運與財氣，讓有緣人財運亨通。',
+								],
+								[
+									'title' => '補庫',
+									'content' => '化解累世冤債，修補財庫破損。',
+								],
+							],
+						],
+						[
+							'img' => 'images/wealth-wealth-loan-img-2.jpg',
+							'deco' => 'images/wealth-wealth-loan-deco-2.svg',
+							'title' => '財神借庫',
+							'content' => '「財神借庫」則是在財神爺聖誕當天，財神爺大開金輪寶庫，讓有緣信眾可象徵性向財神爺借取財庫，提升自身財庫上限，讓財運更好、更快到來。',
+							'list' => [
+								[
+									'title' => '借庫',
+									'content' => '向財神爺借財庫，提升財庫上限。',
+								],
+								[
+									'title' => '財庫上限',
+									'content' => '提升自身財庫上限，讓財運更好、更快到來。',
+								],
+							],
+						],
+					];
+					?>
+					<article class="wealth-loan show-for-large">
+						<div class="article-area">
+							<div class="title">
+								財神借庫與求財補庫的區別？
+							</div>
+
+							<ul class="content">
+								<?php foreach ($wealthLoanItem as $item): ?>
+									<li class="item">
+										<div class="img-box">
+											<img src="<?= $item['img'] ?>">
+										</div>
+										<div class="head">
+											<div class="deco">
+												<img src="<?= $item['deco'] ?>">
+											</div>
+											<div class="title">
+												<?= $item['title'] ?>
+											</div>
+											<div class="content">
+												<?= $item['content'] ?>
+											</div>
+										</div>
+										<ul class="list">
+											<?php foreach ($item['list'] as $i => $subItem): ?>
+												<li>
+													<div class="title-box">
+														<div class="deco">
+															<img src="images/wealth-wealth-loan-list-deco.svg">
+															<div class="num">
+																<?= $i + 1 ?>
+															</div>
+														</div>
+														<div class="title">
+															<?= $subItem['title'] ?>
+														</div>
+													</div>
+													<div class="content">
+														<?= $subItem['content'] ?>
+													</div>
+												</li>
+											<?php endforeach; ?>
+										</ul>
+									</li>
+								<?php endforeach; ?>
+							</ul>
+						</div>
+					</article>
+					<!-- ===== -->
+
 					<ul class="godList">
 						<li class="grid-x align-middle">
 							<div class="article-area cell large-auto">
@@ -557,6 +645,70 @@
 				</div>
 			</div>
 
+			<!-- 2026新增 借庫補庫 手機板 -->
+			<article class="wealth-loan hide-for-large">
+				<div class="article-area">
+					<div class="title">
+						<img src="images/wealth-distinction-mobile.svg" alt="">
+					</div>
+					<div class="container">
+						<ul class="content flow-sliderList">
+							<?php foreach ($wealthLoanItem as $item): ?>
+								<li class="item">
+									<div class="img-box">
+										<img src="<?= $item['img'] ?>">
+									</div>
+									<div class="head">
+										<div class="deco">
+											<img src="<?= $item['deco'] ?>">
+										</div>
+										<div class="title">
+											<?= $item['title'] ?>
+										</div>
+										<div class="content">
+											<?= $item['content'] ?>
+										</div>
+									</div>
+									<ul class="list">
+										<?php foreach ($item['list'] as $i => $subItem): ?>
+											<li>
+												<div class="title-box">
+													<div class="deco">
+														<img src="images/wealth-wealth-loan-list-deco.svg">
+														<div class="num">
+															<?= $i + 1 ?>
+														</div>
+													</div>
+													<div class="title">
+														<?= $subItem['title'] ?>
+													</div>
+												</div>
+												<div class="content">
+													<?= $subItem['content'] ?>
+												</div>
+											</li>
+										<?php endforeach; ?>
+									</ul>
+								</li>
+							<?php endforeach; ?>
+						</ul>
+					</div>
+
+					<div class="mobile-open ">
+						<div class="line">
+							<img src="./images/weath-open-line.svg" alt="">
+						</div>
+
+						<div class="arrow">
+							<img src="./images/weath-open-arrow.svg" alt="">
+						</div>
+					</div>
+				</div>
+
+
+			</article>
+			<!-- ===== -->
+
 			<div class="shangyuan-area-container">
 				<div class="head">
 					<img class="hide-for-large" src="./images/s-merchandise-title-mobile.svg" alt="">
@@ -576,7 +728,7 @@
 								<div class="title">為何要解冤釋結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -596,7 +748,7 @@
 								<div class="title">什麼是解冤結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -609,7 +761,7 @@
 								<div class="title">該如何解冤釋結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -648,7 +800,7 @@
 								<div class="title">為何要解冤釋結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -661,7 +813,7 @@
 								<div class="title">什麼是解冤結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -674,7 +826,7 @@
 								<div class="title">該如何解冤釋結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -871,49 +1023,28 @@
 	//     }
 
 	gsap.timeline({
-
 		// paused: true,
-
 		scrollTrigger: {
-
 			trigger: ".xiayuanWrap",
-
 			toggleActions: "play reverse play reverse",
-
 			start: "top 20%",
-
 			end: "bottom 90%",
-
 			// markers: true,
-
 		},
-
 	}).to(".share-container", {
-
 		duration: 1,
-
 		// opacity: 1,
-
 		x: 0,
-
 		ease: "power3.out",
-
 	})
 
 	$(window).on("scroll", function () {
-
 		var _scrollTop = $(this).scrollTop()
-
 		if (_scrollTop >= 100) {
-
 			$(".logo-fixed, .topmenuWrap").removeClass("is-red")
-
 		} else {
-
 			$(".logo-fixed, .topmenuWrap").addClass("is-red")
-
 		}
-
 	}).trigger("scroll")
 
 	var $donate = new Swiper('.swiper-container', {
@@ -935,7 +1066,7 @@
 
 	$(".qaList li").on("click", function () {
 		$(this).toggleClass("is-open")
-		$(".answer", this).slideToggle(300, function() {
+		$(".answer", this).slideToggle(300, function () {
 			$(this).css({ 'height': '', 'overflow': '' });
 			if (typeof ScrollTrigger !== 'undefined') {
 				ScrollTrigger.refresh();
@@ -1025,7 +1156,7 @@
 
 	$(".xaList li").on("click", function () {
 		$(this).toggleClass("is-open")
-		$(".answer", this).slideToggle(300, function() {
+		$(".answer", this).slideToggle(300, function () {
 			$(this).css({ 'height': '', 'overflow': '' });
 			if (typeof ScrollTrigger !== 'undefined') {
 				ScrollTrigger.refresh();
@@ -1046,6 +1177,31 @@
 
 	var winWidth = window.innerWidth;
 	if (winWidth <= 1024) {
+
+		// 手機板借庫補庫
+		(() => {
+			const $loan = $(".wealth-loan.hide-for-large ul.content").flickity({
+				"prevNextButtons": true,
+				"pageDots": true,
+				"wrapAround": true,
+				"autoPlay": 6000,
+				"cellAlign": "center",
+				"imagesLoaded": true,
+				// "sync": ".index-intro-articleList",
+				"arrowShape": "",
+				"rightToLeft": false
+			});
+
+			// const PNButton = ['previous', 'next'];
+			// PNButton
+			// 	.forEach((e) => {
+			// 		const item = document.querySelector(`.wealth-loan .flickity-prev-next-button.${e}`);
+
+			// 		item.innerHTML = `<img src="images/fortune-arrow-next.svg">`
+			// 	});
+			// console.log(PNButton);
+
+		})();
 
 		// 手機板signupList點擊事件
 		(function goListClicked() {
@@ -1102,11 +1258,17 @@
 				// 【狀態：即將展開】
 				$btn.addClass("is-open");
 
+
+				// 防止突然展開的跳動
+				$container.show();
+				if ($(".flow-sliderList").length) {
+					$(".flow-sliderList").flickity('resize');
+				}
+				$container.hide();
+				// =====
+
 				$container.stop().slideDown(500, function () {
 					$container.css({ 'height': '', 'overflow': '' });
-					if ($(".flow-sliderList").length) {
-						$(".flow-sliderList").flickity('resize');
-					}
 					if (typeof ScrollTrigger !== 'undefined') {
 						ScrollTrigger.refresh();
 					}
@@ -1159,16 +1321,16 @@
 		})
 
 		// 流程介紹-輪播按鈕
-	window.addEventListener("load", function () {
-		const prevBtn = document.querySelector('.flow-sliderList .flickity-button.previous'),
-			nextBtn = document.querySelector('.flow-sliderList .flickity-button.next');
+		window.addEventListener("load", function () {
+			const prevBtn = document.querySelector('.flow-sliderList .flickity-button.previous'),
+				nextBtn = document.querySelector('.flow-sliderList .flickity-button.next');
 
-		const [prevImg, nextImg] = ["./images/fortune-arrow-prev.svg", "./images/fortune-arrow-next.svg"];
-		if (!prevBtn || !nextBtn) return;
+			const [prevImg, nextImg] = ["./images/fortune-arrow-prev.svg", "./images/fortune-arrow-next.svg"];
+			if (!prevBtn || !nextBtn) return;
 
-		prevBtn.innerHTML = `<img src="${prevImg}">`;
-		nextBtn.innerHTML = `<img src="${nextImg}">`;
-	})
+			prevBtn.innerHTML = `<img src="${prevImg}">`;
+			nextBtn.innerHTML = `<img src="${nextImg}">`;
+		})
 	}
 
 

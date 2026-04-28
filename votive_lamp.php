@@ -534,7 +534,7 @@
 								<div class="title">為何要解冤釋結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -552,7 +552,7 @@
 								<div class="title">什麼是解冤結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -564,7 +564,7 @@
 								<div class="title">該如何解冤釋結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -598,7 +598,7 @@
 								<div class="title">為何要解冤釋結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -610,7 +610,7 @@
 								<div class="title">什麼是解冤結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />
@@ -622,7 +622,7 @@
 								<div class="title">該如何解冤釋結 ?</div>
 								<div class="answer">
 									我們陽世人在人間修行，因為這一世尚未論定功過，隨時都有可能因為無心之過，而與鷹揚兩界有所冒犯，造成冤結，而這些冤結如果沒有在今生化解，就會帶到來世成為災厄，並且影響今生的運勢。</div>
-								<div class="arrow">
+								<div class="arrow top-2026">
 									<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 										<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 											transform="translate(-8.67 20.94) rotate(-45)" />

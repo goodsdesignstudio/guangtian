@@ -316,6 +316,20 @@ input:-webkit-autofill:active {
                 width: 100%;
                 justify-content: left;
             }
+
+            &.w-35 {
+                width: 35%;
+            }
+
+            &.payment {
+
+                >div {
+                    display: flex;
+                    align-items: center;
+                    flex-shrink: 0;
+                    column-gap: 25px;
+                }
+            }
         }
     }
 
@@ -334,6 +348,10 @@ input:-webkit-autofill:active {
         align-items: center;
         justify-content: center;
         margin-top: 50px;
+
+        &.mb-flex {
+            justify-content: start;
+        }
 
         @media (max-width: 1024px) {
             gap: 15px;

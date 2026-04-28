@@ -210,7 +210,9 @@
                 萬年香火盧
             </div>
             <div class="title cell large-shrink">財神開基老祖</div>
-            <div class="arrow"><img src="images/worship-arrow.svg"></div>
+            <div class="arrow">
+                <img src="images/worship-arrow.svg" class="show-for-large">
+            </div>
         </div>
     </div>
     <div class="worship-fancyWrap hide-for-large">
@@ -223,7 +225,11 @@
                 萬年香火盧
             </div>
             <div class="title large-shrink">財神開基老祖</div>
-            <div class="arrow"><img src="images/worship-arrow.svg"></div>
+            <div class="arrow">
+                <!-- <img src="images/worship-arrow.svg"> -->
+                <img src="images/worship-close.svg">
+
+            </div>
         </div>
     </div>
     <?php include 'footer.php'; ?>

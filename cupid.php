@@ -731,7 +731,7 @@
 </html>
 
 <script>
-	var swiper = new Swiper(".mySwiper", {
+	const swiper = new Swiper(".mySwiper", {
 		// cssMode: true,
 		navigation: {
 			nextEl: ".swiper-button-next",
@@ -740,6 +740,7 @@
 		pagination: {
 			el: ".swiper-pagination",
 		},
+		allowTouchMove: false,
 		// mousewheel: true,
 		// keyboard: true,
 		effect: 'fade',

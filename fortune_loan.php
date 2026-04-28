@@ -15,81 +15,44 @@
 <body>
 	<?php include 'topmenu.php'; ?>
 
-	<main class="lamp-detail-allWrap" style="position: relative;">
+	<main class="lamp-detail-allWrap fortune-return-2026" style="position: relative;">
 
 		<div class="share_loan show-for-large">
 
-
 			<div class="share-area">
-
 
 				<div class="text"><img src="images/nd-share.svg"></div>
 
-
-
-
-
 				<nav class="shareList">
-
-
 					<a href="javascript:;"><img src="images/nd-copy.svg"></a>
-
-
 					<a href="javascript:;"><img src="images/nd-fb.svg"></a>
-
-
 					<a href="javascript:;"><img src="images/nd-line.svg"></a>
-
 					<a href="javascript:;"><img src="images/new-ig.svg"></a>
-
-
 				</nav>
-
-
 			</div>
-
-
 		</div>
 
 		<div class="lamp-top-en">
-
 			<img src="images/loan_1.svg" class="show-for-large">
-
 			<img src="images/loan_1.svg" class="hide-for-large">
-
 		</div>
-
 		<div class="lamp-detailWrap">
-
 			<div class="loanpic1">
-
 				<img src="images/loan_pic1.svg" alt="pic">
-
 			</div>
 			<div class="cover-area">
-
 				<div class="title-area">
-
 					<div class="cat">農曆三月十五</div>
-
 					<div class="title">丙午年財神借庫 開放預約</div>
-
 				</div>
 
 				<div class="pic">
-
 					<!-- <img src="images/ld-1.jpg"> -->
-
 					<div class="pic-area grid-x align-center">
-
 						<div class="repeat-area" data-img="images/sign-repeat.svg">
-
 							<div class="item" style="opacity: 1;">
-
 								<div class="borderbox_loan"><img src="images/sign-fortune-border.svg"></div>
-
 								<div class="pic_loan cell large-shrink"><img src="images/loan-1.webp"></div>
-
 							</div>
 
 							<!-- <div class="item" style="opacity: 0;"><img src="images/sign-repeat.svg"></div>
@@ -102,41 +65,16 @@
 							<div class="item" style="opacity: 0;"><img src="images/sign-repeat.svg"></div> -->
 
 						</div>
-
 					</div>
-
 				</div>
-
 			</div>
 
 			<div class="price-area grid-x align-center-middle">
-
 				<div class="text cell shrink"><img src="images/loan_tag.svg"></div>
-
 				<div class="piece cell shrink"><b>500</b> /每份</div>
-
 				<div class="loan_p">
-
 					<p>登記時間：即日起至 2026/05/01止<br>寄送時間：自 2026/05/15 起陸續安排</p>
-
 				</div>
-
-			</div>
-
-			<div class="mobile-share-area hide-for-large">
-
-				<div class="text"><img src="images/ld-share.svg"></div>
-
-				<nav class="shareList">
-
-					<a href="javascript:;"><img src="images/ld-copy.svg"></a>
-
-					<a href="javascript:;"><img src="images/ld-fb.svg"></a>
-
-					<a href="javascript:;"><img src="images/ld-line.svg"></a>
-
-				</nav>
-
 			</div>
 
 			<div class="content">
@@ -174,7 +112,7 @@
 					[
 						'img' => 'images/one.svg',
 						'title' => '填寫資料',
-						'text' => '真實姓名 / 性別 / 生日 / 手機 / 地址'
+						'text' => '真實姓名 / 性別 / <br class="hide-for-large">生日 / 手機 / 地址'
 					],
 					[
 						'img' => 'images/two.svg',
@@ -209,8 +147,7 @@
 			<svg width="0" height="0" style="position:absolute;" aria-hidden="true" focusable="false">
 				<defs>
 					<clipPath id="privacyPath" clipPathUnits="objectBoundingBox">
-						<path style="stroke: #666; stroke-miterlimit: 10; stroke-width: .5px;"
-							transform="scale(0.00606, 0.0196)"
+						<path style="stroke: #666; stroke-miterlimit: 10; stroke-width: .5px;" transform="scale(0.00606, 0.0196)"
 							d="M846.16,356.34H15.25c0-8.28-6.72-15-15-15V15.25c8.28,0,15-6.72,15-15h830.91c0,8.28,6.72,15,15,15v326.09c-8.28,0-15,6.72-15,15Z" />
 					</clipPath>
 				</defs>
@@ -218,18 +155,22 @@
 
 			<div class="memb_two">
 				<form action="" class="loan_form">
-					<div class="row-two">
+					<div class="row-two show-for-large">
 						<div class="item required">
 							<h4 for="name">姓名</h4>
 							<input type="text" placeholder="請輸入真實姓名" id="name" required>
 						</div>
-						<div class="item required">
+						<div class="item required ">
 							<h4 for="gender">性別</h4>
 							<input type="radio" id="gender" name="gender" required>
 							<label for="gender">信士</label>
 							<input type="radio" id="gender" name="gender" required>
 							<label for="gender">信女</label>
 						</div>
+					</div>
+					<div class="item required mb-name hide-for-large">
+						<h4 for="name">姓名</h4>
+						<input type="text" placeholder="請輸入真實姓名" id="name" required>
 					</div>
 					<div class="item w-full required date">
 						<h4>國曆生日</h4>
@@ -308,21 +249,28 @@
 							</option>
 						</select>
 					</div>
+					<div class="item required mb-gender hide-for-large">
+						<h4 for="gender">性別</h4>
+						<input type="radio" id="gender" name="gender" required>
+						<label for="gender">信士</label>
+						<input type="radio" id="gender" name="gender" required>
+						<label for="gender">信女</label>
+					</div>
 					<div class="item required">
 						<h4 for="phone">手機</h4>
 						<input type="number" placeholder="請輸入正確的手機號碼" id="phone" required>
 					</div>
-					<div class="item required">
+					<!-- <div class="item required">
 						<h4 for="email">信箱</h4>
 						<input type="email" placeholder="請輸入正確的email格式" id="email" required>
-					</div>
+					</div> -->
 					<div class="item w-full address required">
 						<h4>地址</h4>
 						<div id="twzipcode"></div>
 						<input type="text" placeholder="地址" id="address" required>
 					</div>
 					<div class="row-two">
-						<div class="item required" style="width: 35%;">
+						<div class="item w-35 required">
 							<h4>報名份數</h4>
 
 							<select class="yearList year-select">
@@ -343,10 +291,10 @@
 								</option>
 							</select>
 						</div>
-						<div class="item required" style="width: fit-content;">
+						<div class="item required">
 							<h4>指定寄送日期</h4>
 
-							<select class="yearList year-select">
+							<select class="yearList year-select mb-flex">
 								<option value="2026/05/15">
 									2026/05/15
 								</option>
@@ -366,17 +314,22 @@
 						</div>
 					</div>
 					<div class="row-two">
-						<div class="item required" style="width: fit-content;">
+						<div class="item required payment" style="width: fit-content;">
 							<h4 for="payment">付款方式</h4>
-							<input type="radio" id="payment" name="payment" required>
-							<label for="payment">信用卡付款</label>
-							<input type="radio" id="payment" name="payment" required>
-							<label for="payment">LINE Pay</label>
+							<div>
+								<input type="radio" id="payment" name="payment" required>
+								<label for="payment">信用卡付款</label>
+							</div>
+							<div>
+								<input type="radio" id="payment" name="payment" required>
+								<label for="payment">LINE Pay</label>
+							</div>
 						</div>
 					</div>
-					<div class="item required">
+					<div class="item note">
 						<h4 for="note">備註</h4>
-						<input type="text" placeholder="請輸入備註" id="note" required>
+						<!-- <input type="text" placeholder="請輸入備註" id="note" required> -->
+						<textarea name="" placeholder="請輸入備註" id="note"></textarea>
 					</div>
 					<div class="item required" style="justify-content: right;">
 						<input type="radio" id="agree" name="agree" required>
@@ -508,7 +461,7 @@
 				<img src="images/loan_pic2.svg" alt="pic">
 			</div>
 
-			<div class="cd-slide-wrap">
+			<div class="cd-slide-wrap mb-0">
 
 				<div class="cd-slide-container is-fortune">
 
@@ -524,8 +477,7 @@
 
 							<div class="arrow">
 
-								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87"
-									viewBox="0 0 41.87 41.87">
+								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 
 									<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 										transform="translate(-8.67 20.94) rotate(-45)" />
@@ -548,8 +500,7 @@
 
 							<div class="arrow">
 
-								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87"
-									viewBox="0 0 41.87 41.87">
+								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 
 									<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 										transform="translate(-8.67 20.94) rotate(-45)" />
@@ -572,8 +523,7 @@
 
 							<div class="arrow">
 
-								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87"
-									viewBox="0 0 41.87 41.87">
+								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 
 									<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 										transform="translate(-8.67 20.94) rotate(-45)" />
@@ -596,8 +546,7 @@
 
 							<div class="arrow">
 
-								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87"
-									viewBox="0 0 41.87 41.87">
+								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 
 									<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 										transform="translate(-8.67 20.94) rotate(-45)" />
@@ -621,8 +570,7 @@
 
 							<div class="arrow">
 
-								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87"
-									viewBox="0 0 41.87 41.87">
+								<svg xmlns="http://www.w3.org/2000/svg" width="41.87" height="41.87" viewBox="0 0 41.87 41.87">
 
 									<circle class="cls-1" cx="20.94" cy="20.94" r="20.44"
 										transform="translate(-8.67 20.94) rotate(-45)" />
@@ -654,7 +602,7 @@
 
 		</section>
 
-		<div class="mobile-ld-backWrap hide-for-large">
+		<div class="mobile-ld-backWrap mb-loan hide-for-large">
 			<div class="share-area">
 				<div class="text"><img src="images/ld-share.svg"></div>
 
@@ -662,6 +610,7 @@
 					<a href="javascript:;"><img src="images/ld-copy.svg"></a>
 					<a href="javascript:;"><img src="images/ld-fb.svg"></a>
 					<a href="javascript:;"><img src="images/ld-line.svg"></a>
+					<a href="javascript:;"><img src="images/new-ig.svg"></a>
 				</nav>
 			</div>
 
@@ -685,6 +634,9 @@
 </html>
 
 <script>
+	const winWidth = window.innerWidth;
+
+
 	$(window).on("scroll", function () {
 		var _scrollTop = $(this).scrollTop()
 
@@ -758,6 +710,9 @@
 
 	$('.warning_btn').on('click', function () {
 		$('.warning').addClass('active');
+		if (winWidth <= 1024) {
+			$('.noteWrap.warning').scrollTop(0);
+		}
 		$('html, body').css('overflow', 'hidden');
 	})
 
@@ -782,11 +737,18 @@
 	$('.confirm').on('click', function () {
 		$('.confirm').addClass('active');
 		$('html, body').css('overflow', 'hidden');
+		if (winWidth <= 1024) {
+			$('.noteWrap.confirm').scrollTop(0);
+			$('html, body').addClass('open-lightBox');
+		};
 	})
 
 	$('.confirm button').on('click', function () {
 		$('.confirm').removeClass('active');
 		$('html, body').css('overflow', '');
+		if (winWidth <= 1024) {
+			$('html, body').removeClass('open-lightBox');
+		};
 	})
 
 	$('.confirm').on('wheel', function (e) {
@@ -799,6 +761,52 @@
 		if ($(e.target).hasClass('confirm')) {
 			$(this).removeClass('active');
 			$('html, body').css('overflow', '');
+			if (winWidth <= 1024) {
+				$('html, body').removeClass('open-lightBox');
+			};
 		}
 	});
+
+
+	if (winWidth <= 1024) {
+		$(".mobile-open-btn").on("click", function (e) {
+			e.preventDefault();
+
+			const $btn = $(this);
+			const $container = $btn.prev();
+			const $section = $btn.parent();
+			const isClosing = $btn.hasClass("is-open");
+
+			if (isClosing) {
+				const headerOffset = 120;
+				const targetTop = $section.offset().top - headerOffset;
+
+				$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
+
+					$section.removeClass("is-open");
+					$container.stop().slideUp(500, function () {
+						$btn.removeClass("is-open");
+
+						$container.css({ 'height': '', 'overflow': '' });
+
+						if (typeof ScrollTrigger !== 'undefined') {
+							ScrollTrigger.refresh();
+						}
+					});
+				});
+
+			} else {
+				// 【狀態：即將展開】
+				$btn.addClass("is-open");
+				$section.addClass("is-open");
+
+				$container.stop().slideDown(500, function () {
+					$container.css({ 'height': '', 'overflow': '' });
+					if (typeof ScrollTrigger !== 'undefined') {
+						ScrollTrigger.refresh();
+					}
+				});
+			}
+		})
+	}
 </script>

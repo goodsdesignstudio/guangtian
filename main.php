@@ -142,7 +142,7 @@
 		<div class="innerWrap grid-x align-center">
 			<ul class="index-fortune-loanList cell large-shrink">
 				<li>
-					<a href="fortune_loan.php">
+					<a href="fortune_return.php">
 						<div class="repeat-area" data-img="images/iF-repeat.svg">
 							<div class="item">
 								<div class="pic-area">
@@ -162,7 +162,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="fortune_return.php">
+					<a href="fortune_loan.php">
 						<div class="repeat-area" data-img="images/if-repeat.svg">
 							<div class="item">
 								<div class="pic-area">

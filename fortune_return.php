@@ -9,10 +9,31 @@
 		body {
 			overflow-x: clip !important;
 		}
+		body.no-double-tap {
+			touch-action: manipulation;
+		}
 	</style>
+	<script>
+		// 關閉點擊放大
+		document.addEventListener("DOMContentLoaded", function() {
+    // 抓取頁面上現有的 viewport 標籤
+    let viewportMeta = document.querySelector('meta[name="viewport"]');
+    
+    // 如果找到了，就覆寫它的 content 內容
+    if (viewportMeta) {
+        viewportMeta.setAttribute("content", "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no");
+    } else {
+        // 萬一原本沒有，再幫忙建立一個
+        let meta = document.createElement('meta');
+        meta.name = "viewport";
+        meta.content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no";
+        document.head.appendChild(meta);
+    }
+});
+	</script>
 </head>
 
-<body>
+<body class="no-double-tap">
 	<?php include 'topmenu.php'; ?>
 
 	<main class="lamp-detail-allWrap fortune-return-2026" style="position: relative;">

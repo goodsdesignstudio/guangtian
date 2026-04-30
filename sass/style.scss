@@ -9810,7 +9810,9 @@ body {
       transform: scale(1.2);
 
       @include breakpoint(medium down) {
-        right: -200px;
+        // right: -200px;
+        right:-60px;
+        top:60px;
 
         img {
           zoom: 0.7;
@@ -24512,6 +24514,8 @@ body {
 
               @include breakpoint(medium down) {
                 color: #4d4d4d;
+              text-align: start;
+
               }
             }
 

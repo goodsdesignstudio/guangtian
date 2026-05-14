@@ -402,6 +402,10 @@
 			</div> -->
 
 			<div class="wealth-area-1">
+				<div class="deco-mb-2026">
+					<img src="images/wealth-red-dev-deco-1-mb.svg" alt="">
+				</div>
+
 				<div class="slogan" data-r='{"opacity": 0, "y": 30}'>到底什麼是『財神借庫』呢？</div>
 				<div class="title" data-r='{"opacity": 0, "y": 30}'><img src="./images/wealth-title.svg"></div>
 				<div class="shine" data-r='{"opacity": 0, "y": 30}'><img src="./images/wealth-shine.png"></div>
@@ -1177,6 +1181,24 @@
 
 	var winWidth = window.innerWidth;
 	if (winWidth <= 1024) {
+
+		(() => {
+			const mbDeco = document.querySelector('.deco-mb-2026');
+			
+			if (!mbDeco) return;
+
+			gsap.from(mbDeco, {
+				duration: 1.2,
+				x: '20vw',
+				opacity: 0,
+				ease: 'power2.out',
+				scrollTrigger: {
+					trigger: mbDeco,
+					start: 'top 60%',
+					// markers: true,
+				},
+			});
+		})();
 
 		// 手機板借庫補庫
 		(() => {

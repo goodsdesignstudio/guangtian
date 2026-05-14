@@ -24,6 +24,7 @@
                 <div class="floor-2 has-shadow"><img src="images/worship-floor-2.png"></div>
                 <div class="flat-1 has-shadow"><img src="images/worship-1.png"></div>
                 <div class="flat-2 has-shadow"><img src="images/worship-2.png"></div>
+                <div class="flat-2-1 has-shadow"><img src="images/worship-2_1.png"></div>
                 <div class="flat-3 has-shadow"><img src="images/worship-3.png"></div>
                 <div class="flat-4 has-shadow"><img src="images/worship-4.png"></div>
                 <div class="flat-5 has-shadow"><img src="images/worship-5.png"></div>
@@ -46,6 +47,13 @@
                     <img src="images/ws2-floor.png" class="box">
                     <img src="images/ws2-floor.png" class="box">
                 </div>
+                <div class="hover-9 hover-2_1">
+                    <img src="images/ws2_1-floor.png" class="box">
+                    <img src="images/ws2_1-floor.png" class="box">
+                    <img src="images/ws2_1-floor.png" class="box">
+                    <img src="images/ws2_1-floor.png" class="box">
+                    <img src="images/ws2_1-floor.png" class="box">
+                </div>
                 <div class="hover-3">
                     <img src="images/worship-title-3.svg" class="title">
                     <img src="images/ws3-floor.png" class="box">
@@ -55,7 +63,6 @@
                     <img src="images/ws3-floor.png" class="box">
                 </div>
                 <div class="hover-4">
-                    <img src="images/worship-title-4-2.svg" class="title">
                     <img src="images/worship-title-4-1.svg" class="title">
                     <img src="images/ws4-floor.png" class="box">
                     <img src="images/ws4-floor.png" class="box">
@@ -106,11 +113,11 @@
                             style="fill: #fff" />
                         <path id="trigger-5" d="M528.1,45.55,648.31.8l23.87.58L872.93,86l-120.2,44.75-23.87-.58Z"
                             style="fill: #fff" />
-                        <path id="trigger-4" d="M245.6,151.65,405.82,92.57l158.93,67-.37,9.66L428.2,219.11l-23-.19Z"
+                        <path id="trigger-4" d="M501,182,540,238l-5,-5,1,-13L578.2,239.11l22.8,5.89Z"
                             style="fill: #fff" />
-                        <path id="trigger-3" d="M482.66,218.85l134.27-50,24.23.45,129.15,54.42-158.51,59L482.65,228.32Z"
+                        <path id="trigger-3" d="M553.66,265l134.27-50,24.23.45,129.15,54.42-158.51,59L553,278Z"
                             style="fill: #fff" />
-                        <path id="trigger-2" d="M638.33,328.16l159.51-59.38L872,300l-.36,9.67L736.53,360l-24-.58Z"
+                        <path id="trigger-2" d="M780.33,428.16l159.51-59.38L872,300l-.36,9.67L736.53,360l-24-.68Z"
                             style="fill: #fff" />
                         <path id="trigger-1"
                             d="M1072.34,501.85l104-46.29,23.65,0,106.11,46,.24,10.39-104,46.28-23.64,0-106.12-46Z"
@@ -299,22 +306,20 @@
     })
     $("#alltrigger >path").hover(function () {
         var _n = this.id.replace("trigger-", "");
-        $(`.hover-${_n}`).addClass("is-show")
-        $(`.flat-${_n}`).addClass("is-hide")
+        $(`.hover-${_n}, [class*="hover-${_n}_"]`).addClass("is-show");
+        $(`.flat-${_n}, [class*="flat-${_n}_"]`).addClass("is-hide");
     }, function () {
         var _n = this.id.replace("trigger-", "");
-        $(`.hover-${_n}`).removeClass("is-show")
-        $(`.flat-${_n}`).removeClass("is-hide")
+        $(`.hover-${_n}, [class*="hover-${_n}_"]`).removeClass("is-show");
+        $(`.flat-${_n}, [class*="flat-${_n}_"]`).removeClass("is-hide");
     }).on("click", function () {
-        $(".worship-fancyWrap").addClass("is-show")
-        _scrolltop_temp = $(window).scrollTop()
-        _wfcheck = true
-
-
+        $(".worship-fancyWrap").addClass("is-show");
+        _scrolltop_temp = $(window).scrollTop();
+        _wfcheck = true;
         if (window.device == "mobile") {
-            $("html").addClass("is-lock")
+            $("html").addClass("is-lock");
         }
-    })
+    });
     if (window.device == "desktop") {
         $(window).on("scroll", function () {
             var _scrollTop = $(window).scrollTop()

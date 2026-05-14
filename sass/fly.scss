@@ -42,7 +42,7 @@ screen and (max-width: 64.0613em) {
 @media print,
 screen and (max-width: 64.0613em) {
     .worshipWrap .worship-scroll-controls {
-        margin-top: -100px !important;
+        margin-top: -155px !important;
     }
 }
 
@@ -77,32 +77,26 @@ screen and (max-width: 64.0613em) {
 
             .banner img {
                 width: 100%;
-                height: auto;
+                height: 100%;
                 object-fit: cover;
                 object-position: center;
             }
 
-
-
             .article-area {
-                top: 39px;
+                top: 40px;
                 right: 31px;
                 z-index: 5;
                 flex-direction: row;
                 flex-wrap: nowrap;
+                height: 60%;
 
                 .title {
-                    width: auto;
-                    font-size: 13px;
                     line-height: 1.5;
                     letter-spacing: 3px;
                     margin-right: 12px;
                 }
 
                 .content {
-                    width: auto;
-                    font-size: 10px;
-                    line-height: 1.7;
                     letter-spacing: 2px;
                     writing-mode: vertical-lr;
                 }
@@ -110,7 +104,7 @@ screen and (max-width: 64.0613em) {
         }
 
         .shangyuanWrap {
-            padding: 74px 0 180px;
+            padding: 0 0 180px;
             position: relative;
 
             .share-container.hide-for-large {
@@ -199,13 +193,21 @@ screen and (max-width: 64.0613em) {
                     margin-bottom: 80px;
 
                     &.top {
-                        margin-top: -110px;
-                        margin-bottom: -60px;
+                        margin-top: -72px;
+                        margin-bottom: -22px;
+
+                        .shine-2{
+                            transform: translateY(30px);
+                        }
                     }
 
                     &.bottom {
                         gap: 0 30vw;
-                        margin-bottom: 80px;
+                        margin-bottom: -40px;
+
+                        .shine-4{
+                            transform: translateY(30px);
+                        }
                     }
 
                     .shine {

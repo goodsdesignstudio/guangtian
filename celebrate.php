@@ -357,7 +357,7 @@
       <img class="hide-for-large" src="./images/program-mobile.svg" alt="">
     </div>
 
-    <div class="bannerWrap m:z-1">
+    <div class="bannerWrap bannerWrap-2026 m:z-1">
       <div class="banner"><img src="images/celebrate-banner.jpg"></div>
 
       <div class="title-container">
@@ -372,8 +372,8 @@
         </div>
 
         <div class="year-area" data-r='{"opacity": 0, "y": 40, "delay": 1}'>
-          <div class="year">2022</div>
-          <div class="date">01.12 -14</div>
+          <div class="year white-2026">2022</div>
+          <div class="date white-2026">01.12 -14</div>
         </div>
       </div>
 

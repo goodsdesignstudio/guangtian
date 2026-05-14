@@ -724,7 +724,7 @@
 
 				</div>
 
-				<div class="shine-area top" data-r='{"opacity": 0, "y": 30}'>
+				<div class="shine-area top mb-2026" data-r='{"opacity": 0, "y": 30}'>
 
 					<div class="shine shine-1">
 

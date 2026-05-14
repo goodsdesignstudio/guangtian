@@ -1,310 +1,165 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
 	<?php include 'html_head.php'; ?>
-
 </head>
 
-
-
 <body>
-
 	<?php include 'topmenu.php'; ?>
 
-
-
 	<div class="cd-topWrap">
-
 		<div class="deco-circle">
-
 			<img class="circle-cloude-1 hide-for-large" src="./images/deco-1-circle-mobile.png" alt="">
-
 			<img class="circle-cloude-2 hide-for-large" src="./images/deco-2-circle-mobile.png" alt="">
-
 		</div>
-
-
 
 		<div class="head">GHOST<br class="hide-for-large">FESTIVAL</div>
 
-
-
 		<div class="innerWrap grid-x align-center align-bottom">
-
 			<div class="pic-sliderWrap cell large-shrink">
-
 				<div class="borderbox"><img src="images/cd-top-bd.svg"></div>
 
-
-
 				<!-- Slider main container -->
-
 				<div class="swiper-container">
-
 					<!-- Additional required wrapper -->
-
 					<div class="swiper-wrapper">
-
 						<!-- Slides -->
-
 						<div class="swiper-slide"><img src="images/cd-1.jpg"></div>
-
 						<div class="swiper-slide"><img src="images/cd-1.jpg"></div>
-
 						<div class="swiper-slide"><img src="images/cd-1.jpg"></div>
-
 					</div>
-
 				</div>
 
-
-
 				<!-- If we need pagination -->
-
 				<div class="swiper-pagination"></div>
-
 			</div>
 
-
-
 			<div class="article-area cell large-shrink">
-
 				<div class="year">2022</div>
-
 				<div class="date">08.10 - 08.14</div>
-
 				<div class="title">中元節</div>
-
 				<div class="content">
 					本宮於每年農曆七月十三日至七月十七日，舉辦一連五天的「慶讚中元天醫濟藥拔薦超渡道場大法會」，以正統的道教科儀，恭請地官大帝赦免亡魂罪過，並由太乙救苦天尊予以渡化，幫助亡魂早日昇天得道、轉世投胎。同時由開基始祖
 					財神爺開壇演化......</div>
-
 			</div>
-
 		</div>
-
 	</div>
 
-
-
 	<div id="signup" class="signupWrap">
-
 		<div class="head grid-x align-bottom">
-
 			<div class="ch cell large-shrink show-for-large"><img src="images/signup-ch.svg"></div>
-
 			<div class="en cell large-shrink show-for-large"><img src="images/signup-en.svg"></div>
-
 			<img class="hide-for-large" src="./images/cd-top-mobile.svg" alt="">
-
 		</div>
 
-
-
 		<ul class="signupList show-for-large">
-
 			<li><a class="grid-x" href="signup_detail.php">
-
 					<div class="repeat-area cell large-shrink">
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
-
 
 						<div class="item">
-
 							<div class="pic-area">
-
 								<div class="borderbox"><img src="images/signup-border.svg"></div>
-
 								<div class="pic"><img src="images/signup-1.jpg"></div>
-
 							</div>
-
 						</div>
-
 					</div>
 
-
-
 					<div class="article-area cell large-auto">
-
 						<div class="title">天醫法壇醫治魂靈</div>
-
 						<div class="content">將各種原因死亡的魂體，醫治痊癒，以免帶著病魂去投胎轉世</div>
-
 					</div>
 
-
-
 					<div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
-
 					<div class="more hide-for-large">
-
 						<div class="bg">
-
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
 								viewBox="0 0 134.25 41.82">
-
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
 								</path>
-
 							</svg>
-
 						</div>
-
 						<div class="text">觀看更多</div>
-
 					</div>
-
-
-
 				</a></li>
 
 			<li><a class="grid-x" href="signup_detail.php">
-
 					<div class="repeat-area cell large-shrink">
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
-
 
 						<div class="item">
-
 							<div class="pic-area">
-
 								<div class="borderbox"><img src="images/signup-border.svg"></div>
-
 								<div class="pic"><img src="images/signup-2.jpg"></div>
-
 							</div>
-
 						</div>
-
 					</div>
-
-
 
 					<div class="article-area cell large-auto">
-
 						<div class="title">『超度拔薦』超拔累世父母</div>
-
 						<div class="content">善盡孝心，度化累世父母，幫助其早日投胎轉世、昇天得道</div>
-
 					</div>
 
-
-
 					<div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
-
 					<div class="more hide-for-large">
-
 						<div class="bg">
-
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
 								viewBox="0 0 134.25 41.82">
-
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
 								</path>
-
 							</svg>
-
 						</div>
-
 						<div class="text">觀看更多</div>
-
 					</div>
-
 				</a></li>
 
 			<li><a class="grid-x" href="signup_detail.php">
-
 					<div class="repeat-area cell large-shrink">
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
-
 
 						<div class="item">
-
 							<div class="pic-area">
-
 								<div class="borderbox"><img src="images/signup-border.svg"></div>
-
 								<div class="pic"><img src="images/signup-3.jpg"></div>
-
 							</div>
-
 						</div>
-
 					</div>
-
-
 
 					<div class="article-area cell large-auto">
-
 						<div class="title">解赦累世靈魂愆罪</div>
-
 						<div class="content">赦免自身累世靈魂所犯罪過，減輕現世及來世所背負之罪</div>
-
 					</div>
 
-
-
 					<div class="arrow show-for-large"><img src="images/signup-arrow.svg"></div>
-
 					<div class="more hide-for-large">
-
 						<div class="bg">
-
 							<svg xmlns="http://www.w3.org/2000/svg" width="134.25" height="41.82"
 								viewBox="0 0 134.25 41.82">
-
 								<path class="cls-1"
 									d="M116.08,41.82l18.17-16.39a6.4,6.4,0,0,1,0-9L116.08,0H18.17L0,16.39a6.4,6.4,0,0,1,0,9L18.17,41.82Z">
 								</path>
-
 							</svg>
-
 						</div>
 
 						<div class="text">觀看更多</div>
-
 					</div>
-
 				</a></li>
 
 			<li><a class="grid-x" href="signup_detail.php">
-
 					<div class="repeat-area cell large-shrink">
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
 
 						<div class="item"><img src="images/signup-repeat.svg"></div>
@@ -686,9 +541,9 @@
 
 				<div class="year-area" data-r='{"opacity": 0, "y": 40, "delay": 1}'>
 
-					<div class="year">2022</div>
+					<div class="year white-2026">2022</div>
 
-					<div class="date">08.10-14</div>
+					<div class="date white-2026">08.10-14</div>
 
 				</div>
 

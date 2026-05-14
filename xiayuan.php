@@ -570,514 +570,179 @@
 
 
 				<div class="year-area" data-r='{"opacity": 0, "y": 40, "delay": 1}'>
-
-
-					<div class="year">2022</div>
-
-
-					<div class="date">11.10 -14</div>
-
-
+					<div class="year white-2026">2022</div>
+					<div class="date white-2026">11.10 -14</div>
 				</div>
-
-
 			</div>
-
-
-
-
 
 			<div class="article-area grid-x" data-r='{"opacity": 0, "y": 40, "delay": 1.2}'>
-
-
 				<div class="title cell large-shrink">
-
-
 					解怨釋結<br>
-
-
 					消災解厄
-
-
 				</div>
-
-
 				<div class="content cell large-shrink">金龍如意消災<br class="hide-for-large">轉運賜財大法會</div>
-
-
 			</div>
-
-
 		</div>
 
-
-
-
-
 		<section class="xiayuanWrap">
-
-
 			<div class="share-container show-for-large">
-
-
 				<div class="share-area">
-
-
 					<div class="text"><img src="images/cd-share.svg"></div>
 
-
-
-
-
 					<nav class="shareList">
-
-
 						<a href="javascript:;"><img src="images/cd-copy.svg"></a>
-
-
 						<a href="javascript:;"><img src="images/cd-fb.svg"></a>
-
-
 						<a href="javascript:;"><img src="images/cd-line.svg"></a>
-
-
 					</nav>
-
-
-
-
 
 					<div class="btn"><img src="images/cd-book.svg"></div>
-
-
 				</div>
-
-
 			</div>
-
-
 			<div class="share-container hide-for-large">
-
-
 				<div class="share-area">
-
-
 					<div class="text"><img src="images/love-share.svg"></div>
 
-
-
-
-
 					<nav class="shareList">
-
-
 						<a href="javascript:;"><img src="images/cele-link-mobile.svg"></a>
-
-
 						<a href="javascript:;"><img src="images/cele-fb-mobile.svg"></a>
-
-
 						<a href="javascript:;"><img src="images/cele-line-mobile.svg"></a>
-
-
 					</nav>
-
-
-
-
-
 					<a class="join-btn" href="#signup">
-
-
 						<img class="icon" src="./images/love-join-mobile.svg" alt="">
-
-
 					</a>
 
-
 					<!-- <div class="repeat-area cell large-shrink">
-
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
-
 						<div class="item"><img src="images/signup-repeat.svg"></div>
-
-
-
-
 
 						<div class="item">
-
-
 							<div class="pic-area">
-
-
 								<div class="borderbox"><img src="images/signup-border.svg"></div>
-
-
 								<div class="pic"><img src="images/signup-3.jpg"></div>
-
-
 							</div>
-
-
 						</div>
-
-
 					</div> -->
-
-
 				</div>
-
-
 			</div>
-
-
-
-
 
 			<div class="xiayuan-deco-1 show-for-large" data-r='{"opacity": 0, "y": -20}'>
-
-
 				<img src="images/xiayuan-deco-1.svg">
-
-
 			</div>
-
 
 			<div class="xiayuan-deco-1 hide-for-large" data-r='{"opacity": 0, "y": -20}'>
-
-
-				<img src="images/xiayuan-deco-1-mobile.svg">
-
-
+				<img src="images/xiayuan-deco-1.svg">
 			</div>
-
 
 			<div class="xiayuan-deco-2 show-for-large" data-r='{"opacity": 0, "x": 40 }'>
-
-
 				<img src="images/xiayuan-deco-2.png">
-
-
 			</div>
-
 
 			<div class="xiayuan-deco-2 hide-for-large" data-r='{"opacity": 0, "x": 40 }'>
-
-
-				<img src="images/xiayuan-deco-2-mobile.png">
-
-
+				<img src="images/xiayuan-deco-2-mobile.svg">
 			</div>
 
-
-
-
-
 			<div class="xiayuan-area-1">
-
-
 				<div class="slogan is-black">到底什麼是『解厄』呢？</div>
 
-
-
-
-
 				<div class="jieer-container">
-
-
 					<div class="wave-area show-for-medium">
-
-
 						<div class="one">
-
-
 							<div class="marquee">
-
-
 								<img src="images/xw-1.png">
-
-
 								<img src="images/xw-1.png">
-
-
 							</div>
-
-
 						</div>
-
-
 						<div class="two">
-
-
 							<div class="marquee">
-
-
 								<img src="images/xw-2.png">
-
-
 								<img src="images/xw-2.png">
-
-
 							</div>
-
-
 						</div>
-
-
 						<div class="three">
-
-
 							<div class="marquee">
-
-
 								<img src="images/xw-3.png">
-
-
 								<img src="images/xw-3.png">
-
-
 							</div>
-
-
 						</div>
-
-
 						<div class="four">
-
-
 							<div class="marquee">
-
-
 								<img src="images/xw-4.png">
-
-
 								<img src="images/xw-4.png">
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
 
 					<div class="wave-area hide-for-medium">
-
-
 						<div class="one">
-
-
 							<div class="marquee">
-
-
 								<!-- <img src="images/xw-1-mobile.png">
-
-
 								<img src="images/xw-1-mobile.png"> -->
-
-
 								<img src="images/xw-1-mobile.png">
-
-
 							</div>
-
-
 						</div>
-
-
 						<div class="two">
-
-
 							<div class="marquee">
-
-
 								<img src="images/xw-2-mobile.png">
-
-
 								<!-- <img src="images/xw-2-mobile.png"> -->
-
-
 							</div>
-
-
 						</div>
-
-
 						<div class="three">
-
-
 							<div class="marquee">
-
-
 								<img src="images/xw-3-mobile.png">
-
-
 								<!-- <img src="images/xw-3-mobile.png"> -->
-
-
 							</div>
-
-
 						</div>
-
-
 						<div class="four">
-
-
 							<div class="marquee">
-
-
 								<img src="images/xw-4-mobile.png">
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
-
-
-
 
 					<div class="jieer-area grid-x align-center align-middle show-for-large">
-
-
 						<div class="jieer cell large-shrink">
-
-
 							<div class="for-ani">
-
-
 								<img src="images/jieer-1.svg">
-
-
 								<img src="images/jieer-1-deco-1.svg" class="deco-1">
-
-
 							</div>
-
-
 						</div>
-
-
 						<div class="jieer cell large-shrink">
-
-
 							<div class="for-ani">
-
-
 								<img src="images/jieer-2.svg">
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
-
 					<div class="jieer-area grid-x align-middle hide-for-large show-for-medium">
-
-
 						<div class="jieer large-shrink">
-
-
 							<div class="for-ani">
-
-
 								<img src="images/jieer-1.svg">
-
-
 								<img src="images/jieer-1-deco-1.svg" class="deco-1">
-
-
 							</div>
-
-
 						</div>
-
-
 						<div class="jieer large-shrink">
-
-
 							<div class="for-ani">
-
-
 								<img src="images/jieer-2.svg">
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
-
-
-
 
 					<div class="jieer-area grid-x align-middle hide-for-medium">
-
-
 						<div class="jieer large-shrink">
-
-
 							<div class="for-ani">
-
-
 								<img src="images/jieer-1-mobile.png">
-
-
 								<img src="images/jieer-1-deco-1-mobile.png" class="deco-1">
-
-
 							</div>
-
-
 						</div>
-
 
 						<div class="jieer large-shrink">
-
-
 							<div class="for-ani">
-
-
 								<img src="images/jieer-2-mobile.png">
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
-
 				</div>
-
-
-
-
 
 				<div class="content-area is-black text-center">
 

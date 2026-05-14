@@ -677,10 +677,14 @@
 		<div class="year hide-for-large"><img src="images/history-year-mobile.svg"></div>
 		<div class="article-area show-for-large">
 			<div class="year"><img src="images/history-year.svg"></div>
-			<div class="content">台中廣天宮 財神開基祖廟位於台中市北屯區遼陽五街131號，於民國七十五年廟體相繼竣工，全殿以大理石興建，廟宇雕樑畫棟，工法細緻，氣宇非凡。民國七十五年農曆十二月十二日舉行安座大典，成為台灣中部民眾信仰寄託之中心。後於民國九十五年起，重新整修觀音殿，民國九十八年農曆六月廿一擴建月老殿，與原有的瑤池金母殿和城隍殿，共同照顧信眾的福祿壽喜。</div>
+			<div class="content">台中廣天宮
+				財神開基祖廟位於台中市北屯區遼陽五街131號，於民國七十五年廟體相繼竣工，全殿以大理石興建，廟宇雕樑畫棟，工法細緻，氣宇非凡。民國七十五年農曆十二月十二日舉行安座大典，成為台灣中部民眾信仰寄託之中心。後於民國九十五年起，重新整修觀音殿，民國九十八年農曆六月廿一擴建月老殿，與原有的瑤池金母殿和城隍殿，共同照顧信眾的福祿壽喜。
+			</div>
 		</div>
 		<div class="article-area hide-for-large">
-			<div class="content">台中廣天宮 財神開基祖廟位於台中市北屯區遼陽五街131號，於民國七十五年廟體相繼竣工，全殿以大理石興建，廟宇雕樑畫棟，工法細緻，氣宇非凡。民國七十五年農曆十二月十二日舉行安座大典，成為台灣中部民眾信仰寄託之中心。後於民國九十五年起，重新整修觀音殿，民國九十八年農曆六月廿一擴建月老殿，與原有的瑤池金母殿和城隍殿，共同照顧信眾的福祿壽喜。</div>
+			<div class="content">台中廣天宮
+				財神開基祖廟位於台中市北屯區遼陽五街131號，於民國七十五年廟體相繼竣工，全殿以大理石興建，廟宇雕樑畫棟，工法細緻，氣宇非凡。民國七十五年農曆十二月十二日舉行安座大典，成為台灣中部民眾信仰寄託之中心。後於民國九十五年起，重新整修觀音殿，民國九十八年農曆六月廿一擴建月老殿，與原有的瑤池金母殿和城隍殿，共同照顧信眾的福祿壽喜。
+			</div>
 		</div>
 	</section>
 
@@ -700,13 +704,17 @@
 		</div>
 
 		<div class="fortune-row one" data-r='{"opacity": 0, "y": 60}'>
-			<div class="title"><i><img src="images/af-title-deco-top.svg"></i>趙元帥號<i><img src="images/af-title-deco-bot.svg"></i></div>
+			<div class="title"><i><img src="images/af-title-deco-top.svg"></i>趙元帥號<i><img
+						src="images/af-title-deco-bot.svg"></i></div>
 			<div class="content">高上神霄玉府大都督 五方巡察使 九州社令都大提點 直殿大將軍 主領雷霆副元帥 北極侍御史 三界定元昭烈侯 定命掌事帳設使 二十八宿都總管 上清正一玄壇龍虎金輪勑法 趙元帥。</div>
 		</div>
 
 		<div class="fortune-row two" data-r='{"opacity": 0, "y": 60}'>
-			<div class="title"><i><img src="images/af-title-deco-top.svg"></i>迎中財神<i><img src="images/af-title-deco-bot.svg"></i></div>
-			<div class="content">【四川峨嵋　財神開基老祖　正尊】金身，因任務在身，並感念蒼生為「財」所苦，因緣際會，來到台灣，傳度財神教法，鎮守中台灣，並永久供奉於台中廣天宮　財神開基祖廟，在每年農曆三月十五財神聖誕千秋之日，各地的信徒皆會來本宮謁祖進香「迎中財神」，向財神爺　趙公明祝壽，祈求財運、財氣、財庫，香客絡繹不絕。</div>
+			<div class="title"><i><img src="images/af-title-deco-top.svg"></i>迎中財神<i><img
+						src="images/af-title-deco-bot.svg"></i></div>
+			<div class="content">
+				【四川峨嵋　財神開基老祖　正尊】金身，因任務在身，並感念蒼生為「財」所苦，因緣際會，來到台灣，傳度財神教法，鎮守中台灣，並永久供奉於台中廣天宮　財神開基祖廟，在每年農曆三月十五財神聖誕千秋之日，各地的信徒皆會來本宮謁祖進香「迎中財神」，向財神爺　趙公明祝壽，祈求財運、財氣、財庫，香客絡繹不絕。
+			</div>
 		</div>
 
 		<div class="card-container grid-x align-bottom show-for-large">
@@ -739,7 +747,8 @@
 
 			<div class="fortune-row three cell large-shrink" data-r='{"opacity": 0, "y": 60}'>
 				<div class="article-area">
-					<div class="title"><i><img src="images/af-title-deco-top.svg"></i>掌司<i><img src="images/af-title-deco-bot.svg"></i></div>
+					<div class="title"><i><img src="images/af-title-deco-top.svg"></i>掌司<i><img
+								src="images/af-title-deco-bot.svg"></i></div>
 					<div class="content">
 						五路財神之中路財神，率領招寶天尊蕭升、<br>
 						納珍天尊曹寶、招財使者陳九公、<br>
@@ -753,7 +762,8 @@
 		<div class="card-container grid-x align-bottom hide-for-large">
 			<div class="fortune-row three cell large-shrink" data-r='{"opacity": 0, "y": 60}'>
 				<div class="article-area">
-					<div class="title"><i><img src="images/af-title-deco-top.svg"></i>掌司<i><img src="images/af-title-deco-bot.svg"></i></div>
+					<div class="title"><i><img src="images/af-title-deco-top.svg"></i>掌司<i><img
+								src="images/af-title-deco-bot.svg"></i></div>
 					<div class="content">
 						五路財神之中路財神，率領招寶天尊蕭升、<br>
 						納珍天尊曹寶、招財使者陳九公、<br>
@@ -827,15 +837,18 @@
 						永久鎮守台中廣天宮<br>
 					</div>
 					<div class="content">
-						本宮因特殊因緣，奉財神爺聖示，排除萬難，於民國九十七年前往中國四川省峨嵋山羅浮洞(現今九老洞)，將這尊全世界位階最高、唯一由皇帝親自頒旨雕刻、歷史最悠久的四川峨嵋財神開基老祖　正尊恭迎回台，並永久供奉在台中廣天宮 財神開基祖廟，護佑台灣千千萬萬的善男信女。<br>
+						本宮因特殊因緣，奉財神爺聖示，排除萬難，於民國九十七年前往中國四川省峨嵋山羅浮洞(現今九老洞)，將這尊全世界位階最高、唯一由皇帝親自頒旨雕刻、歷史最悠久的四川峨嵋財神開基老祖　正尊恭迎回台，並永久供奉在台中廣天宮
+						財神開基祖廟，護佑台灣千千萬萬的善男信女。<br>
 						<br>
-						除了四川峨嵋 財神開基老祖　正尊之外，供奉於台中廣天宮 財神開基祖廟的千年黑虎將軍，同樣是與財神開基老祖 正尊以及萬年香火爐，一同從四川峨嵋山羅浮洞（現今九老洞）恭請來台，為廣佈香火、濟世萬民而永久駐駕於此地。<br>
+						除了四川峨嵋 財神開基老祖　正尊之外，供奉於台中廣天宮 財神開基祖廟的千年黑虎將軍，同樣是與財神開基老祖
+						正尊以及萬年香火爐，一同從四川峨嵋山羅浮洞（現今九老洞）恭請來台，為廣佈香火、濟世萬民而永久駐駕於此地。<br>
 					</div>
 				</div>
 			</section>
 
 			<section class="grid-x align-bottom show-for-large">
-				<div class="deco-2 show-for-large" data-r='{"opacity": 0, "x": -60}'><img class="rellax" data-rellax-percentage="0.6" src="images/h-deco-2.png"></div>
+				<div class="deco-2 show-for-large" data-r='{"opacity": 0, "x": -60}'><img class="rellax"
+						data-rellax-percentage="0.6" src="images/h-deco-2.png"></div>
 
 				<div class="article-area cell large-shrink">
 					<div class="title">
@@ -863,11 +876,13 @@
 			</section>
 
 			<section class="grid-x align-bottom hide-for-large">
-				<div class="deco-2 show-for-large" data-r='{"opacity": 0, "x": -60}'><img class="rellax" data-rellax-percentage="0.6" src="images/h-deco-2.png"></div>
+				<div class="deco-2 show-for-large" data-r='{"opacity": 0, "x": -60}'><img class="rellax"
+						data-rellax-percentage="0.6" src="images/h-deco-2.png"></div>
 				<div class="deco-2 hide-for-large" data-r='{"opacity": 0, "x": 60}'><img src="images/h-deco-1-mobile.png"></div>
 
 				<div class="pic-area cell large-auto">
-					<div class="pic-deco-1 show-for-large" data-r='{"opacity": 0, "y": -60}'><img src="images/h-pic-deco-1.png"></div>
+					<div class="pic-deco-1 show-for-large" data-r='{"opacity": 0, "y": -60}'><img src="images/h-pic-deco-1.png">
+					</div>
 
 					<div class="head show-for-large">
 						<img src="images/histroy-head-2.svg">
@@ -917,7 +932,9 @@
 						財神聖誕<br>
 						迎中財神<br>
 					</div>
-					<div class="content">本宮尊奉財神爺旨意，肩負起傳度財神教法與香火的重責大任，發揚財神開基祖廟之名，每年農曆三月十五日時，台中廣天宮將舉辦『財神聖誕賜財大法會』並同時舉辦『財神文化祭』，與所有財神爺趙公明的信徒們共同【迎中財神】，香火再續千萬年。</div>
+					<div class="content">
+						本宮尊奉財神爺旨意，肩負起傳度財神教法與香火的重責大任，發揚財神開基祖廟之名，每年農曆三月十五日時，台中廣天宮將舉辦『財神聖誕賜財大法會』並同時舉辦『財神文化祭』，與所有財神爺趙公明的信徒們共同【迎中財神】，香火再續千萬年。
+					</div>
 				</div>
 			</section>
 		</section>
@@ -939,6 +956,7 @@
 
 			<div class="flat-1 has-shadow"><img src="images/worship-1.png"></div>
 			<div class="flat-2 has-shadow"><img src="images/worship-2.png"></div>
+			<div class="flat-2-1 has-shadow"><img src="images/worship-2_1.png"></div>
 			<div class="flat-3 has-shadow"><img src="images/worship-3.png"></div>
 			<div class="flat-4 has-shadow"><img src="images/worship-4.png"></div>
 			<div class="flat-5 has-shadow"><img src="images/worship-5.png"></div>
@@ -964,6 +982,14 @@
 				<img src="images/ws2-floor.png" class="box">
 			</div>
 
+			<div class="hover-9 hover-2_1">
+				<img src="images/ws2_1-floor.png" class="box">
+				<img src="images/ws2_1-floor.png" class="box">
+				<img src="images/ws2_1-floor.png" class="box">
+				<img src="images/ws2_1-floor.png" class="box">
+				<img src="images/ws2_1-floor.png" class="box">
+			</div>
+
 			<div class="hover-3">
 				<img src="images/worship-title-3.svg" class="title">
 				<img src="images/ws3-floor.png" class="box">
@@ -974,7 +1000,6 @@
 			</div>
 
 			<div class="hover-4">
-				<img src="images/worship-title-4-2.svg" class="title">
 				<img src="images/worship-title-4-1.svg" class="title">
 				<img src="images/ws4-floor.png" class="box">
 				<img src="images/ws4-floor.png" class="box">
@@ -1019,16 +1044,20 @@
 				<img src="images/ws8-floor.png" class="box">
 			</div>
 
-			<svg class="trigger-area" xmlns="http://www.w3.org/2000/svg" width="1307.71" height="574.51" viewBox="0 0 1307.71 574.51">
+			<svg class="trigger-area" xmlns="http://www.w3.org/2000/svg" width="1307.71" height="574.51"
+				viewBox="0 0 1307.71 574.51">
 				<g id="alltrigger">
 					<path id="trigger-8" d="M1.93,245.31l120.9-45,202.1,85.1,0,9.53L204,340,.51,254.81Z" style="fill: #fff" />
 					<path id="trigger-7" d="M126,196,239.19,153.9l159.64,67.26v9.53L297.66,268.35,124.6,196" style="fill: #fff" />
 					<path id="trigger-6" d="M417,91.51,529.11,49.77,700,121.52,598.77,159.2l-22.36-1Z" style="fill: #fff" />
-					<path id="trigger-5" d="M528.1,45.55,648.31.8l23.87.58L872.93,86l-120.2,44.75-23.87-.58Z" style="fill: #fff" />
-					<path id="trigger-4" d="M245.6,151.65,405.82,92.57l158.93,67-.37,9.66L428.2,219.11l-23-.19Z" style="fill: #fff" />
-					<path id="trigger-3" d="M482.66,218.85l134.27-50,24.23.45,129.15,54.42-158.51,59L482.65,228.32Z" style="fill: #fff" />
-					<path id="trigger-2" d="M638.33,328.16l159.51-59.38L872,300l-.36,9.67L736.53,360l-24-.58Z" style="fill: #fff" />
-					<path id="trigger-1" d="M1072.34,501.85l104-46.29,23.65,0,106.11,46,.24,10.39-104,46.28-23.64,0-106.12-46Z" style="fill: #fff" />
+					<path id="trigger-5" d="M528.1,45.55,648.31.8l23.87.58L872.93,86l-120.2,44.75-23.87-.58Z"
+						style="fill: #fff" />
+					<path id="trigger-4" d="M501,182,540,238l-5,-5,1,-13L578.2,239.11l22.8,5.89Z" style="fill: #fff" />
+					<path id="trigger-3" d="M553.66,265l134.27-50,24.23.45,129.15,54.42-158.51,59L553,278Z" style="fill: #fff" />
+					<path id="trigger-2" d="M780.33,428.16l159.51-59.38L872,300l-.36,9.67L736.53,360l-24-.68Z"
+						style="fill: #fff" />
+					<path id="trigger-1" d="M1072.34,501.85l104-46.29,23.65,0,106.11,46,.24,10.39-104,46.28-23.64,0-106.12-46Z"
+						style="fill: #fff" />
 				</g>
 			</svg>
 		</div>
@@ -1134,7 +1163,7 @@
 		},
 		speed: 1000,
 	});
-	$(window).on("scroll", function() {
+	$(window).on("scroll", function () {
 		var _scrollTop = $(this).scrollTop()
 
 		if (_scrollTop >= $(window).height()) {
@@ -1148,7 +1177,7 @@
 
 
 
-	$(".qaWrap .qaList li").on("click", function() {
+	$(".qaWrap .qaList li").on("click", function () {
 		$(this).toggleClass("is-open")
 		$(".answer", this).slideToggle(300)
 	})
@@ -1209,7 +1238,7 @@
 	var _scrolltop_temp = 0
 	var _wfcheck = false
 
-	$(".worship-fancyWrap .article-area .arrow").on("click", function() {
+	$(".worship-fancyWrap .article-area .arrow").on("click", function () {
 		$(".worship-fancyWrap").removeClass("is-show")
 		_wfcheck = false
 	})
@@ -1217,23 +1246,41 @@
 
 
 
-	$("#alltrigger >path").hover(function() {
+	// $("#alltrigger >path").hover(function() {
+	// 	var _n = this.id.replace("trigger-", "");
+	// 	$(`.hover-${_n}`).addClass("is-show")
+	// 	$(`.flat-${_n}`).addClass("is-hide")
+	// }, function() {
+	// 	var _n = this.id.replace("trigger-", "");
+	// 	$(`.hover-${_n}`).removeClass("is-show")
+	// 	$(`.flat-${_n}`).removeClass("is-hide")
+	// }).on("click", function() {
+	// 	$(".worship-fancyWrap").addClass("is-show")
+	// 	_scrolltop_temp = $(window).scrollTop()
+	// 	_wfcheck = true
+	// })
+
+	// 新的
+	$("#alltrigger >path").hover(function () {
 		var _n = this.id.replace("trigger-", "");
-		$(`.hover-${_n}`).addClass("is-show")
-		$(`.flat-${_n}`).addClass("is-hide")
-	}, function() {
+		$(`.hover-${_n}, [class*="hover-${_n}_"]`).addClass("is-show");
+		$(`.flat-${_n}, [class*="flat-${_n}_"]`).addClass("is-hide");
+	}, function () {
 		var _n = this.id.replace("trigger-", "");
-		$(`.hover-${_n}`).removeClass("is-show")
-		$(`.flat-${_n}`).removeClass("is-hide")
-	}).on("click", function() {
-		$(".worship-fancyWrap").addClass("is-show")
-		_scrolltop_temp = $(window).scrollTop()
-		_wfcheck = true
-	})
+		$(`.hover-${_n}, [class*="hover-${_n}_"]`).removeClass("is-show");
+		$(`.flat-${_n}, [class*="flat-${_n}_"]`).removeClass("is-hide");
+	}).on("click", function () {
+		$(".worship-fancyWrap").addClass("is-show");
+		_scrolltop_temp = $(window).scrollTop();
+		_wfcheck = true;
+		if (window.device == "mobile") {
+			$("html").addClass("is-lock");
+		}
+	});
 
 
 
-	$(window).on("scroll", function() {
+	$(window).on("scroll", function () {
 		var _scrollTop = $(window).scrollTop()
 		if (_wfcheck && Math.abs(_scrollTop - _scrolltop_temp) > 100) {
 			$(".worship-fancyWrap").removeClass("is-show")
@@ -1254,7 +1301,7 @@
 			maketipClick() {
 				var i = $(this);
 				console.log(i);
-				$(".maketipList li").on("click", function() {
+				$(".maketipList li").on("click", function () {
 					$(".maketipList li").not(this).removeClass('is-show');
 					$(this).addClass('is-show');
 				})
@@ -1287,7 +1334,7 @@
 				});
 			},
 			initHandler() {
-				$(".rich-container-1 .qaList li").on("click", function() {
+				$(".rich-container-1 .qaList li").on("click", function () {
 					$(this).toggleClass("is-open")
 					$(".answer", this).slideToggle(300)
 				})

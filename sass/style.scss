@@ -183,7 +183,10 @@ body {
       right: auto;
       left: 50%;
       transform: translateX(-50%);
-      bottom: -20px;
+      // bottom: -20px;
+
+      // 2026改的
+      bottom: -80px;
     }
   }
 
@@ -3239,7 +3242,7 @@ body {
 
     @include breakpoint(medium down) {
       padding-left: 0px;
-      height: 300px;
+      height: 250px;
       padding-top: 85px;
       padding-left: 0;
       background: url("../images/worship-bg-mobile.png") center/cover no-repeat;
@@ -3301,7 +3304,7 @@ body {
 
     @include breakpoint(medium down) {
       zoom: 0.5;
-      margin: 200px 100px 400px;
+      margin: 0px 100px 400px;
     }
 
     >div[class^="flat"],
@@ -3339,7 +3342,7 @@ body {
       z-index: 15;
     }
 
-    .flat-4 {
+    .flat-2-1 {
       z-index: 5;
     }
 
@@ -3386,8 +3389,8 @@ body {
 
     .hover-2 {
       position: absolute;
-      top: 213px;
-      left: 636px;
+      top: 246px;
+      left: 711px;
       z-index: 18;
 
       .title {
@@ -3402,10 +3405,21 @@ body {
       }
     }
 
+    .hover-9 {
+      position: absolute;
+      top: 36px;
+      left: 244px;
+      z-index: 7;
+
+      .box {
+        @include m-worship-box(-126px);
+      }
+    }
+
     .hover-3 {
       position: absolute;
-      top: 113px;
-      left: 480px;
+      top: 153px;
+      left: 550px;
       z-index: 18;
 
       .title {
@@ -3422,8 +3436,8 @@ body {
 
     .hover-4 {
       position: absolute;
-      top: 36px;
-      left: 244px;
+      top: 142px;
+      left: 498px;
       z-index: 5;
 
       .title {
@@ -3436,13 +3450,13 @@ body {
         }
 
         &:nth-child(1) {
-          top: -8px;
-          left: 214px;
+          top: -215px;
+          left: 15px;
         }
       }
 
       .box {
-        @include m-worship-box(-126px);
+        @include m-worship-box(-38px);
       }
     }
 
@@ -3517,7 +3531,7 @@ body {
       }
     }
 
-    @for$i from 1 through 8 {
+    @for$i from 1 through 9 {
       .hover-#{$i} {
         >img {
           transform: translateY(-60px);
@@ -4497,6 +4511,60 @@ body {
     &.bannerWrap-2026 {
       @include breakpoint(small down) {
         z-index: 1;
+        aspect-ratio: 375/272;
+        height: auto;
+
+        .banner {
+          width: 100%;
+          height: 100%;
+        }
+
+        .title-container {
+          .repeat-area {
+            width: 100px;
+            height: auto;
+            aspect-ratio: 85/141;
+
+            .item {
+              .title-area {
+                .title {
+                  font-size: 29px;
+                }
+
+                .day {
+                  font-size: 13px;
+                }
+
+              }
+            }
+
+          }
+        }
+
+        .article-area {
+          justify-content: end;
+          height: 60%;
+
+          .title {
+            margin-right: 12px;
+            font-size: 20px;
+            line-height: 1.5;
+            letter-spacing: 3px;
+          }
+
+          .content {
+            width: auto;
+            font-size: 14px;
+            letter-spacing: 2px;
+            writing-mode: vertical-lr;
+          }
+        }
+
+        .banner {
+          img {
+            height: 100%;
+          }
+        }
 
       }
     }
@@ -4514,7 +4582,7 @@ body {
       }
 
       @include breakpoint(medium down) {
-        top: 50px;
+        top: 40px;
         left: 50px;
         z-index: 4;
       }
@@ -4719,7 +4787,7 @@ body {
       }
 
       @include breakpoint(medium down) {
-        top: 60px;
+        top: 40px;
         right: 30px;
         z-index: 4;
 
@@ -4784,6 +4852,7 @@ body {
       top: 130px;
       right: 150px;
       width: 55px;
+      display: none;
     }
   }
 
@@ -4793,9 +4862,10 @@ body {
     right: 234px;
 
     @include breakpoint(medium down) {
-      top: 100px;
-      right: 10px;
-      width: 110px;
+      top: -35px;
+      right: 97px;
+      width: 62px;
+      z-index: 2;
     }
 
     img {
@@ -4822,7 +4892,7 @@ body {
   z-index: 1;
 
   @include breakpoint(medium down) {
-    padding: 258px 0 40px;
+    padding: 60px 0 40px;
   }
 
   .slogan {
@@ -9811,8 +9881,8 @@ body {
 
       @include breakpoint(medium down) {
         // right: -200px;
-        right:-60px;
-        top:60px;
+        right: -60px;
+        top: 60px;
 
         img {
           zoom: 0.7;
@@ -10219,9 +10289,12 @@ body {
     right: 338px;
 
     @include breakpoint(medium down) {
-      top: 58px;
-      right: 23px;
-      width: 259px;
+      top: 0px;
+      right: unset;
+      left: 25%;
+      transform: translateY(-70%);
+      width: 182px;
+      z-index: 3;
     }
   }
 
@@ -10256,7 +10329,7 @@ body {
   z-index: 1;
 
   @include breakpoint(medium down) {
-    padding: 241px 0 78px;
+    padding: 60px 0 78px;
   }
 
   .slogan {
@@ -11539,7 +11612,7 @@ body {
   position: relative;
 
   @include breakpoint(medium down) {
-    padding: 100px 0 250px;
+    padding: 0px 0 250px;
     position: relative;
   }
 
@@ -13068,7 +13141,7 @@ body {
     position: relative;
 
     @include breakpoint(medium down) {
-      padding: 100px 0 250px;
+      padding: 0px 0 250px;
     }
 
     .love-deco-1 {
@@ -13286,7 +13359,7 @@ body {
       z-index: 1;
 
       @include breakpoint(medium down) {
-        padding-top: 150px;
+        padding-top: 60px;
         padding-bottom: 0;
         margin-bottom: 45px;
       }
@@ -14933,7 +15006,12 @@ body {
           @include breakpoint(medium down) {
             font-size: 14px;
             color: #ffc97b;
+
+            &.white-2026 {
+              color: white;
+            }
           }
+
         }
 
         .date {
@@ -14945,8 +15023,14 @@ body {
             font-size: 27px;
             color: #ffc97b;
             margin-top: 5px;
+
+            &.white-2026 {
+              color: white;
+            }
           }
         }
+
+
       }
     }
 
@@ -15014,7 +15098,7 @@ body {
     position: relative;
 
     @include breakpoint(medium down) {
-      padding: 100px 0 250px;
+      padding: 0px 0 250px;
     }
 
     .cele-deco-1 {
@@ -16996,7 +17080,7 @@ body {
             left: 50%;
             right: unset;
             bottom: unset;
-             transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
           }
         }
 
@@ -17442,7 +17526,7 @@ body {
   position: relative;
 
   @include breakpoint(medium down) {
-    padding: 100px 0 250px;
+    padding: 0px 0 250px;
     position: relative;
   }
 
@@ -18334,6 +18418,16 @@ body {
         margin-top: -300px;
         position: relative;
         z-index: 4;
+
+        &.mb-2026 {
+          justify-content: space-around;
+
+          @include breakpoint(medium down) {
+            .shine {
+              width: 35vw;
+            }
+          }
+        }
       }
 
       &.bottom {
@@ -19302,7 +19396,7 @@ body {
   position: relative;
 
   @include breakpoint(medium down) {
-    padding: 100px 0 250px;
+    padding: 0px 0 250px;
     position: relative;
   }
 
@@ -20111,6 +20205,26 @@ body {
       padding-top: clamp(40px, 40/3.75*1vw, 150px);
       padding-bottom: 0;
       margin-bottom: calc(-60/3.75*1vw);
+    }
+
+    .deco-mb-2026 {
+      display: none;
+
+      @include breakpoint(medium down) {
+        display: block;
+
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        right: 20%;
+        transform: translateY(-70%);
+
+        width: 15vw;
+
+        img {
+          width: 100%;
+        }
+      }
     }
 
     .slogan {
@@ -22620,11 +22734,26 @@ body {
         padding: 100px 0 250px;
         position: relative;
 
+        @include breakpoint(medium down) {
+          padding-top: 0px;
+        }
+
         // overflow: hidden;
         .love-deco-1 {
           position: absolute;
           top: 80px;
           right: 124px;
+
+          @include breakpoint(medium down) {
+            top: 0px;
+            right: 40vw;
+            z-index: 2;
+            transform: translateY(-100%);
+
+            img {
+              width: 15vw;
+            }
+          }
         }
 
         .love-deco-2 {
@@ -22632,12 +22761,30 @@ body {
           top: 80px;
           right: 16px;
           transform: rotateY(0deg);
+
+          @include breakpoint(medium down) {
+            top: 0px;
+            right: 20vw;
+            z-index: 2;
+            transform: translateY(-100%);
+
+            img {
+              width: 15vw;
+            }
+          }
         }
 
         .love-deco-3 {
           position: absolute;
           top: 47px;
           right: 78px;
+
+          @include breakpoint(medium down) {
+            top: 0px;
+            right: 30vw;
+            z-index: 2;
+            transform: translateY(-130%);
+          }
 
           img {
             display: block;
@@ -22651,6 +22798,10 @@ body {
             margin: 0px 20px 10px 5px;
             animation: love-float infinite ease-in-out 4s;
             transition-delay: 1s;
+
+            @include breakpoint(medium down) {
+              width: 2vw;
+            }
           }
 
           .love-2 {
@@ -22658,11 +22809,19 @@ body {
             margin-left: 15px;
             animation: love-float infinite ease-in-out 3.5s;
             transition-delay: 0.5s;
+
+            @include breakpoint(medium down) {
+              width: 5vw;
+            }
           }
 
           .love-3 {
             // position: absolute;
             animation: love-float infinite ease-in-out 3s;
+
+            @include breakpoint(medium down) {
+              width: 3vw;
+            }
           }
         }
 
@@ -22670,6 +22829,11 @@ body {
           padding-top: 150px;
           padding-bottom: 0;
           margin-bottom: 45px;
+
+          @include breakpoint(medium down) {
+            padding-top: 60px;
+
+          }
 
           .slogan {
             font-size: 18px;
@@ -23636,6 +23800,10 @@ body {
         padding: 100px 0 250px;
         position: relative;
 
+        @include breakpoint(medium down) {
+          padding-top: 60px;
+        }
+
         // overflow: hidden;
         .cele-deco-1 {
           position: absolute;
@@ -23643,13 +23811,21 @@ body {
           right: 10px;
           z-index: 0;
 
+          @include breakpoint(medium down) {
+            top: 0;
+            z-index: 2;
+            width: 20vw;
+            right: 20vw;
+            transform: translateY(-85%);
+          }
+
           .cele-deco-container {
             position: relative;
 
             .cloud {
               width: auto;
-              top: 53px;
-              left: 31px;
+              top: 30%;
+              left: 30%;
               position: absolute;
               z-index: 0;
             }
@@ -23665,6 +23841,7 @@ body {
               z-index: 1;
               background: linear-gradient(0deg, #ec6531 60%, #ec663100);
               bottom: 0px;
+              display: none;
             }
           }
         }
@@ -23673,6 +23850,11 @@ body {
           padding-top: 150px;
           padding-bottom: 0;
           margin-bottom: 45px;
+
+          @include breakpoint(medium down) {
+            padding-top: 0px;
+
+          }
 
           .slogan {
             font-size: 18px;
@@ -24514,7 +24696,7 @@ body {
 
               @include breakpoint(medium down) {
                 color: #4d4d4d;
-              text-align: start;
+                text-align: start;
 
               }
             }
@@ -24916,7 +25098,7 @@ body {
           .year-area {
             position: relative;
             z-index: 1;
-            margin-top: 18px;
+            margin-top: 12px;
 
             .year {
               font-size: 14px;
@@ -24928,12 +25110,22 @@ body {
               color: #c99d4e;
               margin-top: 5px;
             }
+
+            .white-2026 {
+              @include breakpoint(medium down) {
+                color: white;
+              }
+            }
           }
         }
 
         .article-area {
           flex-direction: row;
           flex-wrap: nowrap;
+
+          @include breakpoint(medium down) {
+            height: 60%;
+          }
 
           .title {
             width: auto;
@@ -24951,23 +25143,47 @@ body {
 
       .xiayuanWrap {
         // background-color: #EC6531;
-        padding: 100px 0 250px;
+        padding: 0px 0 250px;
         position: relative;
 
         .xiayuan-deco-1 {
           top: 110px;
           right: 135px;
+
+          @include breakpoint(medium down) {
+            top:0px;
+            right:20vw;
+            transform: translateY(-100%);
+            width: 15vw;
+            z-index: 2;
+            img {
+              width: 100%
+            }
+          }
         }
 
         .xiayuan-deco-2 {
           top: 0;
           right: 0px;
+
+          @include breakpoint(medium down) {
+            transform: translateY(-80%);
+            width: 18vw;
+
+            img {
+              width: 100%
+            }
+          }
         }
 
         .xiayuan-area-1 {
           padding-top: 150px;
           padding-bottom: 0;
           margin-bottom: 30px;
+
+          @include breakpoint(medium down) {
+            padding-top: 60px;
+          }
 
           .slogan {
             font-size: 18px;

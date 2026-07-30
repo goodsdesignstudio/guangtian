@@ -235,7 +235,6 @@
             <div class="arrow">
                 <!-- <img src="images/worship-arrow.svg"> -->
                 <img src="images/worship-close.svg">
-
             </div>
         </div>
     </div>

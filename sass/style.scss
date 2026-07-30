@@ -11093,7 +11093,34 @@ body {
         text-align: justify;
       }
     }
+
+    &.mt-2026 {
+      margin-top: 80px;
+
+      @include breakpoint(medium down) {
+        margin-top: 40px;
+
+      }
+
+      .content-2026 {
+        margin: 40px auto 84px;
+        width: 777px;
+        max-width: 80%;
+
+        font-size: 15px;
+        color: #666;
+        letter-spacing: 1px;
+        line-height: 1.8;
+
+        @include breakpoint(medium down) {
+          display: none;
+
+        }
+      }
+    }
   }
+
+
 }
 
 .rich-container-1 {
@@ -11331,6 +11358,29 @@ body {
       margin-bottom: 20px;
       color: #ca954a;
       position: relative;
+
+      &.mt-2026 {
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+      }
+    }
+
+    &.nobefore-after-2026 {
+
+      position: absolute;
+      top: 0;
+      right: calc(-120/19.2*1vw);
+      transform: translateX(100%);
+
+      &:before,
+      &:after {
+        display: none;
+      }
+
+      >img {
+        // height: 548px;
+        width: 41px;
+      }
     }
 
     &:before {
@@ -11373,6 +11423,25 @@ body {
 .maketip-container-1 {
   margin-top: 100px;
 
+
+
+  &.position-2026 {
+    width: 879px !important;
+    max-width: 80% !important;
+    margin: 0 auto;
+    position: relative;
+    flex-direction: column-reverse !important;
+  }
+
+  &.mt-2026 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .w-full-2026 {
+    width: 100% !important;
+  }
+
   @include breakpoint(medium down) {
     flex-direction: column;
     margin-top: 45px;
@@ -11381,6 +11450,46 @@ body {
 
   .tip-head {
     margin-left: 90px;
+
+  }
+
+  .top-img-2026 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 879/510;
+    margin-bottom: 48px;
+
+    .maketipImageList,
+    .flickity-viewport,
+    .flickity-slider,
+    li {
+      height: 100%;
+    }
+
+    li {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      border-style: solid;
+      border-width: 32px;
+      border-image-source: url("../images/img-border-slice-1.png");
+      border-image-slice: 32 fill;
+      border-image-repeat: stretch;
+      pointer-events: none;
+    }
   }
 
   .maketipList {
@@ -11396,6 +11505,10 @@ body {
     .title {
       margin-bottom: 20px;
 
+      &.title-2026 {
+        text-align: center;
+      }
+
       @include breakpoint(medium down) {
         text-align: center;
       }
@@ -11408,6 +11521,11 @@ body {
       color: #666;
       writing-mode: vertical-rl;
       margin: 0 auto;
+
+      &.content-2026 {
+        writing-mode: horizontal-tb;
+        text-align: center;
+      }
 
       @include breakpoint(medium down) {
         writing-mode: horizontal-tb;
@@ -11422,6 +11540,21 @@ body {
     writing-mode: vertical-rl;
     margin: 104px 87px 0 0;
     height: 308px;
+
+    &.text-mode-2026 {
+      writing-mode: horizontal-tb;
+
+      margin-right: 0;
+
+      .title {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .content {
+        text-align: center;
+      }
+    }
 
     @include breakpoint(medium down) {
       writing-mode: horizontal-tb;
@@ -25151,11 +25284,12 @@ body {
           right: 135px;
 
           @include breakpoint(medium down) {
-            top:0px;
-            right:20vw;
+            top: 0px;
+            right: 20vw;
             transform: translateY(-100%);
             width: 15vw;
             z-index: 2;
+
             img {
               width: 100%
             }
@@ -27721,6 +27855,11 @@ body {
         .tip-head {
           margin-left: 0px;
           margin-bottom: 55px;
+
+          &.mt-2026 {
+            margin-top: 40px !important;
+            margin-bottom: 40px !important;
+          }
 
           .tip {
             writing-mode: vertical-rl;

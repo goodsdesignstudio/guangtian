@@ -429,24 +429,22 @@
                     <div class="title">財神鎮宅發大財</div>
                     <div class="content">本宮為信徒虔誠祈求財神爺，希望迎請財神爺分靈回家供奉，有本宮開基爵德爺形體，以及四川峨眉
                         財神開基老祖金身兩種形體，供信徒向財神爺祈求迎請供奉。另外也有財神爺令旗可供迎請，令旗是財神爺與其兵將的代表，雖非財神爺分靈，但也有其護佑效力。</div>
-                </div>
-                <div class="introWrap area-2">
-                    <div class="flag">迎請令旗</div>
-                    <div class="pic"><img src="images/mackrich-2.png"></div>
-                    <div class="tip-head hide-for-large">
+
+                    <div class="tip-head hide-for-large mt-2026">
                         <div class="tip">
-                            迎請財神爺神尊、<br>
-                            令旗流程
+                            迎請財神爺神尊
                         </div>
                     </div>
                 </div>
-                <div class="maketip-container-1 grid-x align-center">
-                    <div class="note-area cell large-shrink show-for-large">
+
+                <div class="maketip-container-1 grid-x align-center position-2026 mt-2026">
+                    <!-- <div class="note-area cell large-shrink text-mode-2026">
                         <div class="title">台中廣天宮小叮嚀</div>
                         <div class="content">神尊與令旗迎請後，若欲放於宮內共享香火，則必須於櫃檯繳交押爐費用，並簽立切結書以保障雙方權益。實際金額請洽詢現場執事人員</div>
-                    </div>
+                    </div> -->
 
-                    <ul class="maketipList show-for-large cell large-shrink grid-x align-center">
+                    <!-- 電腦版(舊) 20260730 -->
+                    <!-- <ul class="maketipList show-for-large cell large-shrink grid-x align-center">
                         <li class="cell large-shrink" @click="maketipClick">
                             <div class="title show-for-large"><img src="images/tip-9.svg"></div>
                             <div class="title hide-for-large"><img src="images/tip-9-mobile.svg"></div>
@@ -505,70 +503,267 @@
                             <div class="title hide-for-large"><img src="images/tip-1-mobile.svg"></div>
                             <div class="content">完成參拜手續，並於參拜中稟告財神爺，欲請其分靈。</div>
                         </li>
-                    </ul>
-                    <ul class="maketipList wingList hide-for-large">
-                        <li @click="maketipClick">
-                            <div class="title hide-for-large"><img src="images/tip-1-mobile.svg"></div>
-                            <div class="content">完成參拜手續，並於參拜中稟告財神爺，欲請其分靈。</div>
-                        </li>
-                        <li @click="maketipClick">
-                            <div class="title hide-for-large"><img src="images/tip-2-mobile.svg"></div>
-                            <div class="content">
-                                擲筊決定迎請哪一尊分靈神尊。
-                                1個聖杯即可，若信眾堅持則可擲3個。
-                            </div>
-                        </li>
-                        <li @click="maketipClick">
-                            <div class="title hide-for-large"><img src="images/tip-3-mobile.svg"></div>
-                            <div class="content">由信眾自行找法師選定日子請回。</div>
-                        </li>
-                        <li @click="maketipClick">
-                            <div class="title hide-for-large"><img src="images/tip-4-mobile.svg"></div>
-                            <div class="content">
-                                信眾於迎回神尊前3天告知廟方，
-                                以便廟方為神像做行前準備。
-                            </div>
-                        </li>
-                        <li @click="maketipClick">
-                            <div class="title hide-for-large"><img src="images/tip-5-mobile.svg"></div>
-                            <div class="content">
-                                告知並邀請信眾於台中廣天宮宮慶、
-                                財神爺聖誕時帶神尊回宮做客，共享香火。
-                                迎請財神爺令旗
-                            </div>
-                        </li>
-                        <li @click="maketipClick">
-                            <div class="title hide-for-large"><img src="images/tip-6-mobile.svg"></div>
-                            <div class="content">完成參拜手續，並於參拜中稟告財神爺，欲請其令旗。</div>
-                        </li>
-                        <li @click="maketipClick">
-                            <div class="title hide-for-large"><img src="images/tip-7-mobile.svg"></div>
-                            <div class="content">捐贈香油後，擲筊取得財神爺同意。</div>
-                        </li>
-                        <li @click="maketipClick">
-                            <div class="title hide-for-large"><img src="images/tip-8-mobile.svg"></div>
-                            <div class="content">經廟方蓋宮印、過爐火。將令旗插於壽金中迎回。</div>
-                        </li>
-                        <li @click="maketipClick">
-                            <div class="title hide-for-large"><img src="images/tip-9-mobile.svg"></div>
-                            <div class="content">
-                                告知信眾於一段時間後，令旗最好可回宮過爐，
-                                以增加效力。
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="slogan-arrow-area hide-for-large flex-container align-middle align-justify">
-                        <div class="arrow-prev"><img src="./images/fortune-arrow-prev.svg" alt=""></div>
-                        <ul class="processList flex-container align-middle">
+                    </ul> -->
+                    <!-- ----- -->
+
+                    <div class="cell large-4 w-full-2026">
+                        <!-- 20260730 -->
+                        <div class="top-img-2026">
+                            <ul class="maketipImageList">
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                            </ul>
+                        </div>
+                        <ul class="maketipList wingList">
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-1-mobile.svg"></div>
+                                <div class="content content-2026">完成參拜手續，並於參拜中稟告財神爺，欲請其分靈。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-2-mobile.svg"></div>
+                                <div class="content content-2026">
+                                    擲筊決定迎請哪一尊分靈神尊。
+                                    1個聖杯即可，若信眾堅持則可擲3個。
+                                </div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-3-mobile.svg"></div>
+                                <div class="content content-2026">由信眾自行找法師選定日子請回。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-4-mobile.svg"></div>
+                                <div class="content content-2026">
+                                    信眾於迎回神尊前3天告知廟方，
+                                    以便廟方為神像做行前準備。
+                                </div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-5-mobile.svg"></div>
+                                <div class="content content-2026">
+                                    告知並邀請信眾於台中廣天宮宮慶、
+                                    財神爺聖誕時帶神尊回宮做客，共享香火。
+                                    迎請財神爺令旗
+                                </div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-6-mobile.svg"></div>
+                                <div class="content content-2026">完成參拜手續，並於參拜中稟告財神爺，欲請其令旗。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-7-mobile.svg"></div>
+                                <div class="content content-2026">捐贈香油後，擲筊取得財神爺同意。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-8-mobile.svg"></div>
+                                <div class="content content-2026">經廟方蓋宮印、過爐火。將令旗插於壽金中迎回。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-9-mobile.svg"></div>
+                                <div class="content content-2026">
+                                    告知信眾於一段時間後，令旗最好可回宮過爐，
+                                    以增加效力。
+                                </div>
+                            </li>
                         </ul>
-                        <div class="arrow-next"><img src="./images/fortune-arrow-next.svg" alt=""></div>
+
+
+                        <div class="slogan-arrow-area flex-container align-middle align-justify">
+                            <div class="arrow-prev"><img src="./images/fortune-arrow-prev.svg" alt=""></div>
+                            <ul class="processList flex-container align-middle">
+                            </ul>
+                            <div class="arrow-next"><img src="./images/fortune-arrow-next.svg" alt=""></div>
+                        </div>
                     </div>
-                    <div class="note-area large-shrink hide-for-large">
+
+                    <!-- <div class="note-area large-shrink">
+                        <div class="title">台中廣天宮小叮嚀</div>
+                        <div class="content">神尊與令旗迎請後，若欲放於宮內共享香火，則必須於櫃檯繳交押爐費用，並簽立切結書以保障雙方權益。實際金額請洽詢現場執事人員</div>
+                    </div> -->
+
+                    <div class="tip-head cell large-shrink show-for-large nobefore-after-2026">
+                        <img src="images/make-head-1.svg">
+                    </div>
+                    <!-- <div class="tip-head large-shrink hide-for-large">
+                        <div class="tip">
+                            迎請<br>
+                            財神爺神尊<br>
+                            令旗流程
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="introWrap area-2 mt-2026">
+                    <div class="flag">迎請令旗</div>
+                    <!-- <div class="pic"><img src="images/mackrich-2.png"></div> -->
+                    <div class="tip-head hide-for-large">
+                        <div class="tip">
+                            令旗流程
+                        </div>
+                    </div>
+
+                    <div class="content-2026">
+                        本宮為信徒虔誠祈求財神爺，希望迎請財神爺分靈回家供奉，有本宮開基爵德爺形體，以及四川峨眉財神開基老祖金身兩種形體，供信徒向財神爺祈求迎請供奉。另外也有財神爺令旗可供迎請，令旗是財神爺與其兵將的代表，雖非財神爺分靈，但也有其護佑效力。
+                    </div>
+                </div>
+                <div class="maketip-container-1 grid-x align-center position-2026">
+                    <div class="note-area cell large-shrink text-mode-2026">
                         <div class="title">台中廣天宮小叮嚀</div>
                         <div class="content">神尊與令旗迎請後，若欲放於宮內共享香火，則必須於櫃檯繳交押爐費用，並簽立切結書以保障雙方權益。實際金額請洽詢現場執事人員</div>
                     </div>
-                    <div class="tip-head cell large-shrink show-for-large">
-                        <img src="images/make-head.svg">
+
+                    <!-- 電腦版(舊) 20260730 -->
+                    <!-- <ul class="maketipList show-for-large cell large-shrink grid-x align-center">
+                        <li class="cell large-shrink" @click="maketipClick">
+                            <div class="title show-for-large"><img src="images/tip-9.svg"></div>
+                            <div class="title hide-for-large"><img src="images/tip-9-mobile.svg"></div>
+                            <div class="content">
+                                告知信眾於一段時間後，令旗最好可回宮過爐，<br>
+                                以增加效力。
+                            </div>
+                        </li>
+                        <li class="cell large-shrink" @click="maketipClick">
+                            <div class="title show-for-large"><img src="images/tip-8.svg"></div>
+                            <div class="title hide-for-large"><img src="images/tip-8-mobile.svg"></div>
+                            <div class="content">經廟方蓋宮印、過爐火。將令旗插於壽金中迎回。</div>
+                        </li>
+                        <li class="cell large-shrink" @click="maketipClick">
+                            <div class="title show-for-large"><img src="images/tip-7.svg"></div>
+                            <div class="title hide-for-large"><img src="images/tip-7-mobile.svg"></div>
+                            <div class="content">捐贈香油後，擲筊取得財神爺同意。</div>
+                        </li>
+                        <li class="cell large-shrink" @click="maketipClick">
+                            <div class="title show-for-large"><img src="images/tip-6.svg"></div>
+                            <div class="title hide-for-large"><img src="images/tip-6-mobile.svg"></div>
+                            <div class="content">完成參拜手續，並於參拜中稟告財神爺，欲請其令旗。</div>
+                        </li>
+                        <li class="cell large-shrink" @click="maketipClick">
+                            <div class="title show-for-large"><img src="images/tip-5.svg"></div>
+                            <div class="title hide-for-large"><img src="images/tip-5-mobile.svg"></div>
+                            <div class="content">
+                                告知並邀請信眾於台中廣天宮宮慶、<br>
+                                財神爺聖誕時帶神尊回宮做客，共享香火。<br>
+                                迎請財神爺令旗
+                            </div>
+                        </li>
+                        <li class="cell large-shrink" @click="maketipClick">
+                            <div class="title show-for-large"><img src="images/tip-4.svg"></div>
+                            <div class="title hide-for-large"><img src="images/tip-4-mobile.svg"></div>
+                            <div class="content">
+                                信眾於迎回神尊前3天告知廟方，<br>
+                                以便廟方為神像做行前準備。
+                            </div>
+                        </li>
+                        <li class="cell large-shrink" @click="maketipClick">
+                            <div class="title show-for-large"><img src="images/tip-3.svg"></div>
+                            <div class="title hide-for-large"><img src="images/tip-3-mobile.svg"></div>
+                            <div class="content">由信眾自行找法師選定日子請回。</div>
+                        </li>
+                        <li class="cell large-shrink" @click="maketipClick">
+                            <div class="title show-for-large"><img src="images/tip-2.svg"></div>
+                            <div class="title hide-for-large"><img src="images/tip-2-mobile.svg"></div>
+                            <div class="content">
+                                擲筊決定迎請哪一尊分靈神尊。<br>
+                                1個聖杯即可，若信眾堅持則可擲3個。
+                            </div>
+                        </li>
+                        <li class="cell large-shrink is-show" @click="maketipClick">
+                            <div class="title show-for-large"><img src="images/tip-1.svg"></div>
+                            <div class="title hide-for-large"><img src="images/tip-1-mobile.svg"></div>
+                            <div class="content">完成參拜手續，並於參拜中稟告財神爺，欲請其分靈。</div>
+                        </li>
+                    </ul> -->
+                    <!-- ----- -->
+
+                    <div class="cell large-4 w-full-2026">
+                        <!-- 20260730 -->
+                        <div class="top-img-2026">
+                            <ul class="maketipImageList">
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                                <li class="cell"><img src="images/test-img.png"></li>
+                            </ul>
+                        </div>
+                        <ul class="maketipList wingList">
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-1-mobile.svg"></div>
+                                <div class="content content-2026">完成參拜手續，並於參拜中稟告財神爺，欲請其分靈。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-2-mobile.svg"></div>
+                                <div class="content content-2026">
+                                    擲筊決定迎請哪一尊分靈神尊。
+                                    1個聖杯即可，若信眾堅持則可擲3個。
+                                </div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-3-mobile.svg"></div>
+                                <div class="content content-2026">由信眾自行找法師選定日子請回。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-4-mobile.svg"></div>
+                                <div class="content content-2026">
+                                    信眾於迎回神尊前3天告知廟方，
+                                    以便廟方為神像做行前準備。
+                                </div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-5-mobile.svg"></div>
+                                <div class="content content-2026">
+                                    告知並邀請信眾於台中廣天宮宮慶、
+                                    財神爺聖誕時帶神尊回宮做客，共享香火。
+                                    迎請財神爺令旗
+                                </div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-6-mobile.svg"></div>
+                                <div class="content content-2026">完成參拜手續，並於參拜中稟告財神爺，欲請其令旗。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-7-mobile.svg"></div>
+                                <div class="content content-2026">捐贈香油後，擲筊取得財神爺同意。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-8-mobile.svg"></div>
+                                <div class="content content-2026">經廟方蓋宮印、過爐火。將令旗插於壽金中迎回。</div>
+                            </li>
+                            <li class="cell" @click="maketipClick">
+                                <div class="title title-2026"><img src="images/tip-9-mobile.svg"></div>
+                                <div class="content content-2026">
+                                    告知信眾於一段時間後，令旗最好可回宮過爐，
+                                    以增加效力。
+                                </div>
+                            </li>
+                        </ul>
+
+
+                        <div class="slogan-arrow-area flex-container align-middle align-justify">
+                            <div class="arrow-prev"><img src="./images/fortune-arrow-prev.svg" alt=""></div>
+                            <ul class="processList flex-container align-middle">
+                            </ul>
+                            <div class="arrow-next"><img src="./images/fortune-arrow-next.svg" alt=""></div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="note-area large-shrink">
+                        <div class="title">台中廣天宮小叮嚀</div>
+                        <div class="content">神尊與令旗迎請後，若欲放於宮內共享香火，則必須於櫃檯繳交押爐費用，並簽立切結書以保障雙方權益。實際金額請洽詢現場執事人員</div>
+                    </div> -->
+
+                    <div class="tip-head cell large-shrink show-for-large nobefore-after-2026">
+                        <img src="images/make-head-2.svg">
                     </div>
                     <!-- <div class="tip-head large-shrink hide-for-large">
                         <div class="tip">
@@ -593,7 +788,7 @@
                         如果只光摸元寶則寓意為「摸空財」，切記勿把空財帶回家喔!
                     </div>
                 </div>
-                <div class="introWrap area-2">
+                <div class="introWrap area-2 mt-2026">
                     <div class="pic"><img src="images/mackrich-3-2-mobile.png"></div>
                 </div>
                 <div class="wing-container-1">
@@ -779,7 +974,7 @@
         },
         speed: 1000,
     });
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function() {
         var _scrollTop = $(this).scrollTop()
         if (_scrollTop >= 100) {
             $(".logo-fixed").removeClass("is-red").addClass("is-small")
@@ -789,7 +984,7 @@
             $(".topmenu-bg").removeClass("is-show")
         }
     }).trigger("scroll")
-    $(".qaWrap .qaList li").on("click", function () {
+    $(".qaWrap .qaList li").on("click", function() {
         $(this).toggleClass("is-open")
         $(".answer", this).slideToggle(300)
     })
@@ -832,24 +1027,24 @@
     });
     var _scrolltop_temp = 0
     var _wfcheck = false
-    $(".worship-fancyWrap .article-area .arrow").on("click", function () {
+    $(".worship-fancyWrap .article-area .arrow").on("click", function() {
         $(".worship-fancyWrap").removeClass("is-show")
         _wfcheck = false
     })
-    $("#alltrigger >path").hover(function () {
+    $("#alltrigger >path").hover(function() {
         var _n = this.id.replace("trigger-", "");
         $(`.hover-${_n}`).addClass("is-show")
         $(`.flat-${_n}`).addClass("is-hide")
-    }, function () {
+    }, function() {
         var _n = this.id.replace("trigger-", "");
         $(`.hover-${_n}`).removeClass("is-show")
         $(`.flat-${_n}`).removeClass("is-hide")
-    }).on("click", function () {
+    }).on("click", function() {
         $(".worship-fancyWrap").addClass("is-show")
         _scrolltop_temp = $(window).scrollTop()
         _wfcheck = true
     })
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function() {
         var _scrollTop = $(window).scrollTop()
         if (_wfcheck && Math.abs(_scrollTop - _scrolltop_temp) > 100) {
             $(".worship-fancyWrap").removeClass("is-show")
@@ -884,8 +1079,7 @@
                         this.enterHandler()
                         if (this.cat == 0) {
                             this.area1Handler()
-                        }
-                        else if (this.cat == 1) {
+                        } else if (this.cat == 1) {
                             this.area2Handler()
                         } else {
                             this.area3Handler()
@@ -905,7 +1099,7 @@
                 });
             },
             initHandler() {
-                $(".rich-container-1 .qaList li").on("click", function () {
+                $(".rich-container-1 .qaList li").on("click", function() {
                     $(this).toggleClass("is-open")
                     $(".answer", this).slideToggle(300)
                 })
@@ -957,7 +1151,7 @@
                     x: 0,
                 })
 
-                    ;
+                ;
             },
             area1Handler() {
                 //168輪播
@@ -974,12 +1168,12 @@
                 });
 
                 // 往前一格
-                document.querySelector('.mack168-container .arrow-prev').addEventListener('click', function () {
+                document.querySelector('.mack168-container .arrow-prev').addEventListener('click', function() {
                     flkty.previous();
                 });
 
                 // 往後一格
-                document.querySelector('.mack168-container .arrow-next').addEventListener('click', function () {
+                document.querySelector('.mack168-container .arrow-next').addEventListener('click', function() {
                     flkty.next();
                 });
 
@@ -1008,7 +1202,7 @@
                     li.appendChild(svgDot);
                     dotsContainer.appendChild(li);
 
-                    li.addEventListener('click', function () {
+                    li.addEventListener('click', function() {
                         flkty.select(i);
                     });
                 }
@@ -1027,76 +1221,105 @@
             area2Handler() {
                 //迎請神尊輪播
 
-                var mobileList = document.querySelector('.maketipList.hide-for-large');
-                if (!mobileList) return;
+                var maketipContainers = document.querySelectorAll('.maketip-container-1');
 
-                var oldFlkty2 = Flickity.data(mobileList);
-                if (oldFlkty2) {
-                    oldFlkty2.destroy();
-                }
+                maketipContainers.forEach(function(container) {
+                    var maketipList = container.querySelector('.maketipList.wingList');
+                    var maketipImageList = container.querySelector('.maketipImageList');
+                    if (!maketipList || !maketipImageList) return;
 
-                var flkty2 = new Flickity(mobileList, {
-                    // contain: true,
-                    wrapAround: false,
-                    prevNextButtons: false,
-                    pageDots: false,
-                    cellAlign: 'center'
-                    // fade: true,
+                    var oldFlkty2 = Flickity.data(maketipList);
+                    if (oldFlkty2) {
+                        oldFlkty2.destroy();
+                    }
 
-                    // asNavFor: '.process-otherList'
-                });
+                    var oldImageFlkty2 = Flickity.data(maketipImageList);
+                    if (oldImageFlkty2) {
+                        oldImageFlkty2.destroy();
+                    }
 
-                // 往前一格
-                $('.maketip-container-1 .arrow-prev').off('click').on('click', function () {
-                    flkty2.previous();
-                });
+                    var flkty2 = new Flickity(maketipList, {
+                        // contain: true,
+                        wrapAround: false,
+                        prevNextButtons: false,
+                        pageDots: false,
+                        cellAlign: 'center'
+                        // fade: true,
 
-                // 往後一格
-                $('.maketip-container-1 .arrow-next').off('click').on('click', function () {
-                    flkty2.next();
-                });
+                        // asNavFor: '.process-otherList'
+                    });
 
-                var dotsContainer = document.querySelector('.maketip-container-1 .processList');
-                dotsContainer.innerHTML = '';
+                    var imageFlkty2 = new Flickity(maketipImageList, {
+                        wrapAround: false,
+                        prevNextButtons: false,
+                        pageDots: false,
+                        cellAlign: 'center'
+                    });
 
-                function createSVGDot() {
-                    var svgNS = "http://www.w3.org/2000/svg";
-                    var svg = document.createElementNS(svgNS, 'svg');
-                    svg.setAttribute('width', '12');
-                    svg.setAttribute('height', '12');
-                    svg.setAttribute('viewBox', '0 0 12 12');
-                    svg.innerHTML = `
+                    // 往前一格
+                    $(container).find('.arrow-prev').off('click').on('click', function() {
+                        flkty2.previous();
+                    });
+
+                    // 往後一格
+                    $(container).find('.arrow-next').off('click').on('click', function() {
+                        flkty2.next();
+                    });
+
+                    var dotsContainer = container.querySelector('.processList');
+                    dotsContainer.innerHTML = '';
+
+                    function createSVGDot() {
+                        var svgNS = "http://www.w3.org/2000/svg";
+                        var svg = document.createElementNS(svgNS, 'svg');
+                        svg.setAttribute('width', '12');
+                        svg.setAttribute('height', '12');
+                        svg.setAttribute('viewBox', '0 0 12 12');
+                        svg.innerHTML = `
                             <g>
                             <path class="d" d="M7.04,1.22c-.15-.04-.29-.15-.37-.29-.17-.29-.41-.55-.86-.56-.31,0-.67.11-.86.35-.01.02-.02.05,0,.07.04.05.05.1.03.15-.02.09-.13.14-.21.19-.06.03-.12.06-.19.07-.15.04-.33.02-.46-.06-.29-.17-.64-.27-1.02-.05-.27.15-.53.43-.57.73,0,.02,0,.05.04.06.06.03.09.06.1.12.02.09-.04.19-.09.27-.04.06-.08.11-.13.16-.11.11-.28.18-.43.18-.33,0-.69.08-.91.47-.16.27-.24.64-.13.92,0,.02.03.04.06.04.06,0,.11.01.15.05.07.07.06.18.06.28,0,.07-.01.13-.03.2-.04.15-.15.29-.29.37-.29.17-.55.41-.56.86,0,.31.11.67.35.86.02.01.05.02.07,0,.05-.04.1-.05.15-.03.09.02.14.13.19.21.03.06.06.12.07.19.04.15.02.33-.06.46-.16.29-.27.64-.05,1.02.15.27.43.53.73.57.02,0,.05,0,.06-.04.03-.06.06-.09.12-.11.09-.02.19.04.27.09.06.04.11.08.16.13.11.11.18.28.18.43,0,.33.08.69.47.91.27.16.64.24.92.12.02,0,.04-.03.04-.06,0-.06,0-.11.05-.15.07-.07.18-.06.28-.06.07,0,.13.01.2.03.15.04.29.15.37.28.17.29.41.55.86.56.31,0,.67-.11.86-.35.01-.02.02-.05,0-.07-.04-.05-.05-.1-.03-.15.02-.09.13-.14.21-.19.06-.03.12-.06.19-.07.15-.04.33-.02.46.06.29.16.64.27,1.02.05.27-.15.52-.43.57-.73,0-.02,0-.05-.04-.06-.06-.03-.09-.06-.1-.12-.02-.09.04-.19.09-.27.04-.06.08-.11.13-.16.11-.11.28-.18.43-.18.33,0,.69-.08.91-.47.16-.27.24-.64.12-.92,0-.02-.03-.04-.06-.04-.06,0-.11,0-.15-.05-.07-.07-.06-.18-.06-.28,0-.07.01-.13.03-.2.04-.15.15-.29.29-.37.29-.17.55-.41.56-.86,0-.31-.11-.67-.35-.86-.02-.01-.05-.02-.07,0-.05.04-.1.05-.15.03-.09-.02-.14-.13-.19-.21-.03-.06-.06-.12-.07-.19-.04-.15-.02-.33.06-.46.17-.29.27-.64.05-1.02-.15-.27-.43-.52-.73-.57-.02,0-.05,0-.06.04-.03.06-.06.09-.12.11-.09.02-.19-.04-.27-.09-.06-.04-.11-.08-.16-.13-.11-.11-.18-.28-.18-.43,0-.33-.08-.69-.47-.91-.27-.16-.64-.24-.92-.12-.02,0-.04.03-.04.06,0,.07-.01.11-.05.15-.07.07-.18.06-.28.06-.07,0-.13-.01-.2-.03Z"/>
                             </g>
                         `;
-                    return svg;
-                }
+                        return svg;
+                    }
 
-                for (let i = 0; i < flkty2.slides.length; i++) {
-                    var li = document.createElement('li');
-                    li.className = 'dot';
-                    li.setAttribute('aria-label', 'Page dot ' + (i + 1));
+                    for (let i = 0; i < flkty2.slides.length; i++) {
+                        var li = document.createElement('li');
+                        li.className = 'dot';
+                        li.setAttribute('aria-label', 'Page dot ' + (i + 1));
 
-                    var svgDot = createSVGDot();
-                    li.appendChild(svgDot);
-                    dotsContainer.appendChild(li);
+                        var svgDot = createSVGDot();
+                        li.appendChild(svgDot);
+                        dotsContainer.appendChild(li);
 
-                    li.addEventListener('click', function () {
-                        flkty2.select(i);
+                        li.addEventListener('click', function() {
+                            flkty2.select(i);
+                        });
+                    }
+
+                    // 更新 dots 狀態
+                    function updateDots() {
+                        var dots = dotsContainer.querySelectorAll('.dot');
+                        dots.forEach((dot, index) => {
+                            dot.classList.toggle('is-selected', index === flkty2.selectedIndex);
+                        });
+                    }
+
+                    flkty2.on('change', function(index) {
+                        if (imageFlkty2.selectedIndex !== index) {
+                            imageFlkty2.select(index);
+                        }
+                        updateDots();
                     });
-                }
 
-                // 更新 dots 狀態
-                function updateDots() {
-                    var dots = dotsContainer.querySelectorAll('.dot');
-                    dots.forEach((dot, index) => {
-                        dot.classList.toggle('is-selected', index === flkty2.selectedIndex);
+                    imageFlkty2.on('change', function(index) {
+                        if (flkty2.selectedIndex !== index) {
+                            flkty2.select(index);
+                        }
                     });
-                }
 
-                flkty2.on('change', updateDots);
-                updateDots()
+                    updateDots()
+                });
             },
             area3Handler() {
                 //迎請神尊輪播
@@ -1113,12 +1336,12 @@
                 });
 
                 // 往前一格
-                document.querySelector('.wing-container-1 .arrow-prev').addEventListener('click', function () {
+                document.querySelector('.wing-container-1 .arrow-prev').addEventListener('click', function() {
                     flkty3.previous();
                 });
 
                 // 往後一格
-                document.querySelector('.wing-container-1 .arrow-next').addEventListener('click', function () {
+                document.querySelector('.wing-container-1 .arrow-next').addEventListener('click', function() {
                     flkty3.next();
                 });
 
@@ -1147,7 +1370,7 @@
                     li.appendChild(svgDot);
                     dotsContainer.appendChild(li);
 
-                    li.addEventListener('click', function () {
+                    li.addEventListener('click', function() {
                         flkty3.select(i);
                     });
                 }
@@ -1169,8 +1392,7 @@
             this.enterHandler();
             if (this.cat == 0) {
                 this.area1Handler()
-            }
-            else if (this.cat == 1) {
+            } else if (this.cat == 1) {
                 this.area2Handler()
             } else {
                 this.area3Handler()

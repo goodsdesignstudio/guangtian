@@ -14042,7 +14042,7 @@ body {
 
       &.hide-for-large {
         display: none;
-        transform: translateX(26px);
+        transform: translateX(16px);
         opacity: 1;
 
         .shareList {
@@ -21853,6 +21853,7 @@ body {
         background-color: $red;
       }
 
+      // 法會活動相關按鈕標記
       .flickity-button.flickity-prev-next-button {
         &::before {
           content: '';
@@ -29845,6 +29846,8 @@ body {
   }
 }
 
+
+// 法會活動相關按鈕標記
 .flk-btn-2026 {
   --btn-move: 15vw;
 
@@ -30355,6 +30358,7 @@ body {
         }
       }
 
+      // 法會活動相關按鈕標記
       .flickity-button.flickity-prev-next-button {
         bottom: 14px;
         top: unset;

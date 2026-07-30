@@ -1155,6 +1155,172 @@ body {
   }
 }
 
+.share-container {
+  position: fixed;
+  top: 0;
+  right: 90px;
+  height: 100%;
+  z-index: 20;
+  opacity: 0;
+  transform: translateX(200px);
+  transition: 1.25s ease-in-out;
+
+  @include breakpoint(xlarge down) {
+    zoom: 0.9;
+    right: 40px;
+  }
+
+  @include breakpoint(medium down) {
+    right: 5px;
+    transform: translateX(170px);
+    transition: none;
+    transition-delay: 0s;
+    zoom: 1;
+  }
+
+  .share-area {
+    text-align: center;
+    position: sticky;
+    top: 30vh;
+
+    .text {
+      margin-bottom: 20px;
+
+      @include breakpoint(medium down) {
+        margin-bottom: 10px;
+      }
+
+      img {
+        width: 72px;
+
+        @include breakpoint(medium down) {
+          width: 47px;
+        }
+      }
+    }
+
+    .shareList {
+      margin-bottom: 20px;
+
+      @include breakpoint(medium down) {
+        margin-bottom: 35px;
+      }
+
+      a {
+        display: block;
+        @include basic-hover;
+        @include mb(15px);
+
+        @include breakpoint(medium down) {
+          @include mb(12px);
+        }
+      }
+
+      img {
+        width: 45px;
+
+        @include breakpoint(medium down) {
+          width: 30px;
+        }
+      }
+    }
+
+    .join-btn {
+      &:hover {
+        .icon {
+          opacity: 0;
+          transition: 0.5s ease-in-out;
+        }
+
+        .hover {
+          opacity: 1;
+          transition: 0.5s ease-in-out;
+        }
+      }
+
+      .icon {
+        position: absolute;
+        left: 0px;
+      }
+
+      .hover {
+        position: absolute;
+        left: 0px;
+        opacity: 0;
+      }
+
+      img {
+        max-width: fit-content;
+        width: 175px;
+      }
+    }
+  }
+
+  &.container-2026 {
+    z-index: 9;
+    position: fixed;
+    top: 10%;
+    right: 60px;
+    bottom: 3%;
+    transform: translateX(170px);
+
+    @include breakpoint(large down) {
+      right: 20px;
+    }
+
+    &.position-2026 {
+      top: 0;
+      right: 5px;
+      height: 100%;
+
+      .share-area {
+        .text {
+          width: max-content;
+
+          img {
+            width: 47px;
+          }
+        }
+
+        .join-btn>img {
+          // transform: translateX(15px);
+          position: absolute;
+          left: 7px;
+          width: 60px;
+          max-width: fit-content;
+        }
+      }
+    }
+
+    .share-area {
+      text-align: center;
+      position: sticky;
+      top: 30vh;
+
+      .text {
+        margin-bottom: 20px;
+      }
+
+      .shareList {
+        @include breakpoint(medium down) {
+          margin-bottom: 30px;
+        }
+
+        a {
+          display: block;
+          @include basic-hover;
+          @include mb(15px);
+        }
+      }
+
+      .btn {
+        @include basic-hover;
+        margin-top: 60px;
+      }
+    }
+  }
+}
+
 // ==============
 
 // 首頁
@@ -4513,6 +4679,7 @@ body {
     z-index: -2;
 
     &.bannerWrap-2026 {
+
       @include breakpoint(small down) {
         z-index: 1;
         aspect-ratio: 375/272;
@@ -13816,6 +13983,39 @@ body {
           text-align: center;
           cursor: pointer;
           transition: .3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+
+#fortunebirthdayP {
+  .share-container {
+    &.container-2026 {
+
+      &.show-for-large {
+        transform: translateX(30px);
+        opacity: 1;
+      }
+
+      &.hide-for-large {
+        display: none;
+        transform: translateX(26px);
+        opacity: 1;
+
+        .shareList {
+          width: fit-content;
+        }
+      }
+
+      @include breakpoint(medium down) {
+        &.show-for-large {
+          display: none;
+        }
+
+        &.hide-for-large {
+          display: block;
         }
       }
     }

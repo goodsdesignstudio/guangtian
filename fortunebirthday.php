@@ -5,7 +5,7 @@
 	<?php include 'html_head.php'; ?>
 </head>
 
-<body>
+<body id="fortunebirthdayP">
 	<?php include 'topmenu.php'; ?>
 
 	<div class="cd-topWrap">
@@ -45,6 +45,7 @@
 			</div>
 		</div>
 	</div>
+
 
 	<div id="signup" class="signupWrap">
 		<div class="head grid-x align-bottom">
@@ -359,6 +360,31 @@
 		</div>
 
 		<section class="fortuneWrap">
+			<div class="share-container show-for-large container-2026">
+				<div class="share-area">
+					<div class="text"><img src="images/cd-share.svg"></div>
+					<nav class="shareList">
+						<a href="javascript:;"><img src="images/cd-copy.svg"></a>
+						<a href="javascript:;"><img src="images/cd-fb.svg"></a>
+						<a href="javascript:;"><img src="images/cd-line.svg"></a>
+					</nav>
+					<div class="btn"><img src="images/cd-book.svg"></div>
+				</div>
+			</div>
+			<div class="share-container hide-for-large container-2026">
+				<div class="share-area">
+					<div class="text"><img src="images/love-share.svg"></div>
+					<nav class="shareList">
+						<a href="javascript:;"><img src="images/cele-link-mobile.svg"></a>
+						<a href="javascript:;"><img src="images/cele-fb-mobile.svg"></a>
+						<a href="javascript:;"><img src="images/cele-line-mobile.svg"></a>
+					</nav>
+					<a class="join-btn" href="#signup">
+						<img class="icon" src="./images/love-join-mobile.svg" alt="">
+					</a>
+				</div>
+			</div>
+
 			<div class="fortune-deco-1" data-r='{"opacity": 0, "x": 30}'>
 				<img src="images/fortune-deco-1.png" class="show-for-large">
 				<img src="images/fortune-deco-1-mobile.png" class="hide-for-large">
@@ -999,8 +1025,7 @@
 
 
 <script>
-
-	$(window).on("scroll", function () {
+	$(window).on("scroll", function() {
 
 		var _scrollTop = $(this).scrollTop()
 
@@ -1066,7 +1091,7 @@
 
 
 
-	$(".qaList li").on("click", function () {
+	$(".qaList li").on("click", function() {
 
 		$(this).toggleClass("is-open")
 
@@ -1102,7 +1127,7 @@
 
 
 
-	$(".yt-container").on("click", function () {
+	$(".yt-container").on("click", function() {
 
 		$(".cover-area", this).fadeOut(300)
 
@@ -1258,7 +1283,7 @@
 
 
 
-	$(".mobile-open-btn").on("click", function (e) {
+	$(".mobile-open-btn").on("click", function(e) {
 		e.preventDefault();
 		const $btn = $(this);
 		const $wrap = $btn.parent(".cd-slide-wrap");
@@ -1269,8 +1294,10 @@
 		if (isClosing) {
 			const headerOffset = 120;
 			const targetTop = $section.offset().top - headerOffset;
-			$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
-				$container.stop().slideUp(500, function () {
+			$("html, body").stop().animate({
+				scrollTop: targetTop
+			}, 300, function() {
+				$container.stop().slideUp(500, function() {
 					$wrap.removeClass("is-open");
 					if ($(".flow-sliderList").length) {
 						$(".flow-sliderList").flickity('resize');
@@ -1282,7 +1309,7 @@
 			});
 		} else {
 			$wrap.addClass("is-open");
-			$container.stop().slideDown(500, function () {
+			$container.stop().slideDown(500, function() {
 				if ($(".flow-sliderList").length) {
 					$(".flow-sliderList").flickity('resize');
 				}
@@ -1297,7 +1324,7 @@
 
 
 
-	$(".mobile-inside-arrow").on("click", function (e) {
+	$(".mobile-inside-arrow").on("click", function(e) {
 		e.preventDefault();
 		const $btn = $(this);
 		const $container = $btn.prev();
@@ -1307,8 +1334,10 @@
 		if (isClosing) {
 			const headerOffset = 120;
 			const targetTop = $section.offset().top - headerOffset;
-			$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
-				$container.stop().slideUp(500, function () {
+			$("html, body").stop().animate({
+				scrollTop: targetTop
+			}, 300, function() {
+				$container.stop().slideUp(500, function() {
 					$btn.removeClass("is-open");
 					if ($(".flow-sliderList").length) {
 						$(".flow-sliderList").flickity('resize');
@@ -1320,7 +1349,7 @@
 			});
 		} else {
 			$btn.addClass("is-open");
-			$container.stop().slideDown(500, function () {
+			$container.stop().slideDown(500, function() {
 				if ($(".flow-sliderList").length) {
 					$(".flow-sliderList").flickity('resize');
 				}
@@ -1330,5 +1359,4 @@
 			});
 		}
 	})
-
 </script>

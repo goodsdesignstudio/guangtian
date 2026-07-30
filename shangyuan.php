@@ -614,7 +614,7 @@
 
 		<section class="shangyuanWrap">
 
-			<div class="share-container show-for-large">
+			<div class="share-container show-for-large container-2026">
 
 				<div class="share-area">
 
@@ -636,7 +636,7 @@
 
 			</div>
 
-			<div class="share-container hide-for-large">
+			<div class="share-container hide-for-large container-2026">
 
 				<div class="share-area">
 
@@ -977,15 +977,11 @@
 				<div class="mobile-open hide-for-large">
 
 					<div class="line">
-
 						<img src="./images/s-open-line.svg" alt="">
-
 					</div>
 
 					<div class="arrow">
-
 						<img src="./images/s-open-arrow.svg" alt="">
-
 					</div>
 
 				</div>
@@ -1545,7 +1541,6 @@
 </html>
 
 <script>
-
 	// var winWidth = window.innerWidth;
 
 	//     if (winWidth <= 1024) {
@@ -1827,46 +1822,47 @@
 		})
 
 	}
-	
-	$(".mobile-open").on("click", function (e) {
-	e.preventDefault();
 
-	const $btn = $(this);
-	const $container = $btn.prev();
-	const $section = $btn.parent();
-	const isClosing = $btn.hasClass("is-open");
+	$(".mobile-open").on("click", function(e) {
+		e.preventDefault();
 
-	if (isClosing) {
-		const headerOffset = 120;
-		const targetTop = $section.offset().top - headerOffset;
+		const $btn = $(this);
+		const $container = $btn.prev();
+		const $section = $btn.parent();
+		const isClosing = $btn.hasClass("is-open");
 
-		$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
+		if (isClosing) {
+			const headerOffset = 120;
+			const targetTop = $section.offset().top - headerOffset;
 
-		$container.stop().slideUp(500, function () {
-		$btn.removeClass("is-open");
+			$("html, body").stop().animate({
+				scrollTop: targetTop
+			}, 300, function() {
 
-		if ($(".flow-sliderList").length) {
-		$(".flow-sliderList").flickity('resize');
+				$container.stop().slideUp(500, function() {
+					$btn.removeClass("is-open");
+
+					if ($(".flow-sliderList").length) {
+						$(".flow-sliderList").flickity('resize');
+					}
+					if (typeof ScrollTrigger !== 'undefined') {
+						ScrollTrigger.refresh();
+					}
+				});
+			});
+
+		} else {
+			// 【狀態：即將展開】
+			$btn.addClass("is-open");
+
+			$container.stop().slideDown(500, function() {
+				if ($(".flow-sliderList").length) {
+					$(".flow-sliderList").flickity('resize');
+				}
+				if (typeof ScrollTrigger !== 'undefined') {
+					ScrollTrigger.refresh();
+				}
+			});
 		}
-		if (typeof ScrollTrigger !== 'undefined') {
-		ScrollTrigger.refresh();
-		}
-		});
-		});
-
-	} else {
-		// 【狀態：即將展開】
-		$btn.addClass("is-open");
-
-		$container.stop().slideDown(500, function () {
-		if ($(".flow-sliderList").length) {
-		$(".flow-sliderList").flickity('resize');
-		}
-		if (typeof ScrollTrigger !== 'undefined') {
-		ScrollTrigger.refresh();
-		}
-		});
-	}
 	});
-
 </script>

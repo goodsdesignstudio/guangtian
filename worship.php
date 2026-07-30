@@ -19,7 +19,7 @@
             <img src="images/worship-head-mobile.svg">
         </div>
         <div class="worship-outter" id="scrollArea">
-            <div class="worship-area">
+            <div class="worship-area mt-0-2026">
                 <div class="floor-1"><img src="images/worship-floor.png"></div>
                 <div class="floor-2 has-shadow"><img src="images/worship-floor-2.png"></div>
                 <div class="flat-1 has-shadow"><img src="images/worship-1.png"></div>
@@ -126,7 +126,7 @@
                 </svg>
             </div>
         </div>
-        <div class="worship-scroll-controls hide-for-large flex-container align-middle align-center">
+        <div class="worship-scroll-controls-2026 hide-for-large flex-container align-middle align-center">
             <button type="button" class="scroll-btn is-prev" aria-label="向左滑動參拜導覽">
                 <img src="images/worship-arrow.svg" alt="">
             </button>
@@ -245,10 +245,9 @@
 
 </html>
 <script>
-
     window.addEventListener('DOMContentLoaded', () => {
         const container = document.getElementById('scrollArea');
-        const scrollButtons = document.querySelectorAll('.worship-scroll-controls .scroll-btn');
+        const scrollButtons = document.querySelectorAll('.worship-scroll-controls-2026 .scroll-btn');
         if (!container) return;
 
         const updateScrollButtons = () => {
@@ -274,12 +273,14 @@
             });
         });
 
-        container.addEventListener('scroll', updateScrollButtons, { passive: true });
+        container.addEventListener('scroll', updateScrollButtons, {
+            passive: true
+        });
         window.addEventListener('resize', updateScrollButtons);
         updateScrollButtons();
     });
 
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function() {
         var _scrollTop = $(this).scrollTop()
         if (_scrollTop >= 100) {
             $(".logo-fixed").removeClass("is-red").addClass("is-small")
@@ -289,7 +290,7 @@
             $(".topmenu-bg").removeClass("is-show")
         }
     }).trigger("scroll")
-    $(".qaWrap .qaList li").on("click", function () {
+    $(".qaWrap .qaList li").on("click", function() {
         $(this).toggleClass("is-open")
         $(".answer", this).slideToggle(300)
     })
@@ -300,19 +301,19 @@
 
     var _scrolltop_temp = 0
     var _wfcheck = false
-    $(".worship-fancyWrap .article-area .arrow").on("click", function () {
+    $(".worship-fancyWrap .article-area .arrow").on("click", function() {
         $(".worship-fancyWrap").removeClass("is-show")
         _wfcheck = false
     })
-    $("#alltrigger >path").hover(function () {
+    $("#alltrigger >path").hover(function() {
         var _n = this.id.replace("trigger-", "");
         $(`.hover-${_n}, [class*="hover-${_n}_"]`).addClass("is-show");
         $(`.flat-${_n}, [class*="flat-${_n}_"]`).addClass("is-hide");
-    }, function () {
+    }, function() {
         var _n = this.id.replace("trigger-", "");
         $(`.hover-${_n}, [class*="hover-${_n}_"]`).removeClass("is-show");
         $(`.flat-${_n}, [class*="flat-${_n}_"]`).removeClass("is-hide");
-    }).on("click", function () {
+    }).on("click", function() {
         $(".worship-fancyWrap").addClass("is-show");
         _scrolltop_temp = $(window).scrollTop();
         _wfcheck = true;
@@ -321,7 +322,7 @@
         }
     });
     if (window.device == "desktop") {
-        $(window).on("scroll", function () {
+        $(window).on("scroll", function() {
             var _scrollTop = $(window).scrollTop()
             if (_wfcheck && Math.abs(_scrollTop - _scrolltop_temp) > 100) {
                 $(".worship-fancyWrap").removeClass("is-show")
@@ -329,10 +330,9 @@
             }
         })
     } else {
-        $(".worship-fancyWrap .arrow").on("click", function () {
+        $(".worship-fancyWrap .arrow").on("click", function() {
             $(".worship-fancyWrap").removeClass("is-show")
             $("html").removeClass("is-lock")
         })
     }
-
 </script>

@@ -3259,16 +3259,18 @@ body {
     }
   }
 
-  .worship-scroll-controls {
+  .worship-scroll-controls-2026 {
     display: none;
 
     @include breakpoint(medium down) {
       display: flex;
       justify-content: center;
       gap: 34px;
-      margin-top: 28px;
+      // margin-top: 28px;
+      margin-top: -155px !important;
       padding-bottom: 44px;
     }
+
 
     .scroll-btn {
       width: 44px;
@@ -3302,9 +3304,11 @@ body {
     height: 576px;
     margin-left: 6%;
 
-    @include breakpoint(medium down) {
-      zoom: 0.5;
-      margin: 0px 100px 400px;
+    &.mt-0-2026 {
+      @include breakpoint(medium down) {
+        zoom: 0.5;
+        margin: 0px 100px 400px;
+      }
     }
 
     >div[class^="flat"],

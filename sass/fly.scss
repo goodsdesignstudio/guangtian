@@ -41,13 +41,6 @@ screen and (max-width: 64.0613em) {
 
 @media print,
 screen and (max-width: 64.0613em) {
-    .worshipWrap .worship-scroll-controls {
-        margin-top: -155px !important;
-    }
-}
-
-@media print,
-screen and (max-width: 64.0613em) {
     #news_detail .news-detailWrap .content {
         padding: 0 20px;
     }
@@ -196,7 +189,7 @@ screen and (max-width: 64.0613em) {
                         margin-top: -72px;
                         margin-bottom: -22px;
 
-                        .shine-2{
+                        .shine-2 {
                             transform: translateY(30px);
                         }
                     }
@@ -205,7 +198,7 @@ screen and (max-width: 64.0613em) {
                         gap: 0 30vw;
                         margin-bottom: -40px;
 
-                        .shine-4{
+                        .shine-4 {
                             transform: translateY(30px);
                         }
                     }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<?php include 'html_head.php'; ?>
 </head>
@@ -507,13 +508,34 @@
 
 		<div class="top-head-area-mobile hide-for-large"><img src="images/program-head-mobile.svg"></div>
 
-
+		<div class="share-container show-for-large container-2026">
+			<div class="share-area">
+				<div class="text"><img src="images/cd-share.svg"></div>
+				<nav class="shareList">
+					<a href="javascript:;"><img src="images/cd-copy.svg"></a>
+					<a href="javascript:;"><img src="images/cd-fb.svg"></a>
+					<a href="javascript:;"><img src="images/cd-line.svg"></a>
+				</nav>
+				<div class="btn"><img src="images/cd-book.svg"></div>
+			</div>
+		</div>
+		<div class="share-container hide-for-large container-2026">
+			<div class="share-area">
+				<div class="text"><img src="images/love-share.svg"></div>
+				<nav class="shareList">
+					<a href="javascript:;"><img src="images/cele-link-mobile.svg"></a>
+					<a href="javascript:;"><img src="images/cele-fb-mobile.svg"></a>
+					<a href="javascript:;"><img src="images/cele-line-mobile.svg"></a>
+				</nav>
+				<a class="join-btn" href="#signup">
+					<img class="icon" src="./images/love-join-mobile.svg" alt="">
+				</a>
+			</div>
+		</div>
 
 		<div class="bannerWrap bannerWrap-2026">
 
 			<div class="banner"><img src="images/program-banner.jpg"></div>
-
-
 
 			<div class="title-container">
 
@@ -1142,7 +1164,7 @@
 	console.log('BBBBBBBBBBB');
 
 
-	$(window).on("scroll", function () {
+	$(window).on("scroll", function() {
 		var _scrollTop = $(this).scrollTop()
 
 		if (_scrollTop >= 100) {
@@ -1170,7 +1192,7 @@
 		},
 	});
 
-	$(".qaList li").on("click", function () {
+	$(".qaList li").on("click", function() {
 		$(this).toggleClass("is-open")
 		$(".answer", this).slideToggle(300)
 	})
@@ -1179,7 +1201,7 @@
 		img: $(".programOutWrap .bannerWrap .title-container .repeat-area").data("img")
 	})
 
-	$(".yt-container").on("click", function () {
+	$(".yt-container").on("click", function() {
 
 		$(".cover-area", this).fadeOut(300)
 		$yt = $(".yt-area iframe").get(0)
@@ -1248,7 +1270,7 @@
 	})
 
 
-	$(".mobile-open-btn").on("click", function (e) {
+	$(".mobile-open-btn").on("click", function(e) {
 		e.preventDefault();
 		const $pa = $(this).parent(".cd-slide-wrap");
 		const $container = $(".cd-slide-container", $pa);
@@ -1260,10 +1282,12 @@
 			const targetTop = $pa.parent().offset().top - headerOffset;
 
 			// 階段 1: 滑動回去 (此時絕對不更動任何 CSS class，保持原樣)
-			$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
+			$("html, body").stop().animate({
+				scrollTop: targetTop
+			}, 300, function() {
 
 				// 階段 2: 視角到達目標後，開始收合
-				$container.stop().slideUp(400, function () {
+				$container.stop().slideUp(400, function() {
 					// 【關鍵修正】：等動畫「完全結束」，才拔除 is-open 狀態
 					// 這樣能保證 jQuery 在 slideUp 過程中，DOM 結構與高度不會被 CSS 突發改變
 					$pa.removeClass("is-open");
@@ -1281,7 +1305,7 @@
 		} else {
 			// 【狀態：即將展開】
 			$pa.addClass("is-open");
-			$container.stop().slideDown(400, function () {
+			$container.stop().slideDown(400, function() {
 				$(".flow-sliderList").flickity('resize');
 				if (typeof ScrollTrigger !== 'undefined') ScrollTrigger.refresh();
 			});
@@ -1296,7 +1320,7 @@
 			const infoList = document.querySelector('.signupList.hide-for-large');
 
 			if (infoList) {
-				infoList.addEventListener('click', function (e) {
+				infoList.addEventListener('click', function(e) {
 					// const isClickBtn = e.target;
 					const clickedLi = e.target.closest('li');
 
@@ -1310,5 +1334,4 @@
 			}
 		})()
 	}
-
 </script>

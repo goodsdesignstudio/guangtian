@@ -1361,6 +1361,24 @@ body {
   }
 }
 
+// 法會活動相關按鈕標記
+.flickity-button.flickity-prev-next-button {
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('../images/fortune-arrow-next.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  &.previous {
+    &::before {
+      transform: rotateY(-180deg);
+    }
+  }
+}
+
 // ==============
 
 // 首頁
@@ -12230,6 +12248,7 @@ body {
       }
     }
   }
+
 }
 
 .xiayuan-area-1 {
@@ -17538,6 +17557,7 @@ body {
           display: flex;
           transition: 0.5s all;
 
+          // 斗首定位標記
           &:nth-child(4) {
             .votive-hover {
               left: auto;
@@ -17980,6 +18000,8 @@ body {
 
             &:nth-child(7),
             &:nth-child(8) {
+
+              // 斗首定位標記
               .votive-hover {
                 left: auto;
                 right: 50%;
@@ -18027,6 +18049,8 @@ body {
             &:nth-child(33),
             &:nth-child(43),
             &:nth-child(44) {
+
+              // 斗首定位標記
               .votive-hover {
                 left: auto;
                 right: 50%;
@@ -18085,6 +18109,7 @@ body {
         }
       }
 
+      // 斗首定位標記
       .votive-hover {
         position: absolute;
         background-color: #fff;

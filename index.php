@@ -35,7 +35,7 @@
 		</div>
 
 		<div class="article-area">
-			<div class="close"><img src="images/enter-close.svg"></div>
+			<!-- <div class="close"><img src="images/enter-close.svg"></div> -->
 			<div class="ink"><img src="images/enter-ink.png"></div>
 			<div class="content">民國九十七年前往中國四川省峨嵋山羅浮洞(現今九老洞)，將這尊全世界位階最高、唯一由皇帝親自頒旨雕刻、歷史最悠久的四川峨嵋 財神開基老祖　正尊恭迎回台，並永久供奉在台中廣天宮
 				財神開基祖廟，護佑台灣千千萬萬的善男信女。</div>
@@ -2506,7 +2506,10 @@
 		ease: 'power2.inOut',
 	}, "<")
 		// 四秒後跳下一階段
-		.call(goEnterStep, [], "+=4");
+		// .call(goEnterStep, [], "+=4");
+
+		// 改成直接銜接
+		.call(goEnterStep, [], "+=0.5");
 
 
 	var $whitebox_mobile = gsap.timeline({
@@ -2532,7 +2535,10 @@
 		ease: 'power2.inOut',
 	}, "<")
 		// 四秒後跳下一階段
-		.call(goEnterStep, [], "+=4");
+		// .call(goEnterStep, [], "+=4");
+
+		// 改成直接銜接
+		.call(goEnterStep, [], "+=0.5");
 
 		// 狀態鎖
 		let isStepEnter = false;
@@ -2567,12 +2573,13 @@
 		opacity: 1,
 		scale: 1,
 		ease: 'power3.out',
-	}, "<.2").to('.article-area .close', {
-		duration: 1,
-		opacity: 1,
-		scale: 1,
-		ease: 'power3.out',
 	}, "<.2")
+	// .to('.article-area .close', {
+	// 	duration: 1,
+	// 	opacity: 1,
+	// 	scale: 1,
+	// 	ease: 'power3.out',
+	// }, "<.2")
 
 
 
@@ -2645,9 +2652,9 @@
 	}, "<")
 
 
-	$(".enter-mapWrap .close").on("click", function () {
-		goEnterStep();
-	})
+	// $(".enter-mapWrap .close").on("click", function () {
+	// 	goEnterStep();
+	// })
 
 	function goEnterStep() {
 		if(isStepEnter) return;

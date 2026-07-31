@@ -972,9 +972,9 @@
 
 						<div class="flow-sliderWrap">
 
-							<ul class="flow-sliderList" data-flickity='{
+							<ul class="flow-sliderList flk-btn-2026 white-btn" data-flickity='{
 
-								"prevNextButtons": false,
+								"prevNextButtons": true,
 
 								"pageDots": true,
 

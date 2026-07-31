@@ -29177,6 +29177,22 @@ body {
 .flk-btn-2026 {
   --btn-move: 15vw;
 
+  .flickity-button.flickity-prev-next-button {
+    &::before {
+      background-image: url('../images/fortune-arrow-next.svg');
+    }
+
+
+  }
+
+  &.white-btn {
+    .flickity-button.flickity-prev-next-button {
+      &::before {
+        background-image: url('../images/btn-next-white.svg');
+      }
+    }
+  }
+
   .flickity-prev-next-button {
     top: unset;
     bottom: -35px;
@@ -29203,6 +29219,10 @@ body {
         width: 100%;
         aspect-ratio: 1/1;
       }
+    }
+
+    svg.flickity-button-icon {
+      display: none !important;
     }
   }
 }

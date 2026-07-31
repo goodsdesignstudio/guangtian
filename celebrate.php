@@ -9946,8 +9946,8 @@
 
         <div class="content open-wrap">
           <div class="flow-sliderWrap">
-            <ul class="flow-sliderList" data-flickity='{
-                        "prevNextButtons": false,
+            <ul class="flow-sliderList flk-btn-2026 white-btn" data-flickity='{
+                        "prevNextButtons": true,
                         "pageDots": true,
                         "wrapAround": true,
                         "autoPlay": 4000,

@@ -840,7 +840,7 @@
 							<!-- 法會活動輪播按鈕位置 -->
 							<ul class="flow-sliderList flk-btn-2026" data-flickity='{
 
-															"prevNextButtons": true,
+								"prevNextButtons": true,
 								"pageDots": true,
 								"wrapAround": true,
 								"autoPlay": 4000,

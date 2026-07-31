@@ -1316,9 +1316,9 @@
 
 					<div class="flow-sliderWrap is-red">
 
-						<ul class="flow-sliderList" data-flickity='{
+						<ul class="flow-sliderList flk-btn-2026" data-flickity='{
 
-						"prevNextButtons": false,
+						"prevNextButtons": true,
 
 						"pageDots": true,
 

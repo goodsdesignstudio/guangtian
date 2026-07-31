@@ -727,30 +727,13 @@
 
 			<div class="share-container show-for-large">
 				<div class="share-area">
-					<div class="text"><img src="images/love-share.svg"></div>
+					<div class="text"><img src="images/cd-share.svg"></div>
 					<nav class="shareList">
-						<a href="javascript:;"><img src="images/love-link.svg"></a>
-						<a href="javascript:;"><img src="images/love-fb.svg"></a>
-						<a href="javascript:;"><img src="images/love-line.svg"></a>
+						<a href="javascript:;"><img src="images/cd-copy.svg"></a>
+						<a href="javascript:;"><img src="images/cd-fb.svg"></a>
+						<a href="javascript:;"><img src="images/cd-line.svg"></a>
 					</nav>
-
-					<a class="join-btn" href="#signup">
-						<img class="icon" src="./images/love-join.png" alt="">
-						<img class="hover" src="./images/love-join-hover.png" alt="">
-					</a>
-					<!-- <div class="repeat-area cell large-shrink">
-						<div class="item"><img src="images/signup-repeat.svg"></div>
-						<div class="item"><img src="images/signup-repeat.svg"></div>
-						<div class="item"><img src="images/signup-repeat.svg"></div>
-						<div class="item"><img src="images/signup-repeat.svg"></div>
-
-						<div class="item">
-							<div class="pic-area">
-								<div class="borderbox"><img src="images/signup-border.svg"></div>
-								<div class="pic"><img src="images/signup-3.jpg"></div>
-							</div>
-						</div>
-					</div> -->
+					<div class="btn"><img src="images/cd-book.svg"></div>
 				</div>
 			</div>
 
@@ -765,7 +748,7 @@
 					<a class="join-btn" href="#signup">
 						<img class="icon" src="./images/love-join-mobile.svg" alt="">
 					</a>
-						<!-- <div class="repeat-area cell large-shrink">
+					<!-- <div class="repeat-area cell large-shrink">
 						<div class="item"><img src="images/signup-repeat.svg"></div>
 						<div class="item"><img src="images/signup-repeat.svg"></div>
 						<div class="item"><img src="images/signup-repeat.svg"></div>
@@ -782,54 +765,31 @@
 
 			<div class="c-yt-area">
 
-
 				<div class="article-area">
-
 
 					<div class="title">天下緣分皆由 <b>月老</b> 掌管</div>
 
-
 					<div class="content">只要跟緣份有關係的事情，都要找月老來幫忙，月老將幫助你增加好的緣分、遠離壞的惡緣。</div>
-
 
 				</div>
 
 
-
-
-
 				<div class="yt-container">
 
-
 					<div class="cover-area">
-
-
 						<div class="cover"><img src="./images/love-yt-cover.jpg"></div>
-
-
 						<div class="play">
-
-
 							<img class="show-for-large" src="images/yt-play.svg">
-
 
 							<img class="hide-for-large" src="images/yt-play-mobile.svg">
 
-
 						</div>
-
 
 					</div>
 
-
-
-
-
 					<div class="yt-area">
 
-
 						<!-- <iframe width='560' height='315' src='https://www.youtube-nocookie.com/embed//qHvdk1KbsBY?rel=0' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe> -->
-
 
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/qHvdk1KbsBY"
 							title="YouTube video player" frameborder="0"
@@ -837,178 +797,93 @@
 							allowfullscreen></iframe>
 						<!-- <iframe class="hide-for-xlarge" width="960" height="470" src="https://www.youtube.com/embed/qHvdk1KbsBY?autoplay=0&controls=1&rel=0&mute=1&playsinline=1" frameborder="0" allowfullscreen></iframe> -->
 
-
 					</div>
-
 
 				</div>
 
-
 				<div class="yt-deco">
-
-
 					<div class="love-deco-4 hide-for-large">
-
-
 						<div class="hulu hulu-1">
-
-
 							<img class="hulu-deco-1" src="./images/hulu-deco-1-mobile.png" alt="">
-
-
 							<img class="shadow shadow-1" src="./images/hulu-deco-shadow-mobile.png" alt="">
-
-
 						</div>
-
 
 						<div class="hulu hulu-2">
-
-
 							<img class="hulu-deco-2" src="./images/hulu-deco-2-mobile.png" alt="">
-
-
 							<img class="shadow shadow-2" src="./images/hulu-deco-shadow-mobile.png" alt="">
-
-
 						</div>
-
 
 						<div class="hulu hulu-3">
-
-
 							<img class="hulu-deco-3" src="./images/hulu-deco-3-mobile.png" alt="">
-
-
 						</div>
-
-
 					</div>
-
 
 					<div class="love-deco-5 hide-for-large">
 
-
 						<div class="hulu hulu-4">
-
-
 							<img class="hulu-deco-4" src="./images/hulu-deco-4-mobile.png" alt="">
-
-
 							<img class="shadow shadow-4" src="./images/hulu-deco-shadow-mobile.png" alt="">
-
-
 						</div>
-
-
 						<div class="hulu hulu-5">
-
-
 							<img class="hulu-deco-5" src="./images/hulu-deco-5-mobile.png" alt="">
-
-
 							<img class="shadow shadow-5" src="./images/hulu-deco-shadow-mobile.png" alt="">
-
-
 						</div>
-
 
 					</div>
 
-
 				</div>
 
-
 			</div>
-
-
-
 
 
 			<div class="c-feature-area no-p-2026">
 
-
 				<div class="logo">
-
 
 					<img class="show-for-large" src="images/logo-red.svg">
 
-
 					<img class="hide-for-large" src="images/logo-white-mobile.svg">
 
-
 				</div>
-
 
 				<div class="head">
 
-
 					<img class="show-for-large" src="./images/love-feature-title.png" alt="">
-
 
 					<img class="hide-for-large" src="./images/love-feature-title-mobile.svg">
 
-
 				</div>
-
-
-
 
 
 				<ul class="featureList open-wrap">
 
-
 					<li>
-
 
 						<div class="pic"><img src="./images/love-feature-pic-1.jpg"></div>
 
-
 						<div class="title">讓你「人」、「財」兩得</div>
 
-
 						<div class="content">
-
 
 							天下緣分由月老掌管，而天下財富由財神爺掌管，本宮所供奉的主神為財神爺
 							趙公明掌管著世間一切功與過、財利和合。因此，在本宮求月下老人顯助「姻緣和合」之時，還能夠加上財神爺的「財利和合」，再「姻緣和合」以及「財利和合」的雙重加持下，讓您雙喜臨門，「人」、「財」兩得！
-
-
 						</div>
 
-
 					</li>
-
 
 					<li>
 
-
 						<div class="pic"><img src="./images/love-feature-pic-2.jpg"></div>
-
 
 						<div class="title">月下老人奉旨，掌管五大姻緣</div>
 
-
 						<div class="content">
 
-
 							月下老人身為執掌天下「姻緣」之神，本宮月下老人領玉旨掌管《五大姻緣簿》，分別為「金姻緣、木姻緣、水姻緣、火姻緣、土姻緣」，故本宮月老並非只掌管男女姻緣，而是掌管所有的「姻緣」
-
-
 						</div>
-
-
 					</li>
-
-
 				</ul>
-
-
-
-
-
 				<div class="mobile-open hide-for-large">
-
 
 					<div class="line">
 
@@ -1018,1045 +893,341 @@
 
 					</div>
 
-
 					<div class="arrow">
-
-
 						<img src="./images/love-open-arrow.svg" alt="">
-
-
 					</div>
-
-
 				</div>
-
-
 			</div>
-
-
-
-
 
 			<div class="c-god-area">
-
-
 				<div class="head">
-
-
 					<img class="show-for-large" src="./images/love-deity-title.png" alt="">
-
-
 					<img class="hide-for-large" src="images/love-deity-title-mobile.svg">
-
-
 				</div>
-
-
 				<div class="god-area open-wrap">
-
-
 					<div class="god-list">
-
-
 						<div class="pic"><img src="images/custom-god-pic.jpg"></div>
 
-
-
-
-
 						<div class="article-area">
-
-
 							<div class="title">財神開基老祖『中財神』</div>
-
-
 							<div class="content">
-
-
 								本宮因特殊姻緣，奉財神爺聖示，排除萬難，<br class="show-for-large">
-
-
 								於民國九十七年前往中國四川省峨眉山羅浮洞(現今九老洞)，<br class="show-for-large">
-
-
 								將這尊全世界位階最高、唯一由皇帝親自頒旨雕刻、<br class="show-for-large">
-
-
 								歷史最悠久的四川峨嵋 財神開基老祖 正尊恭迎回台，<br class="show-for-large">
-
-
 								並永久供奉在台中廣天宮 財神開基祖廟，<br class="show-for-large">
-
-
 								護佑台灣千千萬萬的善男信女。
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
-
 					<div class="god-list" style="margin-bottom: 0px;">
-
-
 						<div class="pic"><img src="images/god-of-love-pic.jpg"></div>
 
-
-
-
-
 						<div class="article-area">
-
-
 							<div class="title">『月下老人』</div>
-
-
 							<div class="content">
-
-
 								月下老人，又稱做月老公，簡稱月老，<br>
-
-
 								相傳是人間「媒神」台灣諺語云:「姻緣天注定，不是媒人腳賢行。」<br>
-
-
 								即指男女結合都是天注定，不是媒人勉強撮和。<br>
-
-
 								而所謂天注定，就是只「月下老人」的姻緣一線牽。<br>
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
-
 				</div>
-
-
 				<div class="mobile-open hide-for-large">
-
-
 					<div class="line">
-
-
 						<img src="./images/love-open-line.svg" alt="">
-
-
 					</div>
-
-
 					<div class="arrow">
-
-
 						<img src="./images/love-open-arrow.svg" alt="">
-
-
 					</div>
-
-
 				</div>
-
-
 			</div>
 
-
-
-
-
 			<div class="c-area-2">
-
-
 				<div class="head">
-
-
 					<img class="show-for-large" src="./images/love-match-title.png" alt="">
-
-
 					<img class="hide-for-large" src="./images/love-match-title-mobile.svg" alt="">
-
-
 				</div>
-
-
 				<div class="match-container open-wrap">
-
-
 					<div class="content hide-for-large">
-
-
 						月下老人身為執掌天下「姻緣」之神，本宮月下老人領玉旨掌管《五大姻緣簿》，分別為「金姻緣、木姻緣、水姻緣、火姻緣、土姻緣」，故本宮月老並非只掌管男女姻緣，而是掌管所有的「姻緣」。
-
-
 					</div>
-
-
 					<ul class="matchList grid-x show-for-large">
-
-
 						<li class="cell large-auto" data-match="1">
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
-
-
-
 							<div class="item">
-
-
 								<div class="pic-area">
-
-
 									<div class="borderbox"><img src="images/match-border.svg"></div>
-
-
 									<div class="pic"><img src="images/match-1.jpg"></div>
-
-
 								</div>
 
-
-
-
-
 								<div class="arrow"><img src="images/match-arrow.svg"></div>
-
-
-
-
-
 								<div class="title"><i>{</i>土姻緣<i>}</i></div>
-
-
 							</div>
-
-
 						</li>
-
-
 						<li class="cell large-auto" data-match="2">
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
-
-
 
 							<div class="item">
-
-
 								<div class="pic-area">
-
-
 									<div class="borderbox"><img src="images/match-border.svg"></div>
-
-
 									<div class="pic"><img src="images/match-2.jpg"></div>
-
-
 								</div>
 
-
-
-
-
 								<div class="arrow"><img src="images/match-arrow.svg"></div>
-
-
-
-
-
 								<div class="title"><i>{</i>火姻緣<i>}</i></div>
-
-
 							</div>
-
-
 						</li>
-
-
 						<li class="cell large-auto" data-match="3">
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
-
-
 
 							<div class="item">
-
-
 								<div class="pic-area">
-
-
 									<div class="borderbox"><img src="images/match-border.svg"></div>
-
-
 									<div class="pic"><img src="images/match-3.jpg"></div>
-
-
 								</div>
 
-
-
-
-
 								<div class="arrow"><img src="images/match-arrow.svg"></div>
-
-
-
-
 
 								<div class="title"><i>{</i>水姻緣<i>}</i></div>
-
-
 							</div>
-
-
 						</li>
-
-
 						<li class="cell large-auto" data-match="4">
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
-
-
 
 							<div class="item">
-
-
 								<div class="pic-area">
-
-
 									<div class="borderbox"><img src="images/match-border.svg"></div>
-
-
 									<div class="pic"><img src="images/match-4.jpg"></div>
-
-
 								</div>
 
-
-
-
-
 								<div class="arrow"><img src="images/match-arrow.svg"></div>
-
-
-
-
-
 								<div class="title"><i>{</i>木姻緣<i>}</i></div>
-
-
 							</div>
-
-
 						</li>
-
-
 						<li class="cell large-auto" data-match="5">
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
 							<div class="item"><img src="images/match-repeat.svg"></div>
-
-
-
-
 
 							<div class="item">
-
-
 								<div class="pic-area">
-
-
 									<div class="borderbox"><img src="images/match-border.svg"></div>
-
-
 									<div class="pic"><img src="images/match-5.jpg"></div>
-
-
 								</div>
 
-
-
-
-
 								<div class="arrow"><img src="images/match-arrow.svg"></div>
-
-
-
-
 
 								<div class="title"><i>{</i>金姻緣<i>}</i></div>
-
-
 							</div>
-
-
 						</li>
-
-
 					</ul>
-
-
-
-
 
 					<ul class="matchList grid-x hide-for-large">
-
-
 						<li class="cell large-auto">
-
-
 							<div id="area-1" class="item">
-
-
 								<div class="pic-area">
-
-
-									<!-- <div class="borderbox">
-
-
-										<img class="show-for-large" src="images/match-border.svg">
-
-
-										<img class="hide-for-large" src="images/match-border-mobile.svg">
-
-
-									</div> -->
-
-
-									<!-- <div class="pic"><img src="images/match-1.jpg"></div> -->
-
-
 								</div>
-
-
-
-
 
 								<div class="arrow">
-
-
 									<img class="show-for-large" src="images/match-arrow.svg">
-
-
 									<img class="hide-for-large" src="images/match-arrow-mobile.svg">
-
-
 								</div>
-
-
-
-
 
 								<div class="title"><i>{</i>土姻緣<i>}</i></div>
-
-
 								<div class="icon">
-
-
 									<img src="./images/match-icon-mobile.png" alt="">
-
-
 								</div>
-
-
 								<div class="info">
-
-
 									祈求對象已婚夫婦<br>
-
-
 									金姻緣象徵著夫妻兩人的感情可以天長地久。而且俗話說得好，<br>
-
-
 									【真金不怕火煉】，<br>
-
-
 									指的是夫妻即使經歷過再多的考驗，<br>
-
-
 									也還是不會變質，依然相愛。<br>
-
-
 									<br>
-
-
 									為何要求金姻緣？<br>
-
-
 									能讓夫妻間感情美滿、請比金堅。<br>
-
-
 									能讓感情出問題的夫妻牽緊紅線，<br>
-
-
 									促使家庭和樂。<br>
-
-
 								</div>
-
-
 							</div>
-
-
 						</li>
-
-
 						<li class="cell large-auto">
-
-
 							<div id="area-2" class="item">
-
-
 								<div class="pic-area">
-
-
 									<!-- <div class="borderbox">
-
-
 										<img class="show-for-large" src="images/match-border.svg">
-
-
 										<img class="hide-for-large" src="images/match-border-mobile.svg">
-
-
 									</div> -->
-
-
 									<!-- <div class="pic"><img src="images/match-2.jpg"></div> -->
-
-
 								</div>
-
-
-
-
 
 								<div class="arrow">
-
-
 									<img class="show-for-large" src="images/match-arrow.svg">
-
-
 									<img class="hide-for-large" src="images/match-arrow-mobile.svg">
-
-
 								</div>
-
-
-
-
 
 								<div class="title"><i>{</i>火姻緣<i>}</i></div>
-
-
 								<div class="icon">
-
-
 									<img src="./images/match-icon-mobile.png" alt="">
-
-
 								</div>
-
-
 								<div class="info">
-
-
 									祈求對象已婚夫婦<br>
-
-
 									金姻緣象徵著夫妻兩人的感情可以天長地久。而且俗話說得好，<br>
-
-
 									【真金不怕火煉】，<br>
-
-
 									指的是夫妻即使經歷過再多的考驗，<br>
-
-
 									也還是不會變質，依然相愛。<br>
-
-
 									<br>
-
-
 									為何要求金姻緣？<br>
-
-
 									能讓夫妻間感情美滿、請比金堅。<br>
-
-
 									能讓感情出問題的夫妻牽緊紅線，<br>
-
-
 									促使家庭和樂。<br>
-
-
 								</div>
-
-
 							</div>
-
-
 						</li>
-
-
 						<li class="cell large-auto">
-
-
 							<div id="area-3" class="item">
-
-
 								<div class="pic-area">
-
-
 									<!-- <div class="borderbox">
-
-
 										<img class="show-for-large" src="images/match-border.svg">
-
-
 										<img class="hide-for-large" src="images/match-border-mobile.svg">
-
-
 									</div> -->
-
-
 									<!-- <div class="pic"><img src="images/match-3.jpg"></div> -->
-
-
 								</div>
-
-
-
-
 
 								<div class="arrow">
-
-
 									<img class="show-for-large" src="images/match-arrow.svg">
-
-
 									<img class="hide-for-large" src="images/match-arrow-mobile.svg">
-
-
 								</div>
-
-
 								<div class="title"><i>{</i>水姻緣<i>}</i></div>
-
-
 								<div class="icon">
-
-
 									<img src="./images/match-icon-mobile.png" alt="">
-
-
 								</div>
-
-
 								<div class="info">
-
-
 									祈求對象已婚夫婦<br>
-
-
 									金姻緣象徵著夫妻兩人的感情可以天長地久。而且俗話說得好，<br>
-
-
 									【真金不怕火煉】，<br>
-
-
 									指的是夫妻即使經歷過再多的考驗，<br>
-
-
 									也還是不會變質，依然相愛。<br>
-
-
 									<br>
-
-
 									為何要求金姻緣？<br>
-
-
 									能讓夫妻間感情美滿、請比金堅。<br>
-
-
 									能讓感情出問題的夫妻牽緊紅線，<br>
-
-
 									促使家庭和樂。<br>
-
-
 								</div>
-
-
 							</div>
-
-
 						</li>
-
-
 						<li class="cell large-auto">
-
-
 							<div id="area-4" class="item">
-
-
 								<div class="pic-area">
-
-
 									<!-- <div class="borderbox">
-
-
 										<img class="show-for-large" src="images/match-border.svg">
-
-
 										<img class="hide-for-large" src="images/match-border-mobile.svg">
-
-
 									</div> -->
-
-
 									<!-- <div class="pic"><img src="images/match-4.jpg"></div> -->
-
-
 								</div>
-
-
-
-
 
 								<div class="arrow">
-
-
 									<img class="show-for-large" src="images/match-arrow.svg">
-
-
 									<img class="hide-for-large" src="images/match-arrow-mobile.svg">
-
-
 								</div>
-
-
 								<div class="title"><i>{</i>木姻緣<i>}</i></div>
-
-
 								<div class="icon">
-
-
 									<img src="./images/match-icon-mobile.png" alt="">
-
-
 								</div>
-
-
 								<div class="info">
-
-
 									祈求對象已婚夫婦<br>
-
-
 									金姻緣象徵著夫妻兩人的感情可以天長地久。而且俗話說得好，<br>
-
-
 									【真金不怕火煉】，<br>
-
-
 									指的是夫妻即使經歷過再多的考驗，<br>
-
-
 									也還是不會變質，依然相愛。<br>
-
-
 									<br>
-
-
 									為何要求金姻緣？<br>
-
-
 									能讓夫妻間感情美滿、請比金堅。<br>
-
-
 									能讓感情出問題的夫妻牽緊紅線，<br>
-
-
 									促使家庭和樂。<br>
-
-
 								</div>
-
-
 							</div>
-
-
 						</li>
-
-
 						<li class="cell large-auto">
-
-
 							<div id="area-5" class="item">
-
-
 								<div class="pic-area">
-
-
 									<!-- <div class="borderbox">
-
-
 										<img class="show-for-large" src="images/match-border.svg">
-
-
 										<img class="hide-for-large" src="images/match-border-mobile.svg">
-
-
 									</div> -->
-
-
 									<!-- <div class="pic"><img src="images/match-5.jpg"></div> -->
-
-
 								</div>
-
-
-
-
 
 								<div class="arrow">
-
-
 									<img class="show-for-large" src="images/match-arrow.svg">
-
-
 									<img class="hide-for-large" src="images/match-arrow-mobile.svg">
-
-
 								</div>
-
-
-
-
 
 								<div class="title"><i>{</i>金姻緣<i>}</i></div>
-
-
 								<div class="icon">
-
-
 									<img src="./images/match-icon-mobile.png" alt="">
-
-
 								</div>
-
-
 								<div class="info">
-
-
 									祈求對象已婚夫婦<br>
-
-
 									金姻緣象徵著夫妻兩人的感情可以天長地久。而且俗話說得好，<br>
-
-
 									【真金不怕火煉】，<br>
-
-
 									指的是夫妻即使經歷過再多的考驗，<br>
-
-
 									也還是不會變質，依然相愛。<br>
-
-
 									<br>
-
-
 									為何要求金姻緣？<br>
-
-
 									能讓夫妻間感情美滿、請比金堅。<br>
-
-
 									能讓感情出問題的夫妻牽緊紅線，<br>
-
-
 									促使家庭和樂。<br>
-
-
 								</div>
-
-
 							</div>
-
-
 						</li>
-
-
 					</ul>
 
-
-
-
-
 					<div class="match-openWrap show-for-large openWrap-1">
-
-
 						<div class="close"><img src="images/match-close.svg"></div>
-
-
-
-
 
 						<div class="bg"><img src="images/wood.jpg"></div>
-
-
-
-
-
 						<div class="article-area">
-
-
 							<div class="title"><i>{</i>土姻緣<i>}</i></div>
-
-
 							<div class="content">
-
-
 								祈求對象已婚夫婦<br>
-
-
 								金姻緣象徵著夫妻兩人的感情可以天長地久。而且俗話說得好，<br>
-
-
 								【真金不怕火煉】，<br>
-
-
 								指的是夫妻即使經歷過再多的考驗，<br>
-
-
 								也還是不會變質，依然相愛。<br>
-
-
 								<br>
-
-
 								為何要求金姻緣？<br>
-
-
 								能讓夫妻間感情美滿、請比金堅。<br>
-
-
 								能讓感情出問題的夫妻牽緊紅線，<br>
-
-
 								促使家庭和樂。<br>
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
-
 					<div class="match-openWrap show-for-large openWrap-2">
-
-
 						<div class="close"><img src="images/match-close.svg"></div>
-
-
-
-
-
 						<div class="bg"><img src="images/fire.jpg"></div>
 
-
-
-
-
 						<div class="article-area">
-
-
 							<div class="title"><i>{</i>火姻緣<i>}</i></div>
-
-
 							<div class="content">
-
-
 								祈求對象已婚夫婦<br>
-
-
 								金姻緣象徵著夫妻兩人的感情可以天長地久。而且俗話說得好，<br>
-
-
 								【真金不怕火煉】，<br>
-
-
 								指的是夫妻即使經歷過再多的考驗，<br>
 
 
@@ -2085,143 +1256,50 @@
 
 
 					</div>
-
 
 					<div class="match-openWrap show-for-large openWrap-3">
-
-
 						<div class="close"><img src="images/match-close.svg"></div>
-
-
-
-
-
 						<div class="bg"><img src="images/water.jpg"></div>
-
-
-
-
-
 						<div class="article-area">
-
-
 							<div class="title"><i>{</i>水姻緣<i>}</i></div>
-
-
 							<div class="content">
-
-
 								祈求對象已婚夫婦<br>
-
-
 								金姻緣象徵著夫妻兩人的感情可以天長地久。而且俗話說得好，<br>
-
-
 								【真金不怕火煉】，<br>
-
-
 								指的是夫妻即使經歷過再多的考驗，<br>
-
-
 								也還是不會變質，依然相愛。<br>
-
-
 								<br>
-
-
 								為何要求金姻緣？<br>
-
-
 								能讓夫妻間感情美滿、請比金堅。<br>
-
-
 								能讓感情出問題的夫妻牽緊紅線，<br>
-
-
 								促使家庭和樂。<br>
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
-
 					<div class="match-openWrap show-for-large openWrap-4">
-
-
 						<div class="close"><img src="images/match-close.svg"></div>
-
-
-
-
-
 						<div class="bg"><img src="images/tree.jpg"></div>
-
-
-
-
-
 						<div class="article-area">
-
-
 							<div class="title"><i>{</i>木姻緣<i>}</i></div>
-
-
 							<div class="content">
-
-
 								祈求對象已婚夫婦<br>
-
-
 								金姻緣象徵著夫妻兩人的感情可以天長地久。而且俗話說得好，<br>
-
-
 								【真金不怕火煉】，<br>
-
 
 								指的是夫妻即使經歷過再多的考驗，<br>
 
-
 								也還是不會變質，依然相愛。<br>
 
-
 								<br>
-
-
 								為何要求金姻緣？<br>
-
-
 								能讓夫妻間感情美滿、請比金堅。<br>
-
-
 								能讓感情出問題的夫妻牽緊紅線，<br>
-
-
 								促使家庭和樂。<br>
-
-
 							</div>
-
-
 						</div>
-
-
 					</div>
-
-
 					<div class="match-openWrap show-for-large openWrap-5">
-
-
 						<div class="close"><img src="images/match-close.svg"></div>
-
-
-
-
-
 						<div class="bg"><img src="images/gold.jpg"></div>
 
 
@@ -2773,9 +1851,7 @@
 
 
 <script>
-
-
-	$(window).on("scroll", function () {
+	$(window).on("scroll", function() {
 
 
 		var _scrollTop = $(this).scrollTop();
@@ -3033,7 +2109,7 @@
 	});
 
 
-	$(".qaList li").on("click", function () {
+	$(".qaList li").on("click", function() {
 
 
 		$(this).toggleClass("is-open")
@@ -3054,7 +2130,7 @@
 	})
 
 
-	$(".yt-container").on("click", function () {
+	$(".yt-container").on("click", function() {
 
 
 		$(".cover-area", this).fadeOut(300)
@@ -3088,7 +2164,7 @@
 			const infoList = document.querySelector('.signupList.hide-for-large');
 
 			if (infoList) {
-				infoList.addEventListener('click', function (e) {
+				infoList.addEventListener('click', function(e) {
 					// const isClickBtn = e.target;
 					const clickedLi = e.target.closest('li');
 
@@ -3170,31 +2246,31 @@
 		gsap.timeline({
 
 
-			paused: true,
+				paused: true,
 
 
-			scrollTrigger: {
+				scrollTrigger: {
 
 
-				trigger: ".c-yt-area",
+					trigger: ".c-yt-area",
 
 
-				toggleActions: "play none play none", //重覆觸發
+					toggleActions: "play none play none", //重覆觸發
 
 
-				start: "top 20%",
+					start: "top 20%",
 
 
-				end: "bottom 80%",
-				// markers: true,
-			},
+					end: "bottom 80%",
+					// markers: true,
+				},
 
-		}).to(".c-yt-area .love-deco-4", {
-			// duration: 2,
-			opacity: 1,
-			x: 0,
-			ease: "power3",
-		})
+			}).to(".c-yt-area .love-deco-4", {
+				// duration: 2,
+				opacity: 1,
+				x: 0,
+				ease: "power3",
+			})
 			.to(".c-yt-area .love-deco-5", {
 				// duration: 2,
 				opacity: 1,
@@ -3202,13 +2278,13 @@
 				ease: "power3",
 			})
 
-		$(".matchList li").click(function () {
+		$(".matchList li").click(function() {
 			$(this).toggleClass("is-open");
 			$(".icon", this).slideToggle(500)
 			$(".info", this).slideToggle(500)
 		})
 
-		$(".mobile-open").on("click", function (e) {
+		$(".mobile-open").on("click", function(e) {
 			e.preventDefault();
 
 			const $btn = $(this);
@@ -3220,9 +2296,11 @@
 				const headerOffset = 120;
 				const targetTop = $section.offset().top - headerOffset;
 
-				$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
+				$("html, body").stop().animate({
+					scrollTop: targetTop
+				}, 300, function() {
 
-					$container.stop().slideUp(500, function () {
+					$container.stop().slideUp(500, function() {
 						$btn.removeClass("is-open");
 
 						if ($(".flow-sliderList").length) {
@@ -3238,7 +2316,7 @@
 				// 【狀態：即將展開】
 				$btn.addClass("is-open");
 
-				$container.stop().slideDown(500, function () {
+				$container.stop().slideDown(500, function() {
 					if ($(".flow-sliderList").length) {
 						$(".flow-sliderList").flickity('resize');
 					}
@@ -3261,7 +2339,7 @@
 		// })
 
 	} else {
-		$(".matchList li").click(function () {
+		$(".matchList li").click(function() {
 			var match = $(this).attr('data-match');
 			$(`.openWrap-${match}`).addClass("is-open");
 		})
@@ -3271,7 +2349,7 @@
 		// 	$(`.openWrap-${match}`).addClass("is-open");
 		// })
 
-		$(".match-openWrap .close, .match-openWrap .bg").on("click", function () {
+		$(".match-openWrap .close, .match-openWrap .bg").on("click", function() {
 			$(".match-openWrap").removeClass("is-open")
 		})
 
@@ -3323,5 +2401,4 @@
 			y: 0,
 		}, "<.5")
 	}
-
 </script>

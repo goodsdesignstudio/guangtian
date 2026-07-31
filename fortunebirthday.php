@@ -1024,258 +1024,128 @@
 
 		var _scrollTop = $(this).scrollTop()
 
+		gsap.timeline({
+			// paused: true,
+			scrollTrigger: {
+				trigger: ".fortuneWrap",
+				toggleActions: "play reverse play reverse",
+				start: "top 20%",
+				end: "bottom 90%",
+				// markers: true,
+			},
 
+		}).to(".share-container", {
+			duration: 1,
+			// opacity: 1,
+			x: 0,
+			ease: "power3.out",
+		})
 
 		if (_scrollTop >= 100) {
-
 			$(".logo-fixed, .topmenuWrap").removeClass("is-red")
-
 		} else {
-
 			$(".logo-fixed, .topmenuWrap").addClass("is-red")
-
 		}
-
 	}).trigger("scroll")
 
 
-
-
-
-
-
-
-
-
-
-
-
 	var $donate = new Swiper('.swiper-container', {
-
 		loop: true,
-
 		speed: 500,
-
 		slidesPerView: 1,
-
 		spaceBetween: 0,
-
 		centeredSlides: true,
-
 		keyboard: true,
-
 		// effect: 'fade',
-
 		// fadeEffect: {
-
 		//    crossFade: true
-
 		// },
-
 		pagination: {
-
 			el: '.swiper-pagination',
-
 			clickable: true,
-
 		},
-
 	});
 
 
-
-
-
 	$(".qaList li").on("click", function() {
-
 		$(this).toggleClass("is-open")
-
 		$(".answer", this).slideToggle(300)
-
 	})
-
-
-
-
-
-
-
-
-
-
-
 
 
 	$(".programOutWrap .bannerWrap .title-container .repeat-area").ryderRepeat({
-
 		img: $(".programOutWrap .bannerWrap .title-container .repeat-area").data("img")
-
 	})
-
-
-
-
-
-
-
-
-
 
 
 	$(".yt-container").on("click", function() {
-
 		$(".cover-area", this).fadeOut(300)
 
-
-
 		$yt = $(".yt-area iframe").get(0)
-
 		var _src = $yt.src.replace('autoplay=0', 'autoplay=1')
-
 		$yt.src = _src
-
 	})
 
 
-
-
-
-
-
-
-
-
-
 	gsap.timeline({
-
 		paused: true,
-
 		scrollTrigger: {
-
 			trigger: ".fortune-area-1 .fortune-container",
-
 			toggleActions: "play none play none", //重覆觸發
-
 			start: "center 100%",
-
 			end: "bottom 100%",
-
 			// markers: true,
-
 		},
-
 	}).to(".fortune-area-1 .fortune-container .wave-area >div", {
-
 		duration: 2,
-
 		opacity: 1,
-
 		y: 0,
-
 		ease: 'power2.inOut',
-
 		stagger: {
-
 			each: .133,
-
 			from: "end",
-
 		},
-
 	}).to(".fortune-area-1 .fortune-container .coin", {
-
 		duration: 2,
-
 		opacity: 1,
-
 		y: 0,
-
 		stagger: {
-
 			each: .133,
-
 			// from: "end",
-
 		},
-
 	}, ">-1")
 
 
-
-
-
-
-
-
-
-
-
 	gsap.timeline({
-
 		paused: true,
-
 		scrollTrigger: {
-
 			trigger: ".fortune-area-1 .content-area",
-
 			toggleActions: "play none play none", //重覆觸發
-
 			start: "center 80%",
-
 			end: "bottom 80%",
-
 			// markers: true,
-
 		},
-
 	}).to(".fortune-area-1 .content-area", {
-
 		duration: 1,
-
 		opacity: 1,
-
 		y: 0,
-
 	}).to(".fortune-roof-container .roof", {
-
 		duration: 1,
-
 		opacity: 1,
-
 		y: 0,
-
 	}, "<").to(".fortune-roof-container .tiger", {
-
 		duration: 1,
-
 		opacity: 1,
-
 		y: 0,
-
 	}, "<.5").to(".fortune-roof-container .flycoin img", {
-
 		duration: 2,
-
 		opacity: 1,
-
 		y: 0,
-
 		stagger: {
-
 			each: .133,
-
 			// from: "center",
-
 		},
-
 	}, "<.5")
-
-
-
-
-
-
-
 
 
 	$(".mobile-open-btn").on("click", function(e) {
@@ -1314,9 +1184,6 @@
 			});
 		}
 	})
-
-
-
 
 
 	$(".mobile-inside-arrow").on("click", function(e) {

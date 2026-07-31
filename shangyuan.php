@@ -1024,7 +1024,7 @@
 
 							<div class="article-area cell large-auto">
 
-								<div class="title">恭請『上元天官』</div>
+								<div class="title">恭請<br class="hide-for-large">『上元天官』</div>
 
 								<div class="content">堯帝誕辰之日，其掌司為賜與福份。誠心祈求天官大帝賜與福份</div>
 
@@ -1543,284 +1543,148 @@
 <script>
 	// var winWidth = window.innerWidth;
 
-	//     if (winWidth <= 1024) {
-
-	//     }
-
 	gsap.timeline({
-
 		// paused: true,
-
 		scrollTrigger: {
-
-			trigger: ".xiayuanWrap",
-
+			trigger: ".shangyuanWrap",
 			toggleActions: "play reverse play reverse",
-
 			start: "top 20%",
-
 			end: "bottom 90%",
-
 			// markers: true,
-
 		},
 
 	}).to(".share-container", {
-
 		duration: 1,
-
 		// opacity: 1,
-
 		x: 0,
-
 		ease: "power3.out",
-
 	})
 
 	$(window).on("scroll", function() {
-
 		var _scrollTop = $(this).scrollTop()
-
 		if (_scrollTop >= 100) {
-
 			$(".logo-fixed, .topmenuWrap").removeClass("is-red")
-
 		} else {
-
 			$(".logo-fixed, .topmenuWrap").addClass("is-red")
-
 		}
-
 	}).trigger("scroll")
 
 	var $donate = new Swiper('.swiper-container', {
-
 		loop: true,
-
 		speed: 500,
-
 		slidesPerView: 1,
-
 		spaceBetween: 0,
-
 		centeredSlides: true,
-
 		keyboard: true,
-
 		// effect: 'fade',
-
 		// fadeEffect: {
-
 		//    crossFade: true
-
 		// },
-
 		pagination: {
-
 			el: '.swiper-pagination',
-
 			clickable: true,
-
 		},
-
 	});
-
 	$(".qaList li").on("click", function() {
-
 		$(this).toggleClass("is-open")
-
 		$(".answer", this).slideToggle(300)
-
 	})
 
 	$(".programOutWrap .bannerWrap .title-container .repeat-area").ryderRepeat({
-
 		img: $(".programOutWrap .bannerWrap .title-container .repeat-area").data("img")
-
 	})
 
 	// let $tl_shangyuan = gsap.timeline({
-
 	// 		paused: true,
-
 	// 	})
-
 	// 	.to(".lamp-1", {
-
 	// 		duration: 0.2,
-
 	// 		rotation: 0,
-
 	// 		// ease: none,
-
 	// 	}, '<0.2')
 
 
-
-
-
 	$(".yt-container").on("click", function() {
-
 		$(".cover-area", this).fadeOut(300)
-
 		$yt = $(".yt-area iframe").get(0)
-
 		var _src = $yt.src.replace('autoplay=0', 'autoplay=1')
-
 		$yt.src = _src
-
 	})
-
 	gsap.timeline({
-
 		paused: true,
-
 		scrollTrigger: {
-
 			trigger: ".xiayuan-area-1 .peace-container",
-
 			toggleActions: "play none play none", //重覆觸發
-
 			start: "center 100%",
-
 			end: "bottom 100%",
-
 			// markers: true,
-
 		},
-
 	}).to(".xiayuan-area-1 .peace-container .wave-area >div", {
-
 		duration: 2,
-
 		opacity: 1,
-
 		y: 0,
-
 		ease: 'power2.inOut',
-
 		stagger: {
-
 			each: .133,
-
 			from: "end",
-
 		},
-
 	}).to(".xiayuan-area-1 .peace-container .peace", {
-
 		duration: 2,
-
 		opacity: 1,
-
 		y: 0,
-
 		stagger: {
-
 			each: .133,
-
 			// from: "end",
-
 		},
-
 	}, ">-1").to(".xiayuan-area-1 .peace-container .peace .deco-1", {
-
 		duration: 0.1,
-
 		opacity: 1,
-
 		repeat: 2,
-
 	}, ">-1")
-
 	gsap.timeline({
-
 		paused: true,
-
 		scrollTrigger: {
-
 			trigger: ".xiayuan-area-1 .content-area",
-
 			toggleActions: "play none play none", //重覆觸發
-
 			start: "center 80%",
-
 			end: "bottom 80%",
-
 			// markers: true,
-
 		},
-
 	}).to(".xiayuan-area-1 .content-area", {
-
 		duration: 1,
-
 		opacity: 1,
-
 		y: 0,
-
 	})
-
 	$(".xaList li").on("click", function() {
-
 		$(this).toggleClass("is-open")
-
 		$(".answer", this).slideToggle(300)
-
 	})
-
 	$(".share-container .share-area .btn").on("click", function() {
-
 		gsap.to(window, {
-
 			duration: 1.2,
-
 			scrollTo: {
-
 				y: '.signupWrap',
-
 			},
-
 			ease: 'power2.inOut',
-
 		});
-
 	})
-
 	var winWidth = window.innerWidth;
-
 	if (winWidth <= 1024) {
-
 		gsap.timeline({
-
 			// paused: true,
-
 			scrollTrigger: {
-
-				trigger: ".xiayuanWrap",
-
+				trigger: ".shangyuanWrap",
 				toggleActions: "play reverse play reverse",
-
 				start: "top 20%",
-
 				end: "bottom 90%",
-
 				// markers: true,
-
 			},
-
 		}).to(".share-container", {
-
 			duration: 1,
-
 			opacity: 1,
-
 			x: 0,
-
 			ease: "power3.out",
-
 		})
-
 	}
 
 	$(".mobile-open").on("click", function(e) {

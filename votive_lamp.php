@@ -663,8 +663,8 @@
 				</div>
 				<div class="flowWrap-content open-wrap">
 					<div class="flow-sliderWrap is-red">
-						<ul class="flow-sliderList" data-flickity='{
-						"prevNextButtons": false,
+						<ul class="flow-sliderList flk-btn-2026" data-flickity='{
+						"prevNextButtons": true,
 						"pageDots": true,
 						"wrapAround": true,
 						"autoPlay": 4000,
@@ -785,7 +785,7 @@
 	gsap.timeline({
 		// paused: true,
 		scrollTrigger: {
-			trigger: ".xiayuanWrap",
+			trigger: ".votiveLampWrap",
 			toggleActions: "play reverse play reverse",
 			start: "top 20%",
 			end: "bottom 90%",
@@ -797,7 +797,7 @@
 		x: 0,
 		ease: "power3.out",
 	})
-	$(window).on("scroll", function () {
+	$(window).on("scroll", function() {
 		var _scrollTop = $(this).scrollTop()
 		if (_scrollTop >= 100) {
 			$(".logo-fixed, .topmenuWrap").removeClass("is-red")
@@ -825,10 +825,13 @@
 	// 	$(this).toggleClass("is-open")
 	// 	$(".answer", this).slideToggle(300)
 	// })
-$(".qaList li").on("click", function () {
+	$(".qaList li").on("click", function() {
 		$(this).toggleClass("is-open")
 		$(".answer", this).slideToggle(300, function() {
-			$(this).css({ 'height': '', 'overflow': '' });
+			$(this).css({
+				'height': '',
+				'overflow': ''
+			});
 			if (typeof ScrollTrigger !== 'undefined') {
 				ScrollTrigger.refresh();
 			}
@@ -840,7 +843,7 @@ $(".qaList li").on("click", function () {
 		img: $(".programOutWrap .bannerWrap .title-container .repeat-area").data("img")
 	})
 
-	$(".yt-container").on("click", function () {
+	$(".yt-container").on("click", function() {
 		$(".cover-area", this).fadeOut(300)
 		$yt = $(".yt-area iframe").get(0)
 		var _src = $yt.src.replace('autoplay=0', 'autoplay=1')
@@ -896,17 +899,20 @@ $(".qaList li").on("click", function () {
 	// 	$(this).toggleClass("is-open")
 	// 	$(".answer", this).slideToggle(300)
 	// })
-$(".xaList li").on("click", function () {
+	$(".xaList li").on("click", function() {
 		$(this).toggleClass("is-open")
 		$(".answer", this).slideToggle(300, function() {
-			$(this).css({ 'height': '', 'overflow': '' });
+			$(this).css({
+				'height': '',
+				'overflow': ''
+			});
 			if (typeof ScrollTrigger !== 'undefined') {
 				ScrollTrigger.refresh();
 			}
 		})
 	})
 
-	$(".share-container .share-area .btn").on("click", function () {
+	$(".share-container .share-area .btn").on("click", function() {
 		gsap.to(window, {
 			duration: 1.2,
 			scrollTo: {
@@ -922,7 +928,7 @@ $(".xaList li").on("click", function () {
 			const infoList = document.querySelector('.signupList.hide-for-large');
 
 			if (infoList) {
-				infoList.addEventListener('click', function (e) {
+				infoList.addEventListener('click', function(e) {
 					// const isClickBtn = e.target;
 					const clickedLi = e.target.closest('li');
 
@@ -942,7 +948,7 @@ $(".xaList li").on("click", function () {
 		// 	$(".flow-sliderList").flickity('resize')
 		// })
 
-		$(".mobile-open").on("click", function (e) {
+		$(".mobile-open").on("click", function(e) {
 			e.preventDefault();
 
 			const $btn = $(this);
@@ -954,11 +960,16 @@ $(".xaList li").on("click", function () {
 				const headerOffset = 120;
 				const targetTop = $section.offset().top - headerOffset;
 
-				$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
+				$("html, body").stop().animate({
+					scrollTop: targetTop
+				}, 300, function() {
 
-					$container.stop().slideUp(500, function () {
+					$container.stop().slideUp(500, function() {
 						$btn.removeClass("is-open");
-						$container.css({ 'height': '', 'overflow': '' });
+						$container.css({
+							'height': '',
+							'overflow': ''
+						});
 						if ($(".flow-sliderList").length) {
 							$(".flow-sliderList").flickity('resize');
 						}
@@ -972,8 +983,11 @@ $(".xaList li").on("click", function () {
 				// 【狀態：即將展開】
 				$btn.addClass("is-open");
 
-				$container.stop().slideDown(500, function () {
-					$container.css({ 'height': '', 'overflow': '' });
+				$container.stop().slideDown(500, function() {
+					$container.css({
+						'height': '',
+						'overflow': ''
+					});
 					if ($(".flow-sliderList").length) {
 						$(".flow-sliderList").flickity('resize');
 					}
@@ -988,7 +1002,7 @@ $(".xaList li").on("click", function () {
 		gsap.timeline({
 			// paused: true,
 			scrollTrigger: {
-				trigger: ".xiayuanWrap",
+				trigger: ".votiveLampWrap",
 				toggleActions: "play reverse play reverse",
 				start: "top 20%",
 				end: "bottom 90%",

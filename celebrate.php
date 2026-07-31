@@ -510,19 +510,13 @@
 
       <div class="share-container show-for-large">
         <div class="share-area">
-          <div class="text"><img src="images/love-share.svg"></div>
-
+          <div class="text"><img src="images/cd-share.svg"></div>
           <nav class="shareList">
-            <a href="javascript:;"><img src="images/love-link.svg"></a>
-            <a href="javascript:;"><img src="images/love-fb.svg"></a>
-            <a href="javascript:;"><img src="images/love-line.svg"></a>
+            <a href="javascript:;"><img src="images/cd-copy.svg"></a>
+            <a href="javascript:;"><img src="images/cd-fb.svg"></a>
+            <a href="javascript:;"><img src="images/cd-line.svg"></a>
           </nav>
-
-          <a class="join-btn" href="#signup">
-            <img class="icon" src="./images/love-join.png" alt="">
-            <img class="hover show-for-large" src="./images/love-join-hover.png" alt="">
-          </a>
-
+          <div class="btn"><img src="images/cd-book.svg"></div>
         </div>
       </div>
 
@@ -10130,7 +10124,7 @@
   <?php include 'script.php'; ?>
 
   <script>
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function() {
       var _scrollTop = $(this).scrollTop();
       if (_scrollTop >= 100) {
         $(".logo-fixed, .topmenuWrap").removeClass("is-red")
@@ -10176,12 +10170,12 @@
         ease: "power3.out",
       })
 
-      $(".doushou").on("click", function () {
+      $(".doushou").on("click", function() {
         $(this).toggleClass("is-open")
         $(".content", this).slideToggle(300)
       })
 
-      $(window).on("scroll", function () {
+      $(window).on("scroll", function() {
         var _scrollTop = $(this).scrollTop();
         var ytAreaTop = $(".c-yt-area").offset().top;
         var bgareaTop = $(".bg-area").offset().top;
@@ -10192,17 +10186,9 @@
           $(".cele-deco-3").css('transform', 'translateX(0px)');
           $(".cele-deco-4").css('transform', 'translateX(0px)');
         }
-
-        // if (bgareaTop - _scrollTop <= -105) {
-        //     $(".share-container").css('transform', 'translateX(0px)')
-        //         .css('opacity', '1');
-        // } else {
-        //     $(".share-container").css('transform', 'translateX(200px)')
-        //         .css('opacity', '0');
-        // }
       }).trigger("scroll")
 
-      $(".mobile-open").on("click", function () {
+      $(".mobile-open").on("click", function() {
         var $this = $(this);
         var isOpen = $this.hasClass("is-open");
         $(this).toggleClass("is-open");
@@ -10223,26 +10209,26 @@
             end: "bottom 80%", // no end
             // markers: true,
 
-            onEnter: function () {
+            onEnter: function() {
               $(".fancy-box").addClass("is-show")
             },
 
-            onLeave: function () {
+            onLeave: function() {
               $(".fancy-box").removeClass("is-show")
             },
 
-            onEnterBack: function () {
+            onEnterBack: function() {
               $(".fancy-box").addClass("is-show")
             },
 
-            onLeaveBack: function () {
+            onLeaveBack: function() {
               $(".fancy-box").removeClass("is-show")
             },
           });
         }
       });
 
-      $(".fancy-box .close").on("click", function () {
+      $(".fancy-box .close").on("click", function() {
         $(".fancy-box").removeClass("is-show")
       })
 
@@ -10255,23 +10241,23 @@
         $('.votiveList-other li .votive-hover').removeClass('is-hover');
       }
 
-      $(".votive-center").on("click", function () {
+      $(".votive-center").on("click", function() {
         var isActive = $(".votive-center .votive-hover").hasClass('is-hover');
         clearAllVotiveHover();
         if (!isActive) {
           $(".votive-center .votive-hover").addClass('is-hover');
         }
       })
-      $(".votive-center .votive-hover").on("click", function (e) {
+      $(".votive-center .votive-hover").on("click", function(e) {
         e.stopPropagation();
       })
-      $(".votive-center .votive-hover .close").on("click", function (e) {
+      $(".votive-center .votive-hover .close").on("click", function(e) {
         e.stopPropagation();
         $(".votive-center .votive-hover").removeClass('is-hover');
       })
 
-      $('.votiveList li').each(function (i, el) {
-        $(el).on('click', function (e) {
+      $('.votiveList li').each(function(i, el) {
+        $(el).on('click', function(e) {
           var isActive = $(el).hasClass('is-hover');
           clearAllVotiveHover();
           if (!isActive) {
@@ -10279,18 +10265,18 @@
             $(el).addClass('is-hover');
           }
         });
-        $('.votive-hover', el).on('click', function (e) {
+        $('.votive-hover', el).on('click', function(e) {
           e.stopPropagation();
         });
-        $('.votive-hover .close', el).on('click', function (e) {
+        $('.votive-hover .close', el).on('click', function(e) {
           e.stopPropagation();
           $('.votive-hover', el).removeClass('is-hover');
           $(el).removeClass('is-hover');
         });
       });
 
-      $('.votiveList-other li').each(function (i, el) {
-        $(el).on('click', function (e) {
+      $('.votiveList-other li').each(function(i, el) {
+        $(el).on('click', function(e) {
           var isActive = $(el).hasClass('is-hover');
           clearAllVotiveHover();
           if (!isActive) {
@@ -10298,10 +10284,10 @@
             $(el).addClass('is-hover');
           }
         });
-        $('.votive-hover', el).on('click', function (e) {
+        $('.votive-hover', el).on('click', function(e) {
           e.stopPropagation();
         });
-        $('.votive-hover .close', el).on('click', function (e) {
+        $('.votive-hover .close', el).on('click', function(e) {
           e.stopPropagation();
           $('.votive-hover', el).removeClass('is-hover');
           $(el).removeClass('is-hover');
@@ -10311,37 +10297,37 @@
 
     } else {
       //宮慶  斗首互動-電腦版
-      $(".votive-center").hover(function () {
+      $(".votive-center").hover(function() {
         $(".votive-center .votive-hover").addClass('is-hover')
-      }, function () {
+      }, function() {
         $(".votive-center .votive-hover").removeClass('is-hover')
       })
 
-      $('.votiveList li').each(function (i, el) {
-        $(el).hover(function () {
+      $('.votiveList li').each(function(i, el) {
+        $(el).hover(function() {
           $('.votive-hover', el).addClass('is-hover')
           $(el).addClass('is-hover');
-        }, function () {
+        }, function() {
           $('.votive-hover', el).removeClass('is-hover')
           $(el).removeClass('is-hover');
         })
       });
 
-      $('.votiveList-other li').each(function (i, el) {
-        $(el).hover(function () {
+      $('.votiveList-other li').each(function(i, el) {
+        $(el).hover(function() {
           $('.votive-hover', el).addClass('is-hover')
-        }, function () {
+        }, function() {
           $('.votive-hover', el).removeClass('is-hover')
         })
       });
       // =======
 
-      $(".doushou-content").on("click", function () {
+      $(".doushou-content").on("click", function() {
         $(this).toggleClass("is-open")
         $(".content", this).slideToggle(300)
       })
 
-      $(window).on("scroll", function () {
+      $(window).on("scroll", function() {
         var _scrollTop = $(this).scrollTop();
         var bannerTop = $(".bannerWrap").offset().top;
         var ytAreaTop = $(".c-yt-area").offset().top;
@@ -10369,7 +10355,7 @@
       }).trigger("scroll")
     }
 
-    $(".qaList li").on("click", function () {
+    $(".qaList li").on("click", function() {
       $(this).toggleClass("is-open")
       $(".answer", this).slideToggle(300)
     })
@@ -10378,7 +10364,7 @@
       img: $(".programOutWrap .bannerWrap .title-container .repeat-area").data("img")
     })
 
-    $(".yt-container").on("click", function () {
+    $(".yt-container").on("click", function() {
       $(".cover-area", this).fadeOut(300)
 
       $yt = $(".yt-area iframe").get(0)
@@ -10432,11 +10418,11 @@
       y: 0,
     }, "<.5")
 
-    $(".matchList li").on("click", function () {
+    $(".matchList li").on("click", function() {
       $(".match-openWrap").addClass("is-open")
     })
 
-    $(".match-openWrap .close, .match-openWrap .bg").on("click", function () {
+    $(".match-openWrap .close, .match-openWrap .bg").on("click", function() {
       $(".match-openWrap").removeClass("is-open")
     })
 

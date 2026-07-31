@@ -1019,7 +1019,6 @@
 <?php include 'script.php'; ?>
 
 <script>
-
 	// var winWidth = window.innerWidth;
 
 	//     if (winWidth <= 1024) {
@@ -1029,7 +1028,7 @@
 	gsap.timeline({
 		// paused: true,
 		scrollTrigger: {
-			trigger: ".xiayuanWrap",
+			trigger: ".wealthWrap",
 			toggleActions: "play reverse play reverse",
 			start: "top 20%",
 			end: "bottom 90%",
@@ -1042,7 +1041,7 @@
 		ease: "power3.out",
 	})
 
-	$(window).on("scroll", function () {
+	$(window).on("scroll", function() {
 		var _scrollTop = $(this).scrollTop()
 		if (_scrollTop >= 100) {
 			$(".logo-fixed, .topmenuWrap").removeClass("is-red")
@@ -1068,10 +1067,13 @@
 		},
 	});
 
-	$(".qaList li").on("click", function () {
+	$(".qaList li").on("click", function() {
 		$(this).toggleClass("is-open")
-		$(".answer", this).slideToggle(300, function () {
-			$(this).css({ 'height': '', 'overflow': '' });
+		$(".answer", this).slideToggle(300, function() {
+			$(this).css({
+				'height': '',
+				'overflow': ''
+			});
 			if (typeof ScrollTrigger !== 'undefined') {
 				ScrollTrigger.refresh();
 			}
@@ -1100,7 +1102,7 @@
 	// 	animation: $tl_lamp2,
 	// })
 
-	$(".yt-container").on("click", function () {
+	$(".yt-container").on("click", function() {
 		$(".cover-area", this).fadeOut(300)
 		$yt = $(".yt-area iframe").get(0)
 		var _src = $yt.src.replace('autoplay=0', 'autoplay=1')
@@ -1158,17 +1160,20 @@
 		y: 0,
 	})
 
-	$(".xaList li").on("click", function () {
+	$(".xaList li").on("click", function() {
 		$(this).toggleClass("is-open")
-		$(".answer", this).slideToggle(300, function () {
-			$(this).css({ 'height': '', 'overflow': '' });
+		$(".answer", this).slideToggle(300, function() {
+			$(this).css({
+				'height': '',
+				'overflow': ''
+			});
 			if (typeof ScrollTrigger !== 'undefined') {
 				ScrollTrigger.refresh();
 			}
 		})
 	})
 
-	$(".share-container .share-area .btn").on("click", function () {
+	$(".share-container .share-area .btn").on("click", function() {
 		gsap.to(window, {
 			duration: 1.2,
 			scrollTo: {
@@ -1184,7 +1189,7 @@
 
 		(() => {
 			const mbDeco = document.querySelector('.deco-mb-2026');
-			
+
 			if (!mbDeco) return;
 
 			gsap.from(mbDeco, {
@@ -1230,7 +1235,7 @@
 			const infoList = document.querySelector('.signupList.hide-for-large');
 
 			if (infoList) {
-				infoList.addEventListener('click', function (e) {
+				infoList.addEventListener('click', function(e) {
 					// const isClickBtn = e.target;
 					const clickedLi = e.target.closest('li');
 
@@ -1250,7 +1255,7 @@
 		// 	$(".flow-sliderList").flickity('resize')
 		// })
 
-		$(".mobile-open").on("click", function (e) {
+		$(".mobile-open").on("click", function(e) {
 			e.preventDefault();
 
 			const $btn = $(this);
@@ -1262,11 +1267,16 @@
 				const headerOffset = 120;
 				const targetTop = $section.offset().top - headerOffset;
 
-				$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
+				$("html, body").stop().animate({
+					scrollTop: targetTop
+				}, 300, function() {
 
-					$container.stop().slideUp(500, function () {
+					$container.stop().slideUp(500, function() {
 						$btn.removeClass("is-open");
-						$container.css({ 'height': '', 'overflow': '' });
+						$container.css({
+							'height': '',
+							'overflow': ''
+						});
 						if ($(".flow-sliderList").length) {
 							$(".flow-sliderList").flickity('resize');
 						}
@@ -1289,8 +1299,11 @@
 				$container.hide();
 				// =====
 
-				$container.stop().slideDown(500, function () {
-					$container.css({ 'height': '', 'overflow': '' });
+				$container.stop().slideDown(500, function() {
+					$container.css({
+						'height': '',
+						'overflow': ''
+					});
 					if (typeof ScrollTrigger !== 'undefined') {
 						ScrollTrigger.refresh();
 					}
@@ -1306,22 +1319,22 @@
 			const targets = container.querySelectorAll('.re-1, .re-2, .re-3, .lion');
 			if (targets.length > 0) {
 				// 群組綁定：只宣告一個 ScrollTrigger 監聽外層容器
-				gsap.fromTo(targets,
-					{ opacity: 0, y: 20 },
-					{
-						opacity: 1,
-						y: 0,
-						duration: 1.5,
-						ease: "power2.out",
-						stagger: 0.3, //延遲
-						scrollTrigger: {
-							trigger: container, // 觸發點
-							start: "top 60%",
-							end: "bottom",
-							// markers: true,
-						}
+				gsap.fromTo(targets, {
+					opacity: 0,
+					y: 20
+				}, {
+					opacity: 1,
+					y: 0,
+					duration: 1.5,
+					ease: "power2.out",
+					stagger: 0.3, //延遲
+					scrollTrigger: {
+						trigger: container, // 觸發點
+						start: "top 60%",
+						end: "bottom",
+						// markers: true,
 					}
-				);
+				});
 
 			}
 		})()
@@ -1329,7 +1342,7 @@
 		gsap.timeline({
 			// paused: true,
 			scrollTrigger: {
-				trigger: ".xiayuanWrap",
+				trigger: ".wealthWrap",
 				toggleActions: "play reverse play reverse",
 				start: "top 20%",
 				end: "bottom 90%",
@@ -1343,7 +1356,7 @@
 		})
 
 		// 流程介紹-輪播按鈕
-		window.addEventListener("load", function () {
+		window.addEventListener("load", function() {
 			const prevBtn = document.querySelector('.flow-sliderList .flickity-button.previous'),
 				nextBtn = document.querySelector('.flow-sliderList .flickity-button.next');
 
@@ -1358,22 +1371,21 @@
 
 
 	gsap.timeline({
-		// paused: true,
-		scrollTrigger: {
-			trigger: ".red-envelope",
-			toggleActions: "play none play none", //重覆觸發
-			start: "top 70%",
-			end: "bottom 70%",
-			// markers: true,
-		},
-	}).to('.red-envelope .opened', {
-		opacity: 1,
-	})
+			// paused: true,
+			scrollTrigger: {
+				trigger: ".red-envelope",
+				toggleActions: "play none play none", //重覆觸發
+				start: "top 70%",
+				end: "bottom 70%",
+				// markers: true,
+			},
+		}).to('.red-envelope .opened', {
+			opacity: 1,
+		})
 		.to('.red-envelope .money', {
 			opacity: 1,
 			y: 0,
 		})
-
 </script>
 
 </html>

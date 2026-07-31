@@ -1165,6 +1165,24 @@
 
 
 	$(window).on("scroll", function() {
+
+		gsap.timeline({
+			// paused: true,
+			scrollTrigger: {
+				trigger: ".programOutWrap",
+				toggleActions: "play reverse play reverse",
+				start: "top 20%",
+				end: "bottom 90%",
+				// markers: true,
+			},
+
+		}).to(".share-container", {
+			duration: 1,
+			opacity: 1,
+			x: 0,
+			ease: "power3.out",
+		})
+
 		var _scrollTop = $(this).scrollTop()
 
 		if (_scrollTop >= 100) {

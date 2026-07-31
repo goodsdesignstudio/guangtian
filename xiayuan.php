@@ -923,7 +923,7 @@
 
 				<div class="mobile-open hide-for-large">
 					<div class="line">
-					<img src="./images/xia-open-line.svg" alt="">
+						<img src="./images/xia-open-line.svg" alt="">
 					</div>
 					<div class="arrow">
 						<img src="./images/xia-open-arrow.svg" alt="">
@@ -1294,7 +1294,6 @@
 
 <?php include 'script.php'; ?>
 <script>
-
 	gsap.timeline({
 		// paused: true,
 		scrollTrigger: {
@@ -1312,7 +1311,7 @@
 		ease: "power3.out",
 	})
 
-	$(window).on("scroll", function () {
+	$(window).on("scroll", function() {
 		var _scrollTop = $(this).scrollTop()
 
 		if (_scrollTop >= 100) {
@@ -1339,7 +1338,7 @@
 		},
 	});
 
-	$(".qaList li").on("click", function () {
+	$(".qaList li").on("click", function() {
 		$(this).toggleClass("is-open")
 		$(".answer", this).slideToggle(300)
 	})
@@ -1348,7 +1347,7 @@
 		img: $(".programOutWrap .bannerWrap .title-container .repeat-area").data("img")
 	})
 
-	$(".yt-container").on("click", function () {
+	$(".yt-container").on("click", function() {
 		$(".cover-area", this).fadeOut(300)
 		$yt = $(".yt-area iframe").get(0)
 		var _src = $yt.src.replace('autoplay=0', 'autoplay=1')
@@ -1408,7 +1407,7 @@
 		y: 0,
 	})
 
-	$(".xaList li").on("click", function () {
+	$(".xaList li").on("click", function() {
 
 		$(this).toggleClass("is-open")
 
@@ -1417,7 +1416,7 @@
 	})
 
 
-	$(".share-container .share-area .btn").on("click", function () {
+	$(".share-container .share-area .btn").on("click", function() {
 		gsap.to(window, {
 			duration: 1.2,
 			scrollTo: {
@@ -1434,11 +1433,11 @@
 	if (winWidth <= 1024) {
 
 		// 手機板signupList點擊事件
-		(function goListClicked () {
+		(function goListClicked() {
 			const infoList = document.querySelector('.signupList.hide-for-large');
 
 			if (infoList) {
-				infoList.addEventListener('click', function (e) {
+				infoList.addEventListener('click', function(e) {
 					// const isClickBtn = e.target;
 					const clickedLi = e.target.closest('li');
 
@@ -1452,7 +1451,7 @@
 			}
 		})()
 
-		$(".mobile-open").on("click", function (e) {
+		$(".mobile-open").on("click", function(e) {
 			e.preventDefault();
 
 			const $btn = $(this);
@@ -1464,9 +1463,11 @@
 				const headerOffset = 120;
 				const targetTop = $section.offset().top - headerOffset;
 
-				$("html, body").stop().animate({ scrollTop: targetTop }, 300, function () {
+				$("html, body").stop().animate({
+					scrollTop: targetTop
+				}, 300, function() {
 
-					$container.stop().slideUp(500, function () {
+					$container.stop().slideUp(500, function() {
 						$btn.removeClass("is-open");
 
 						if ($(".flow-sliderList").length) {
@@ -1482,7 +1483,7 @@
 				// 【狀態：即將展開】
 				$btn.addClass("is-open");
 
-				$container.stop().slideDown(500, function () {
+				$container.stop().slideDown(500, function() {
 					if ($(".flow-sliderList").length) {
 						$(".flow-sliderList").flickity('resize');
 					}
@@ -1493,6 +1494,8 @@
 			}
 		});
 
+
+		// 電腦版share container互動
 		gsap.timeline({
 			// paused: true,
 			scrollTrigger: {
@@ -1512,7 +1515,7 @@
 	}
 
 	// 流程介紹-輪播按鈕
-	window.addEventListener("load", function () {
+	window.addEventListener("load", function() {
 		const prevBtn = document.querySelector('.flow-sliderList .flickity-button.previous'),
 			nextBtn = document.querySelector('.flow-sliderList .flickity-button.next');
 
@@ -1522,7 +1525,6 @@
 		prevBtn.innerHTML = `<img src="${prevImg}">`;
 		nextBtn.innerHTML = `<img src="${nextImg}">`;
 	})
-
 </script>
 
 </html>

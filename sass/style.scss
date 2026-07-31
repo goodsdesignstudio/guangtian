@@ -1161,22 +1161,9 @@ body {
   right: 90px;
   height: 100%;
   z-index: 20;
-  opacity: 0;
+  // opacity: 0;
   transform: translateX(200px);
   transition: 1.25s ease-in-out;
-
-  @include breakpoint(xlarge down) {
-    zoom: 0.9;
-    right: 40px;
-  }
-
-  @include breakpoint(medium down) {
-    right: 5px;
-    transform: translateX(170px);
-    transition: none;
-    transition-delay: 0s;
-    zoom: 1;
-  }
 
   .share-area {
     text-align: center;
@@ -1241,6 +1228,10 @@ body {
       .icon {
         position: absolute;
         left: 0px;
+
+        @include breakpoint(medium down) {
+          left: 7px
+        }
       }
 
       .hover {
@@ -1263,46 +1254,6 @@ body {
     right: 60px;
     bottom: 3%;
     transform: translateX(170px);
-
-    @include breakpoint(large down) {
-      right: 20px;
-    }
-
-    // 修改 法會活動 通用share定位
-    &.show-for-large {
-      opacity: 1;
-      transform: translateX(30px);
-    }
-
-    &.hide-for-large {
-      opacity: 0;
-      transform: translateX(16px);
-    }
-
-    @include breakpoint(medium down) {
-      &.show-for-large {
-        display: none;
-      }
-
-      &.hide-for-large {
-        opacity: 1;
-        display: block;
-
-        .shareList {
-          width: fit-content;
-        }
-
-        .share-area {
-          .text {
-            width: max-content;
-
-            @include breakpoint(medium down) {
-              margin-left: -8px;
-            }
-          }
-        }
-      }
-    }
 
     &.position-2026 {
       top: 0;
@@ -1356,6 +1307,45 @@ body {
       .btn {
         @include basic-hover;
         margin-top: 60px;
+      }
+    }
+  }
+
+  @include breakpoint(xlarge down) {
+    zoom: 0.9;
+    right: 40px;
+
+    &.container-2026 {
+      right: 5px;
+    }
+  }
+
+  @include breakpoint(medium down) {
+    right: 5px;
+    transform: translateX(170px);
+    transition: none;
+    transition-delay: 0s;
+    zoom: 1;
+
+    &.container-2026 {
+      &.show-for-large {
+        display: none;
+      }
+
+      &.hide-for-large {
+        // opacity: 1;
+        display: block;
+
+        .shareList {
+          // width: fit-content;
+        }
+
+        .share-area {
+          .text {
+            width: max-content;
+            // margin-left: -8px;
+          }
+        }
       }
     }
   }
@@ -7727,31 +7717,6 @@ body {
     max-width: 780px;
     margin: 0 auto 120px;
 
-    .share-container {
-      position: absolute;
-      top: 0;
-      right: -157px;
-      height: 100%;
-
-      .share-area {
-        text-align: center;
-        position: sticky;
-        top: 30vh;
-
-        .text {
-          margin-bottom: 20px;
-        }
-
-        .shareList {
-          a {
-            display: block;
-            @include basic-hover;
-            @include mb(15px);
-          }
-        }
-      }
-    }
-
     .money-area {
       margin-bottom: 50px;
 
@@ -11979,46 +11944,6 @@ body {
     position: relative;
   }
 
-  .share-container {
-    z-index: 9;
-    position: fixed;
-    top: 10%;
-    right: 60px;
-    bottom: 3%;
-    transform: translateX(170px);
-
-    @include breakpoint(large down) {
-      right: 20px;
-    }
-
-    .share-area {
-      text-align: center;
-      position: sticky;
-      top: 30vh;
-
-      .text {
-        margin-bottom: 20px;
-      }
-
-      .shareList {
-        @include breakpoint(medium down) {
-          margin-bottom: 30px;
-        }
-
-        a {
-          display: block;
-          @include basic-hover;
-          @include mb(15px);
-        }
-      }
-
-      .btn {
-        @include basic-hover;
-        margin-top: 60px;
-      }
-    }
-  }
-
   .xiayuan-deco-1 {
     position: absolute;
     top: -145px;
@@ -13402,59 +13327,6 @@ body {
       padding: 0 0 180px;
       position: relative;
 
-      .share-container.hide-for-large {
-        position: fixed;
-        top: 0;
-        right: 5px;
-        bottom: auto;
-        height: 100%;
-        opacity: 0;
-        transform: translateX(170px);
-        transition: none;
-
-        .share-area {
-          position: sticky;
-          top: 30vh;
-          text-align: center;
-
-          .text {
-            margin-bottom: 10px;
-
-            img {
-              width: 47px;
-            }
-          }
-
-          .shareList {
-            margin-bottom: 35px;
-
-            a {
-              display: block;
-              margin-bottom: 12px;
-
-              img {
-                width: 30px;
-              }
-            }
-          }
-
-          .join-btn {
-            display: block;
-            position: relative;
-
-            .icon {
-              position: absolute;
-              left: 7px;
-            }
-
-            img {
-              width: 60px;
-              max-width: fit-content;
-            }
-          }
-        }
-      }
-
       .shangyuan-area-1 {
         padding: 50px 0 0;
         margin-bottom: 90px;
@@ -14043,39 +13915,6 @@ body {
           text-align: center;
           cursor: pointer;
           transition: .3s ease-in-out;
-        }
-      }
-    }
-  }
-}
-
-
-#fortunebirthdayP {
-  .share-container {
-    &.container-2026 {
-
-      &.show-for-large {
-        transform: translateX(30px);
-        opacity: 1;
-      }
-
-      &.hide-for-large {
-        display: none;
-        transform: translateX(16px);
-        opacity: 1;
-
-        .shareList {
-          width: fit-content;
-        }
-      }
-
-      @include breakpoint(medium down) {
-        &.show-for-large {
-          display: none;
-        }
-
-        &.hide-for-large {
-          display: block;
         }
       }
     }
@@ -14850,108 +14689,6 @@ body {
         img {
           @include breakpoint(medium down) {
             width: 100%;
-          }
-        }
-      }
-    }
-
-    .share-container {
-      position: fixed;
-      top: 0;
-      right: 90px;
-      height: 100%;
-      z-index: 99;
-      opacity: 0;
-      transform: translateX(200px);
-      transition: 1.25s ease-in-out;
-
-      @include breakpoint(xlarge down) {
-        zoom: 0.9;
-        right: 40px;
-      }
-
-      @include breakpoint(medium down) {
-        right: 5px;
-        transform: translateX(170px);
-        transition: none;
-        transition-delay: 0s;
-        zoom: 1;
-      }
-
-      .share-area {
-        text-align: center;
-        position: sticky;
-        top: 30vh;
-
-        .text {
-          margin-bottom: 20px;
-
-          @include breakpoint(medium down) {
-            margin-bottom: 10px;
-          }
-
-          img {
-            width: 72px;
-
-            @include breakpoint(medium down) {
-              width: 47px;
-            }
-          }
-        }
-
-        .shareList {
-          margin-bottom: 20px;
-
-          @include breakpoint(medium down) {
-            margin-bottom: 35px;
-          }
-
-          a {
-            display: block;
-            @include basic-hover;
-            @include mb(15px);
-
-            @include breakpoint(medium down) {
-              @include mb(12px);
-            }
-
-            img {
-              width: 45px;
-
-              @include breakpoint(medium down) {
-                width: 30px;
-              }
-            }
-          }
-        }
-
-        .join-btn {
-          &:hover {
-            .icon {
-              opacity: 0;
-              transition: 0.5s ease-in-out;
-            }
-
-            .hover {
-              opacity: 1;
-              transition: 0.5s ease-in-out;
-            }
-          }
-
-          .icon {
-            position: absolute;
-            left: 0px;
-          }
-
-          .hover {
-            position: absolute;
-            left: 0px;
-            opacity: 0;
-          }
-
-          img {
-            max-width: fit-content;
-            width: 175px;
           }
         }
       }
@@ -16680,108 +16417,6 @@ body {
         @include breakpoint(medium down) {
           img {
             width: 100%;
-          }
-        }
-      }
-    }
-
-    .share-container {
-      position: fixed;
-      top: 0;
-      right: 90px;
-      height: 100%;
-      z-index: 20;
-      opacity: 0;
-      transform: translateX(200px);
-      transition: 1.25s ease-in-out;
-
-      @include breakpoint(xlarge down) {
-        zoom: 0.9;
-        right: 40px;
-      }
-
-      @include breakpoint(medium down) {
-        right: 5px;
-        transform: translateX(170px);
-        transition: none;
-        transition-delay: 0s;
-        zoom: 1;
-      }
-
-      .share-area {
-        text-align: center;
-        position: sticky;
-        top: 30vh;
-
-        .text {
-          margin-bottom: 20px;
-
-          @include breakpoint(medium down) {
-            margin-bottom: 10px;
-          }
-
-          img {
-            width: 72px;
-
-            @include breakpoint(medium down) {
-              width: 47px;
-            }
-          }
-        }
-
-        .shareList {
-          margin-bottom: 20px;
-
-          @include breakpoint(medium down) {
-            margin-bottom: 35px;
-          }
-
-          a {
-            display: block;
-            @include basic-hover;
-            @include mb(15px);
-
-            @include breakpoint(medium down) {
-              @include mb(12px);
-            }
-          }
-
-          img {
-            width: 45px;
-
-            @include breakpoint(medium down) {
-              width: 30px;
-            }
-          }
-        }
-
-        .join-btn {
-          &:hover {
-            .icon {
-              opacity: 0;
-              transition: 0.5s ease-in-out;
-            }
-
-            .hover {
-              opacity: 1;
-              transition: 0.5s ease-in-out;
-            }
-          }
-
-          .icon {
-            position: absolute;
-            left: 0px;
-          }
-
-          .hover {
-            position: absolute;
-            left: 0px;
-            opacity: 0;
-          }
-
-          img {
-            max-width: fit-content;
-            width: 175px;
           }
         }
       }
@@ -18633,70 +18268,6 @@ body {
     position: relative;
   }
 
-  .share-container.container-2026 {
-    z-index: 9;
-    position: fixed;
-    top: 10%;
-    right: 60px;
-    bottom: 3%;
-    transform: translateX(170px);
-
-    @include breakpoint(large down) {
-      right: 20px;
-    }
-
-    &.position-2026 {
-      top: 0;
-      right: 5px;
-      height: 100%;
-
-      .share-area {
-        .text {
-          width: max-content;
-
-          img {
-            width: 47px;
-          }
-        }
-
-        .join-btn>img {
-          // transform: translateX(15px);
-          position: absolute;
-          left: 7px;
-          width: 60px;
-          max-width: fit-content;
-        }
-      }
-    }
-
-    .share-area {
-      text-align: center;
-      position: sticky;
-      top: 30vh;
-
-      .text {
-        margin-bottom: 20px;
-      }
-
-      .shareList {
-        @include breakpoint(medium down) {
-          margin-bottom: 30px;
-        }
-
-        a {
-          display: block;
-          @include basic-hover;
-          @include mb(15px);
-        }
-      }
-
-      .btn {
-        @include basic-hover;
-        margin-top: 60px;
-      }
-    }
-  }
-
   .shangyuan-deco-1 {
     position: absolute;
     top: -263px;
@@ -20536,69 +20107,6 @@ body {
     }
   }
 
-  .share-container {
-    z-index: 9;
-    position: fixed;
-    top: 10%;
-    right: 60px;
-    bottom: 3%;
-    transform: translateX(170px);
-
-    &.position-2026 {
-      top: 0;
-      right: 5px;
-      height: 100%;
-
-      .share-area {
-        .text {
-          width: max-content;
-
-          img {
-            width: 47px;
-          }
-        }
-
-        .join-btn>img {
-          // transform: translateX(15px);
-          position: absolute;
-          left: 7px;
-          width: 60px;
-          max-width: fit-content;
-        }
-      }
-    }
-
-    @include breakpoint(large down) {
-      right: 20px;
-    }
-
-    .share-area {
-      text-align: center;
-      position: sticky;
-      top: 30vh;
-
-      .text {
-        margin-bottom: 20px;
-      }
-
-      .shareList {
-        @include breakpoint(medium down) {
-          margin-bottom: 30px;
-        }
-
-        a {
-          display: block;
-          @include basic-hover;
-          @include mb(15px);
-        }
-      }
-
-      .btn {
-        @include basic-hover;
-        margin-top: 60px;
-      }
-    }
-  }
 
   .shangyuan-deco-1 {
     position: absolute;
@@ -24075,65 +23583,6 @@ body {
           }
         }
 
-        .share-container {
-          position: fixed;
-          top: 0;
-          right: 5px;
-          height: 100%;
-          z-index: 20;
-          opacity: 0;
-          transform: translateX(170px);
-          transition: none;
-          transition-delay: 0s;
-
-          .share-area {
-            text-align: center;
-            position: sticky;
-            top: 30vh;
-
-            .text {
-              margin-bottom: 10px;
-
-              img {
-                width: 47px;
-              }
-            }
-
-            .shareList {
-              margin-bottom: 35px;
-
-              a {
-                display: block;
-                @include basic-hover;
-                @include mb(12px);
-
-                img {
-                  width: 30px;
-                }
-              }
-            }
-
-            .join-btn {
-              &:hover {
-                .icon {
-                  opacity: 1;
-                  transition: none;
-                }
-              }
-
-              .icon {
-                position: absolute;
-                left: 7px;
-              }
-
-              img {
-                max-width: fit-content;
-                width: 60px;
-              }
-            }
-          }
-        }
-
         .c-yt-area {
           position: relative;
           padding: 0;
@@ -25145,65 +24594,6 @@ body {
 
             img {
               width: 100%;
-            }
-          }
-        }
-
-        .share-container {
-          position: fixed;
-          top: 0;
-          right: 5px;
-          height: 100%;
-          z-index: 20;
-          opacity: 0;
-          transform: translateX(170px);
-          transition: none;
-          transition-delay: 0s;
-
-          .share-area {
-            text-align: center;
-            position: sticky;
-            top: 30vh;
-
-            .text {
-              margin-bottom: 10px;
-
-              img {
-                width: 47px;
-              }
-            }
-
-            .shareList {
-              margin-bottom: 35px;
-
-              a {
-                display: block;
-                @include basic-hover;
-                @include mb(12px);
-
-                img {
-                  width: 30px;
-                }
-              }
-            }
-
-            .join-btn {
-              &:hover {
-                .icon {
-                  opacity: 1;
-                  transition: none;
-                }
-              }
-
-              .icon {
-                position: absolute;
-                left: 7px;
-              }
-
-              img {
-                max-width: fit-content;
-                width: 60px;
-              }
             }
           }
         }
@@ -26484,64 +25874,6 @@ body {
           }
         }
 
-        .share-container {
-          position: fixed;
-          top: 0;
-          right: 5px;
-          height: 100%;
-          z-index: 20;
-          opacity: 0;
-          transform: translateX(170px);
-          transition: none;
-          transition-delay: 0s;
-
-          .share-area {
-            text-align: center;
-            position: sticky;
-            top: 30vh;
-
-            .text {
-              margin-bottom: 10px;
-
-              img {
-                width: 47px;
-              }
-            }
-
-            .shareList {
-              margin-bottom: 35px;
-
-              a {
-                display: block;
-                @include basic-hover;
-                @include mb(12px);
-
-                img {
-                  width: 30px;
-                }
-              }
-            }
-
-            .join-btn {
-              &:hover {
-                .icon {
-                  opacity: 1;
-                  transition: none;
-                }
-              }
-
-              .icon {
-                position: absolute;
-                left: 7px;
-              }
-
-              img {
-                max-width: fit-content;
-                width: 60px;
-              }
-            }
-          }
-        }
 
         .c-yt-area {
           position: relative;
@@ -29032,37 +28364,6 @@ body {
     .xiayuanWrap {
       background-color: #7ddbf4;
       position: relative;
-
-      .share-container {
-        z-index: 9;
-        position: absolute;
-        top: 10%;
-        right: 60px;
-        bottom: 3%;
-
-        .share-area {
-          text-align: center;
-          position: sticky;
-          top: 30vh;
-
-          .text {
-            margin-bottom: 20px;
-          }
-
-          .shareList {
-            a {
-              display: block;
-              @include basic-hover;
-              @include mb(15px);
-            }
-          }
-
-          .btn {
-            @include basic-hover;
-            margin-top: 60px;
-          }
-        }
-      }
 
       .xiayuan-deco-1 {
         position: absolute;
